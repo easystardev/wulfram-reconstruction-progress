@@ -2,6 +2,7 @@
 
 One line per commit that changed the verified-bytes measurement, newest first. Subjects are sanitised (function names and addresses removed).
 
+- 2026-10-08 - 21.871% (+0.372 pt), 1795 fns - Promote 16 verified giant-attack and giant-attack2 h4 reconstruction functions
 - 2026-10-08 - 21.499% (+0.081 pt), 1779 fns - Promote 4 verified giant-attack hub functions
 - 2026-10-07 - 21.418% (+0.887 pt), 1775 fns - Promote 74 verified R55-62 reconstruction functions
 - 2026-10-07 - 20.531% (+0.571 pt), 1701 fns - Promote 52 verified R51-54 reconstruction functions

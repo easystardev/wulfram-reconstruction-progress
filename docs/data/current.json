@@ -1,23 +1,23 @@
 {
- "generated_utc": "2026-10-08T06:01:57+00:00",
+ "generated_utc": "2026-10-08T07:39:19+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "snapshot": {
-  "date": "2026-10-08T01:01:41-05:00",
-  "subject": "Promote 4 verified giant-attack hub functions",
-  "verified_functions": 1779,
-  "verified_bytes": 212073,
+  "date": "2026-10-08T02:39:07-05:00",
+  "subject": "Promote 16 verified giant-attack and giant-attack2 h4 reconstruction functions",
+  "verified_functions": 1795,
+  "verified_bytes": 215745,
   "denominator_functions": 4392,
   "denominator_bytes": 986454,
-  "verified_bytes_percent": 21.499,
+  "verified_bytes_percent": 21.871,
   "verified_by_proof_tier": {
-   "BYTES": 209528,
+   "BYTES": 213200,
    "T1-diffexec": 2452,
    "T1-oracle": 93
   },
   "first_party_excluding_library_rows": {
-   "percent": 22.378,
-   "numerator_bytes": 212073,
+   "percent": 22.765,
+   "numerator_bytes": 215745,
    "denominator_bytes": 947693,
    "functions": 4310
   },
@@ -29,20 +29,20 @@
   },
   "provisional_counted_bytes": 1279,
   "verified_bytes_by_subsystem": {
-   "System/Graphics": 35858,
-   "Game/Simulation": 35195,
-   "Game/View": 28308,
-   "System/Core": 22273,
-   "Game/Session": 21056,
+   "System/Graphics": 36148,
+   "Game/Simulation": 35517,
+   "Game/View": 30362,
+   "System/Core": 22477,
+   "Game/Session": 21132,
    "System/Network": 15573,
-   "System/UI": 11107,
+   "System/UI": 11323,
    "AppInit/AppCore": 6447,
    "System/Platform": 6194,
-   "Tools/InGameEditors": 5581,
-   "Game/Data": 4804,
+   "Tools/InGameEditors": 5842,
+   "Game/Data": 4932,
    "System/Input": 4717,
+   "Tools/Debug": 3783,
    "Services": 3717,
-   "Tools/Debug": 3662,
    "System/Audio": 2003,
    "Tools": 1804,
    "Game": 1195,
@@ -56,10 +56,10 @@
   "areas": {
    "view.hud": {
     "bytes": 69726,
-    "verified_bytes": 10503,
+    "verified_bytes": 10712,
     "functions": 234,
-    "verified_functions": 68,
-    "percent": 15.063
+    "verified_functions": 70,
+    "percent": 15.363
    },
    "gfx.backend": {
     "bytes": 66828,
@@ -70,31 +70,31 @@
    },
    "view.screens": {
     "bytes": 58444,
-    "verified_bytes": 9139,
+    "verified_bytes": 10660,
     "functions": 260,
-    "verified_functions": 77,
-    "percent": 15.637
+    "verified_functions": 78,
+    "percent": 18.24
    },
    "tools.editors": {
     "bytes": 57988,
-    "verified_bytes": 6261,
+    "verified_bytes": 6522,
     "functions": 250,
-    "verified_functions": 49,
-    "percent": 10.797
+    "verified_functions": 51,
+    "percent": 11.247
    },
    "core.debug": {
     "bytes": 57121,
-    "verified_bytes": 10238,
+    "verified_bytes": 10359,
     "functions": 202,
-    "verified_functions": 89,
-    "percent": 17.923
+    "verified_functions": 90,
+    "percent": 18.135
    },
    "sim.world": {
     "bytes": 56378,
-    "verified_bytes": 7365,
+    "verified_bytes": 7612,
     "functions": 174,
-    "verified_functions": 43,
-    "percent": 13.064
+    "verified_functions": 44,
+    "percent": 13.502
    },
    "gfx.raster": {
     "bytes": 55913,
@@ -105,10 +105,10 @@
    },
    "ui.widgets": {
     "bytes": 55790,
-    "verified_bytes": 11107,
+    "verified_bytes": 11323,
     "functions": 329,
-    "verified_functions": 112,
-    "percent": 19.909
+    "verified_functions": 113,
+    "percent": 20.296
    },
    "sim.physics": {
     "bytes": 38806,
@@ -119,24 +119,24 @@
    },
    "view.tactical": {
     "bytes": 38434,
-    "verified_bytes": 3454,
+    "verified_bytes": 3778,
     "functions": 140,
-    "verified_functions": 30,
-    "percent": 8.987
+    "verified_functions": 31,
+    "percent": 9.83
    },
    "sim.collision": {
     "bytes": 38411,
-    "verified_bytes": 7229,
+    "verified_bytes": 7304,
     "functions": 122,
-    "verified_functions": 42,
-    "percent": 18.82
+    "verified_functions": 43,
+    "percent": 19.015
    },
    "social": {
     "bytes": 35515,
-    "verified_bytes": 6373,
+    "verified_bytes": 6449,
     "functions": 125,
-    "verified_functions": 63,
-    "percent": 17.945
+    "verified_functions": 64,
+    "percent": 18.159
    },
    "view.fx": {
     "bytes": 30657,
@@ -168,10 +168,10 @@
    },
    "gfx.texture": {
     "bytes": 23996,
-    "verified_bytes": 3831,
+    "verified_bytes": 4121,
     "functions": 126,
-    "verified_functions": 39,
-    "percent": 15.965
+    "verified_functions": 41,
+    "percent": 17.174
    },
    "net.replication": {
     "bytes": 20317,
@@ -203,17 +203,17 @@
    },
    "math.kernel": {
     "bytes": 15641,
-    "verified_bytes": 6800,
+    "verified_bytes": 6921,
     "functions": 101,
-    "verified_functions": 60,
-    "percent": 43.475
+    "verified_functions": 61,
+    "percent": 44.249
    },
    "assets.formats": {
     "bytes": 15278,
-    "verified_bytes": 6722,
+    "verified_bytes": 6850,
     "functions": 66,
-    "verified_functions": 33,
-    "percent": 43.998
+    "verified_functions": 34,
+    "percent": 44.836
    },
    "net.session": {
     "bytes": 14005,
@@ -301,10 +301,10 @@
    },
    "sim.clock": {
     "bytes": 2843,
-    "verified_bytes": 1773,
+    "verified_bytes": 1856,
     "functions": 34,
-    "verified_functions": 24,
-    "percent": 62.364
+    "verified_functions": 25,
+    "percent": 65.283
    },
    "third-party.bzip2": {
     "bytes": 169,
@@ -317,23 +317,23 @@
   "roles": {
    "presentation": {
     "bytes": 423336,
-    "verified_bytes": 76291,
-    "percent": 18.021
+    "verified_bytes": 78851,
+    "percent": 18.626
    },
    "simulation": {
     "bytes": 180779,
-    "verified_bytes": 43768,
-    "percent": 24.211
+    "verified_bytes": 44294,
+    "percent": 24.502
    },
    "tooling": {
     "bytes": 134821,
-    "verified_bytes": 23186,
-    "percent": 17.198
+    "verified_bytes": 23568,
+    "percent": 17.481
    },
    "gameplay": {
     "bytes": 82552,
-    "verified_bytes": 15806,
-    "percent": 19.147
+    "verified_bytes": 15882,
+    "percent": 19.239
    },
    "platform": {
     "bytes": 62044,
@@ -347,8 +347,8 @@
    },
    "engine": {
     "bytes": 47232,
-    "verified_bytes": 16257,
-    "percent": 34.419
+    "verified_bytes": 16385,
+    "percent": 34.69
    },
    "third-party": {
     "bytes": 169,

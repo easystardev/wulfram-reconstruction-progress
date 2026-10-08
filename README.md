@@ -15,10 +15,10 @@ The raw numbers are in [`data/`](data), and every change to the measurement is l
 
 | Metric | Value | What it counts |
 |---|---:|---|
-| **Campaign verified bytes** | **20.53%** | 1,701 functions, 202,527 of 986,454 first-party target bytes |
-| First-party, library rows excluded | 21.37% | 202,527 of 947,693 bytes, with the rows found to be library code moved out of the denominator |
+| **Campaign verified bytes** | **21.42%** | 1,775 functions, 211,276 of 986,454 first-party target bytes |
+| First-party, library rows excluded | 22.29% | 211,276 of 947,693 bytes, with the rows found to be library code moved out of the denominator |
 | **Library-exact** (separate line) | 56.9% | 172,330 of 302,789 bytes of statically linked library code; 90,593 more bytes pending |
-| First-party code still to do | 745,166 bytes | broken down under "What's left" below |
+| First-party code still to do | 736,417 bytes | broken down under "What's left" below |
 
 The campaign figure started at 0.27% on 2026-09-11, when this measurement was adopted.
 <!-- HEADLINE:END -->

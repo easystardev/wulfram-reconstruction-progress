@@ -1,12 +1,12 @@
 {
- "generated_utc": "2026-10-08T02:13:08+00:00",
+ "generated_utc": "2026-10-08T04:16:20+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "as_of_rebuild_snapshot": "current verified-bytes snapshot",
  "census_date": "2026-10-04",
  "first_party_denominator_bytes": 947693,
- "first_party_verified_bytes": 202527,
- "remaining_first_party_bytes": 745166,
+ "first_party_verified_bytes": 211276,
+ "remaining_first_party_bytes": 736417,
  "classified_by_census_bytes": 633278,
  "overlap_or_drift_bytes": 0,
  "buckets": [
@@ -14,8 +14,8 @@
    "key": "plain_singles",
    "label": "Plain singles",
    "functions": 378,
-   "bytes": 192783,
-   "percent_of_remaining_first_party": 25.87,
+   "bytes": 184034,
+   "percent_of_remaining_first_party": 24.99,
    "by_class": {
     "census plain-single track": {
      "functions": 5,
@@ -31,7 +31,7 @@
     },
     "outside the census filters (residual)": {
      "functions": null,
-     "bytes": 111888
+     "bytes": 103139
     }
    }
   },
@@ -40,7 +40,7 @@
    "label": "Closed clusters",
    "functions": 394,
    "bytes": 131575,
-   "percent_of_remaining_first_party": 17.66,
+   "percent_of_remaining_first_party": 17.87,
    "by_class": {
     "1 member": {
      "functions": 13,
@@ -69,7 +69,7 @@
    "label": "Frame / alignment classes",
    "functions": 176,
    "bytes": 68211,
-   "percent_of_remaining_first_party": 9.15,
+   "percent_of_remaining_first_party": 9.26,
    "by_class": {
     "single function": {
      "functions": 52,
@@ -86,7 +86,7 @@
    "label": "Giant tangled component",
    "functions": 1123,
    "bytes": 348632,
-   "percent_of_remaining_first_party": 46.79,
+   "percent_of_remaining_first_party": 47.34,
    "by_class": {}
   },
   {
@@ -94,7 +94,7 @@
    "label": "Policy-held",
    "functions": 21,
    "bytes": 3965,
-   "percent_of_remaining_first_party": 0.53,
+   "percent_of_remaining_first_party": 0.54,
    "by_class": {
     "reserved by another lane or awaiting an ABI ruling": {
      "functions": 20,

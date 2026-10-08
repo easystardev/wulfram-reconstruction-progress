@@ -2,6 +2,7 @@
 
 One line per commit that changed the verified-bytes measurement, newest first. Subjects are sanitised (function names and addresses removed).
 
+- 2026-10-07 - 21.418% (+0.887 pt), 1775 fns - Promote 74 verified R55-62 reconstruction functions
 - 2026-10-07 - 20.531% (+0.571 pt), 1701 fns - Promote 52 verified R51-54 reconstruction functions
 - 2026-10-07 - 19.960% (+0.129 pt), 1649 fns - Promote 13 verified Amendment 20b reconstruction functions
 - 2026-10-07 - 19.831% (+0.287 pt), 1636 fns - Promote 10 verified batch12 reconstruction functions

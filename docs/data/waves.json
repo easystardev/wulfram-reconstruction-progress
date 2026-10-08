@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-08T02:13:08+00:00",
+ "generated_utc": "2026-10-08T04:16:20+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "note_waves": "Counts only. 'counted now' = bytes of the wave that are in the current verified total. label_date is the date in the wave's planning label; result_date is when its results were recorded.",
@@ -114,12 +114,12 @@
    "label_date": "2026-10-04",
    "result_date": "2026-10-04",
    "attempted_functions": 20,
-   "attempted_bytes": 2033,
+   "attempted_bytes": 1980,
    "attempted_functions_unsized": 0,
    "exact_functions": 13,
-   "exact_bytes": 1356,
-   "counted_now_functions": 1,
-   "counted_now_bytes": 262
+   "exact_bytes": 1303,
+   "counted_now_functions": 12,
+   "counted_now_bytes": 1228
   },
   {
    "wave": "round 56",
@@ -127,12 +127,12 @@
    "label_date": "2026-10-04",
    "result_date": "2026-10-04",
    "attempted_functions": 20,
-   "attempted_bytes": 2449,
+   "attempted_bytes": 2424,
    "attempted_functions_unsized": 0,
    "exact_functions": 13,
-   "exact_bytes": 1615,
-   "counted_now_functions": 0,
-   "counted_now_bytes": 0
+   "exact_bytes": 1590,
+   "counted_now_functions": 11,
+   "counted_now_bytes": 1302
   },
   {
    "wave": "round 57",
@@ -140,12 +140,12 @@
    "label_date": "2026-10-04",
    "result_date": "2026-10-04",
    "attempted_functions": 20,
-   "attempted_bytes": 3106,
+   "attempted_bytes": 3072,
    "attempted_functions_unsized": 0,
    "exact_functions": 13,
-   "exact_bytes": 1886,
-   "counted_now_functions": 3,
-   "counted_now_bytes": 798
+   "exact_bytes": 1852,
+   "counted_now_functions": 12,
+   "counted_now_bytes": 1767
   },
   {
    "wave": "round 58",
@@ -153,12 +153,12 @@
    "label_date": "2026-10-04",
    "result_date": "2026-10-04",
    "attempted_functions": 20,
-   "attempted_bytes": 6536,
+   "attempted_bytes": 6530,
    "attempted_functions_unsized": 0,
    "exact_functions": 12,
-   "exact_bytes": 3288,
-   "counted_now_functions": 2,
-   "counted_now_bytes": 545
+   "exact_bytes": 3282,
+   "counted_now_functions": 7,
+   "counted_now_bytes": 1595
   },
   {
    "wave": "round 59",
@@ -170,8 +170,8 @@
    "attempted_functions_unsized": 0,
    "exact_functions": 12,
    "exact_bytes": 1765,
-   "counted_now_functions": 1,
-   "counted_now_bytes": 557
+   "counted_now_functions": 10,
+   "counted_now_bytes": 1479
   },
   {
    "wave": "round 60",
@@ -179,12 +179,12 @@
    "label_date": "2026-10-04",
    "result_date": "2026-10-04",
    "attempted_functions": 20,
-   "attempted_bytes": 2860,
+   "attempted_bytes": 2819,
    "attempted_functions_unsized": 0,
    "exact_functions": 13,
-   "exact_bytes": 1692,
-   "counted_now_functions": 0,
-   "counted_now_bytes": 0
+   "exact_bytes": 1651,
+   "counted_now_functions": 13,
+   "counted_now_bytes": 1651
   },
   {
    "wave": "round 61",
@@ -196,8 +196,8 @@
    "attempted_functions_unsized": 0,
    "exact_functions": 13,
    "exact_bytes": 2721,
-   "counted_now_functions": 0,
-   "counted_now_bytes": 0
+   "counted_now_functions": 8,
+   "counted_now_bytes": 914
   },
   {
    "wave": "round 62",
@@ -205,12 +205,12 @@
    "label_date": "2026-10-04",
    "result_date": "2026-10-05",
    "attempted_functions": 19,
-   "attempted_bytes": 2439,
+   "attempted_bytes": 2429,
    "attempted_functions_unsized": 0,
    "exact_functions": 11,
-   "exact_bytes": 1469,
-   "counted_now_functions": 1,
-   "counted_now_bytes": 82
+   "exact_bytes": 1459,
+   "counted_now_functions": 9,
+   "counted_now_bytes": 1057
   },
   {
    "wave": "cluster wave 7",
@@ -235,6 +235,19 @@
    "attempted_functions_unsized": 0,
    "exact_functions": 29,
    "exact_bytes": 7626,
+   "counted_now_functions": 0,
+   "counted_now_bytes": 0
+  },
+  {
+   "wave": "cluster wave 10",
+   "kind": "clusters",
+   "label_date": "2026-10-09",
+   "result_date": "2026-10-07",
+   "attempted_functions": 59,
+   "attempted_bytes": 12901,
+   "attempted_functions_unsized": 0,
+   "exact_functions": 35,
+   "exact_bytes": 5650,
    "counted_now_functions": 0,
    "counted_now_bytes": 0
   },

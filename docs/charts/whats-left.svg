@@ -65,8 +65,8 @@ z
    </g>
    <g id="patch_7">
     <path d="M 133.758906 57.533276 
-L 352.320257 57.533276 
-L 352.320257 32.552406 
+L 342.401367 57.533276 
+L 342.401367 32.552406 
 L 133.758906 32.552406 
 z
 " clip-path="url(#pe3470cc458)" style="fill: #eb6834"/>
@@ -296,10 +296,10 @@ L 608.058906 233.648406
     <text style="font-size: 9px; font-family: 'Segoe UI', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #52514e" x="286.410489" y="89.019821" transform="rotate(-0 286.410489 89.019821)">128 KiB</text>
    </g>
    <g id="text_20">
-    <text style="font-size: 9px; font-family: 'Segoe UI', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #52514e" x="355.803035" y="47.385038" transform="rotate(-0 355.803035 47.385038)">188 KiB</text>
+    <text style="font-size: 9px; font-family: 'Segoe UI', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #52514e" x="345.884146" y="47.385038" transform="rotate(-0 345.884146 47.385038)">180 KiB</text>
    </g>
    <g id="text_21">
-    <text style="font-weight: 700; font-size: 13px; font-family: 'Segoe UI', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #0b0b0b" x="133.758906" y="16.976406" transform="rotate(-0 133.758906 16.976406)">What's left: 728 KiB of first-party code, by blocker</text>
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Segoe UI', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #0b0b0b" x="133.758906" y="16.976406" transform="rotate(-0 133.758906 16.976406)">What's left: 719 KiB of first-party code, by blocker</text>
    </g>
   </g>
   <g id="text_22">

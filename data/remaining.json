@@ -1,21 +1,21 @@
 {
- "generated_utc": "2026-10-08T13:03:35+00:00",
+ "generated_utc": "2026-10-08T15:38:02+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "as_of_rebuild_snapshot": "current verified-bytes snapshot",
  "census_date": "2026-10-04",
  "first_party_denominator_bytes": 947693,
- "first_party_verified_bytes": 242065,
- "remaining_first_party_bytes": 705628,
- "classified_by_census_bytes": 603037,
+ "first_party_verified_bytes": 245235,
+ "remaining_first_party_bytes": 702458,
+ "classified_by_census_bytes": 599894,
  "overlap_or_drift_bytes": 0,
  "buckets": [
   {
    "key": "plain_singles",
    "label": "Plain singles",
    "functions": 378,
-   "bytes": 183486,
-   "percent_of_remaining_first_party": 26.0,
+   "bytes": 183459,
+   "percent_of_remaining_first_party": 26.12,
    "by_class": {
     "census plain-single track": {
      "functions": 5,
@@ -31,32 +31,32 @@
     },
     "outside the census filters (residual)": {
      "functions": null,
-     "bytes": 102591
+     "bytes": 102564
     }
    }
   },
   {
    "key": "closed_clusters",
    "label": "Closed clusters",
-   "functions": 325,
-   "bytes": 110442,
-   "percent_of_remaining_first_party": 15.65,
+   "functions": 308,
+   "bytes": 107299,
+   "percent_of_remaining_first_party": 15.27,
    "by_class": {
     "1 member": {
      "functions": 12,
      "bytes": 1064
     },
     "2-8 members, <=2 KB": {
-     "functions": 151,
-     "bytes": 37045
+     "functions": 145,
+     "bytes": 36191
     },
     "2-8 members, >2 KB": {
      "functions": 30,
      "bytes": 25092
     },
     "9-24 members": {
-     "functions": 86,
-     "bytes": 26502
+     "functions": 75,
+     "bytes": 24213
     },
     "25-99 members (library-entangled)": {
      "functions": 46,
@@ -69,7 +69,7 @@
    "label": "Frame / alignment classes",
    "functions": 169,
    "bytes": 63670,
-   "percent_of_remaining_first_party": 9.02,
+   "percent_of_remaining_first_party": 9.06,
    "by_class": {
     "single function": {
      "functions": 46,
@@ -86,7 +86,7 @@
    "label": "Giant tangled component",
    "functions": 1102,
    "bytes": 344065,
-   "percent_of_remaining_first_party": 48.76,
+   "percent_of_remaining_first_party": 48.98,
    "by_class": {}
   },
   {

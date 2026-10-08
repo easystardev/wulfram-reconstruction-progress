@@ -2,6 +2,7 @@
 
 One line per commit that changed the verified-bytes measurement, newest first. Subjects are sanitised (function names and addresses removed).
 
+- 2026-10-08 - 24.860% (+0.321 pt), 1895 fns - Promote 18 verified edge-corrections reconstruction functions
 - 2026-10-08 - 24.539% (+1.376 pt), 1877 fns - Promote 36 verified clusters11 reconstruction functions
 - 2026-10-08 - 23.163% (+1.292 pt), 1841 fns - Promote 46 verified queue-b reconstruction functions
 - 2026-10-08 - 21.871% (+0.372 pt), 1795 fns - Promote 16 verified giant-attack and giant-attack2 h4 reconstruction functions

@@ -1,13 +1,13 @@
 {
- "generated_utc": "2026-10-08T04:16:20+00:00",
+ "generated_utc": "2026-10-08T06:01:57+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "as_of_rebuild_snapshot": "current verified-bytes snapshot",
  "census_date": "2026-10-04",
  "first_party_denominator_bytes": 947693,
- "first_party_verified_bytes": 211276,
- "remaining_first_party_bytes": 736417,
- "classified_by_census_bytes": 633278,
+ "first_party_verified_bytes": 212073,
+ "remaining_first_party_bytes": 735620,
+ "classified_by_census_bytes": 632481,
  "overlap_or_drift_bytes": 0,
  "buckets": [
   {
@@ -15,7 +15,7 @@
    "label": "Plain singles",
    "functions": 378,
    "bytes": 184034,
-   "percent_of_remaining_first_party": 24.99,
+   "percent_of_remaining_first_party": 25.02,
    "by_class": {
     "census plain-single track": {
      "functions": 5,
@@ -40,7 +40,7 @@
    "label": "Closed clusters",
    "functions": 394,
    "bytes": 131575,
-   "percent_of_remaining_first_party": 17.87,
+   "percent_of_remaining_first_party": 17.89,
    "by_class": {
     "1 member": {
      "functions": 13,
@@ -69,7 +69,7 @@
    "label": "Frame / alignment classes",
    "functions": 176,
    "bytes": 68211,
-   "percent_of_remaining_first_party": 9.26,
+   "percent_of_remaining_first_party": 9.27,
    "by_class": {
     "single function": {
      "functions": 52,
@@ -84,9 +84,9 @@
   {
    "key": "giant_component",
    "label": "Giant tangled component",
-   "functions": 1123,
-   "bytes": 348632,
-   "percent_of_remaining_first_party": 47.34,
+   "functions": 1119,
+   "bytes": 347835,
+   "percent_of_remaining_first_party": 47.28,
    "by_class": {}
   },
   {

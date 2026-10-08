@@ -1,23 +1,23 @@
 {
- "generated_utc": "2026-10-08T04:16:20+00:00",
+ "generated_utc": "2026-10-08T06:01:57+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "snapshot": {
-  "date": "2026-10-07T23:16:02-05:00",
-  "subject": "Promote 74 verified R55-62 reconstruction functions",
-  "verified_functions": 1775,
-  "verified_bytes": 211276,
+  "date": "2026-10-08T01:01:41-05:00",
+  "subject": "Promote 4 verified giant-attack hub functions",
+  "verified_functions": 1779,
+  "verified_bytes": 212073,
   "denominator_functions": 4392,
   "denominator_bytes": 986454,
-  "verified_bytes_percent": 21.418,
+  "verified_bytes_percent": 21.499,
   "verified_by_proof_tier": {
-   "BYTES": 208731,
+   "BYTES": 209528,
    "T1-diffexec": 2452,
    "T1-oracle": 93
   },
   "first_party_excluding_library_rows": {
-   "percent": 22.294,
-   "numerator_bytes": 211276,
+   "percent": 22.378,
+   "numerator_bytes": 212073,
    "denominator_bytes": 947693,
    "functions": 4310
   },
@@ -30,15 +30,15 @@
   "provisional_counted_bytes": 1279,
   "verified_bytes_by_subsystem": {
    "System/Graphics": 35858,
-   "Game/Simulation": 35086,
+   "Game/Simulation": 35195,
    "Game/View": 28308,
    "System/Core": 22273,
    "Game/Session": 21056,
    "System/Network": 15573,
-   "System/UI": 10764,
+   "System/UI": 11107,
    "AppInit/AppCore": 6447,
    "System/Platform": 6194,
-   "Tools/InGameEditors": 5236,
+   "Tools/InGameEditors": 5581,
    "Game/Data": 4804,
    "System/Input": 4717,
    "Services": 3717,
@@ -77,10 +77,10 @@
    },
    "tools.editors": {
     "bytes": 57988,
-    "verified_bytes": 5916,
+    "verified_bytes": 6261,
     "functions": 250,
-    "verified_functions": 48,
-    "percent": 10.202
+    "verified_functions": 49,
+    "percent": 10.797
    },
    "core.debug": {
     "bytes": 57121,
@@ -91,10 +91,10 @@
    },
    "sim.world": {
     "bytes": 56378,
-    "verified_bytes": 7256,
+    "verified_bytes": 7365,
     "functions": 174,
-    "verified_functions": 42,
-    "percent": 12.87
+    "verified_functions": 43,
+    "percent": 13.064
    },
    "gfx.raster": {
     "bytes": 55913,
@@ -105,10 +105,10 @@
    },
    "ui.widgets": {
     "bytes": 55790,
-    "verified_bytes": 10764,
+    "verified_bytes": 11107,
     "functions": 329,
-    "verified_functions": 110,
-    "percent": 19.294
+    "verified_functions": 112,
+    "percent": 19.909
    },
    "sim.physics": {
     "bytes": 38806,
@@ -317,18 +317,18 @@
   "roles": {
    "presentation": {
     "bytes": 423336,
-    "verified_bytes": 75948,
-    "percent": 17.94
+    "verified_bytes": 76291,
+    "percent": 18.021
    },
    "simulation": {
     "bytes": 180779,
-    "verified_bytes": 43659,
-    "percent": 24.15
+    "verified_bytes": 43768,
+    "percent": 24.211
    },
    "tooling": {
     "bytes": 134821,
-    "verified_bytes": 22841,
-    "percent": 16.942
+    "verified_bytes": 23186,
+    "percent": 17.198
    },
    "gameplay": {
     "bytes": 82552,

@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-08T04:16:20+00:00",
+ "generated_utc": "2026-10-08T06:01:57+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "note_waves": "Counts only. 'counted now' = bytes of the wave that are in the current verified total. label_date is the date in the wave's planning label; result_date is when its results were recorded.",
@@ -250,6 +250,19 @@
    "exact_bytes": 5650,
    "counted_now_functions": 0,
    "counted_now_bytes": 0
+  },
+  {
+   "wave": "cluster wave 11",
+   "kind": "clusters",
+   "label_date": "2026-10-09",
+   "result_date": "2026-10-07",
+   "attempted_functions": 80,
+   "attempted_bytes": 29833,
+   "attempted_functions_unsized": 0,
+   "exact_functions": 58,
+   "exact_bytes": 18837,
+   "counted_now_functions": 4,
+   "counted_now_bytes": 341
   },
   {
    "wave": "cluster wave 9",

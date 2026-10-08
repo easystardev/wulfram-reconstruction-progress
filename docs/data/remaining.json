@@ -1,21 +1,21 @@
 {
- "generated_utc": "2026-10-08T09:12:36+00:00",
+ "generated_utc": "2026-10-08T10:44:13+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "as_of_rebuild_snapshot": "current verified-bytes snapshot",
  "census_date": "2026-10-04",
  "first_party_denominator_bytes": 947693,
- "first_party_verified_bytes": 228494,
- "remaining_first_party_bytes": 719199,
- "classified_by_census_bytes": 616637,
+ "first_party_verified_bytes": 242065,
+ "remaining_first_party_bytes": 705628,
+ "classified_by_census_bytes": 603037,
  "overlap_or_drift_bytes": 0,
  "buckets": [
   {
    "key": "plain_singles",
    "label": "Plain singles",
    "functions": 378,
-   "bytes": 183457,
-   "percent_of_remaining_first_party": 25.51,
+   "bytes": 183486,
+   "percent_of_remaining_first_party": 26.0,
    "by_class": {
     "census plain-single track": {
      "functions": 5,
@@ -31,20 +31,20 @@
     },
     "outside the census filters (residual)": {
      "functions": null,
-     "bytes": 102562
+     "bytes": 102591
     }
    }
   },
   {
    "key": "closed_clusters",
    "label": "Closed clusters",
-   "functions": 357,
-   "bytes": 121088,
-   "percent_of_remaining_first_party": 16.84,
+   "functions": 325,
+   "bytes": 110442,
+   "percent_of_remaining_first_party": 15.65,
    "by_class": {
     "1 member": {
-     "functions": 13,
-     "bytes": 1224
+     "functions": 12,
+     "bytes": 1064
     },
     "2-8 members, <=2 KB": {
      "functions": 151,
@@ -59,21 +59,21 @@
      "bytes": 26502
     },
     "25-99 members (library-entangled)": {
-     "functions": 77,
-     "bytes": 31225
+     "functions": 46,
+     "bytes": 20739
     }
    }
   },
   {
    "key": "frame_alignment",
    "label": "Frame / alignment classes",
-   "functions": 173,
-   "bytes": 66624,
-   "percent_of_remaining_first_party": 9.26,
+   "functions": 169,
+   "bytes": 63670,
+   "percent_of_remaining_first_party": 9.02,
    "by_class": {
     "single function": {
-     "functions": 50,
-     "bytes": 23269
+     "functions": 46,
+     "bytes": 20315
     },
     "multi-member": {
      "functions": 123,
@@ -86,7 +86,7 @@
    "label": "Giant tangled component",
    "functions": 1102,
    "bytes": 344065,
-   "percent_of_remaining_first_party": 47.84,
+   "percent_of_remaining_first_party": 48.76,
    "by_class": {}
   },
   {
@@ -94,7 +94,7 @@
    "label": "Policy-held",
    "functions": 21,
    "bytes": 3965,
-   "percent_of_remaining_first_party": 0.55,
+   "percent_of_remaining_first_party": 0.56,
    "by_class": {
     "reserved by another lane or awaiting an ABI ruling": {
      "functions": 20,

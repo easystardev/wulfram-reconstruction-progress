@@ -49,24 +49,24 @@ z
    </g>
    <g id="patch_5">
     <path d="M 133.758906 140.802841 
-L 210.294259 140.802841 
-L 210.294259 115.821971 
+L 206.900805 140.802841 
+L 206.900805 115.821971 
 L 133.758906 115.821971 
 z
 " clip-path="url(#pe3470cc458)" style="fill: #eb6834"/>
    </g>
    <g id="patch_6">
     <path d="M 133.758906 99.168058 
-L 272.860622 99.168058 
-L 272.860622 74.187189 
+L 260.630865 99.168058 
+L 260.630865 74.187189 
 L 133.758906 74.187189 
 z
 " clip-path="url(#pe3470cc458)" style="fill: #eb6834"/>
    </g>
    <g id="patch_7">
     <path d="M 133.758906 57.533276 
-L 344.507978 57.533276 
-L 344.507978 32.552406 
+L 344.541292 57.533276 
+L 344.541292 32.552406 
 L 133.758906 32.552406 
 z
 " clip-path="url(#pe3470cc458)" style="fill: #eb6834"/>
@@ -290,16 +290,16 @@ L 608.058906 233.648406
     <text style="font-size: 9px; font-family: 'Segoe UI', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #52514e" x="532.537914" y="172.289386" transform="rotate(-0 532.537914 172.289386)">336 KiB</text>
    </g>
    <g id="text_18">
-    <text style="font-size: 9px; font-family: 'Segoe UI', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #52514e" x="213.823266" y="130.654604" transform="rotate(-0 213.823266 130.654604)">65 KiB</text>
+    <text style="font-size: 9px; font-family: 'Segoe UI', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #52514e" x="210.429813" y="130.654604" transform="rotate(-0 210.429813 130.654604)">62 KiB</text>
    </g>
    <g id="text_19">
-    <text style="font-size: 9px; font-family: 'Segoe UI', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #52514e" x="276.38963" y="89.019821" transform="rotate(-0 276.38963 89.019821)">118 KiB</text>
+    <text style="font-size: 9px; font-family: 'Segoe UI', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #52514e" x="264.159873" y="89.019821" transform="rotate(-0 264.159873 89.019821)">108 KiB</text>
    </g>
    <g id="text_20">
-    <text style="font-size: 9px; font-family: 'Segoe UI', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #52514e" x="348.036985" y="47.385038" transform="rotate(-0 348.036985 47.385038)">179 KiB</text>
+    <text style="font-size: 9px; font-family: 'Segoe UI', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #52514e" x="348.070299" y="47.385038" transform="rotate(-0 348.070299 47.385038)">179 KiB</text>
    </g>
    <g id="text_21">
-    <text style="font-weight: 700; font-size: 13px; font-family: 'Segoe UI', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #0b0b0b" x="133.758906" y="16.976406" transform="rotate(-0 133.758906 16.976406)">What's left: 702 KiB of first-party code, by blocker</text>
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Segoe UI', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #0b0b0b" x="133.758906" y="16.976406" transform="rotate(-0 133.758906 16.976406)">What's left: 689 KiB of first-party code, by blocker</text>
    </g>
   </g>
   <g id="text_22">

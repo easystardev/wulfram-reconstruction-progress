@@ -1,0 +1,236 @@
+# Changelog
+
+One line per commit that changed the verified-bytes measurement, newest first. Subjects are sanitised (function names and addresses removed).
+
+- 2026-10-07 - 20.531% (+0.571 pt), 1701 fns - Promote 52 verified R51-54 reconstruction functions
+- 2026-10-07 - 19.960% (+0.129 pt), 1649 fns - Promote 13 verified Amendment 20b reconstruction functions
+- 2026-10-07 - 19.831% (+0.287 pt), 1636 fns - Promote 10 verified batch12 reconstruction functions
+- 2026-10-05 - 19.544% (+0.006 pt), 1626 fns - Promote archived D3D comparator reconstruction
+- 2026-10-05 - 19.538% (+0.276 pt), 1625 fns - Promote eight verified Round50 reconstruction functions
+- 2026-10-04 - 19.262% (+0.231 pt), 1617 fns - Archive audited reconstruction checkpoint and durable provenance
+- 2026-10-02 - 19.031% (+0.050 pt), 1606 fns - Round 48 task 1: admit 6 autodraft v13 recoveries (499 campaign B)
+- 2026-10-01 - 18.981% (+0.022 pt), 1600 fns - Round 47 task 1: admit 2 (Amendment 13 one-member pad unit [fn] 96 B; [fn] 118 B)
+- 2026-10-01 - 18.959% (+0.344 pt), 1598 fns - Round 46 task 1: extent records for [fns]; admit 3 (DDraw 2,840 B, WinSock 610 B, DebugVar 84 B)
+- 2026-10-01 - 18.615% (+0.202 pt), 1595 fns - Round 45 task 1: admit 9 round 45 ports (8 singles + 1 one-member frame-alignment unit; 2,148 B)
+- 2026-10-01 - 18.413% (+0.042 pt), 1587 fns - Round 44 task 3: admit 2 round-43 refusals under the ratified unnamed-global-alias rule ( 363 B, 47 B)
+- 2026-10-01 - 18.371% (+0.276 pt), 1585 fns - Round 44 task 2: overlay extent_records; admit [fn] (2772 B)
+- 2026-10-01 - 18.095% (+0.273 pt), 1584 fns - Round 44 task 1: admit 12 round 44 ports (11 singles + 1 Amendment 13 cluster; 2,958 B)
+- 2026-10-01 - 17.822% (+0.002 pt), 1573 fns - Round 43 task 4: admit 1 of 12 autodraft v12 exacts ([fn], 19 B)
+- 2026-10-01 - 17.820% (+0.123 pt), 1572 fns - Round 43 task 3: admit 8 round 42 singles (1,290 B)
+- 2026-10-01 - 17.697% (+0.130 pt), 1565 fns - Round 43 task 2: 13 evidence-backed labels (Amendment 22); admit [fns] (1,277 B)
+- 2026-10-01 - 17.567% (+0.024 pt), 1562 fns - Round 43 task 1: /Oi joins the /Od island's pinned flags (Amendment 21); admit [fn] (241 B)
+- 2026-09-30 - 17.543% (+0.022 pt), 1561 fns - Round 40 task 5: one-member LTCG units with a published context callee (Amendment 20); admit graybutton (220 B)
+- 2026-09-30 - 17.521% (+0.086 pt), 1560 fns - Round 40 task 4: mirror-cluster exemption (Amendment 19); admit reconcile and texture (4 fn, 840 B)
+- 2026-09-30 - 17.435% (+0.158 pt), 1556 fns - Round 40 task 3b: admit s05-marker-sprite-input-event-ltcg (5 fn, 1,556 B) under /O1 /Oi
+- 2026-09-30 - 17.277% (+0.000 pt), 1551 fns - Round 40 task 3: /Oi joins the /O1 island's pinned flags (Amendment 18)
+- 2026-09-30 - 17.277% (+0.012 pt), 1551 fns - Round 40 task 2: label [global] ; admit [fn] (118 B)
+- 2026-09-30 - 17.265% (+0.016 pt), 1550 fns - Round 39 task 2b: admit r10-d3d-stateblock-ltcg (3 fn, 165 B) via scorer fix D
+- 2026-09-30 - 17.249% (+0.050 pt), 1547 fns - Round 39 task 1b: admit joystick and mipsurf (4 fn, 494 B) via scorer fix C
+- 2026-09-30 - 17.199% (+0.059 pt), 1543 fns - Round 38 task 1: admit 2 near-miss cluster units (5 fn, 596 B)
+- 2026-09-30 - 17.140% (+0.101 pt), 1538 fns - Round 37 task 2: admit 3 identical-fix singles (992 B)
+- 2026-09-30 - 17.039% (+0.202 pt), 1535 fns - Round 36 task 2b: admit 9 tooling-blocked backlog singles (1,991 B)
+- 2026-09-30 - 16.837% (+0.083 pt), 1526 fns - Round 36 task 1: correct the spurious -> callers edge; re-admit m06-update-stats
+- 2026-09-30 - 16.754% (-0.083 pt), 1523 fns - Round 35 task 3: EDX-only register inputs under a [abi] label (scorer fix B)
+- 2026-09-30 - 16.837% (+0.061 pt), 1526 fns - Round 35 task 2: additive cross-abi gating for manual outside callers; admit r02/marker
+- 2026-09-30 - 16.776% (+0.258 pt), 1522 fns - Round 35 task 1: admit 3 workflow-clusters6 cluster units (14 fn, 2,545 B)
+- 2026-09-30 - 16.518% (+0.121 pt), 1508 fns - Round 34 task 1: admit 6 workflow-clusters5 cluster units (14 fn, 1,191 B)
+- 2026-09-29 - 16.397% (+0.034 pt), 1494 fns - Round 33 task 2: class-qualified mutation hints; admit r01 doc-chunk-generators
+- 2026-09-29 - 16.363% (+0.225 pt), 1490 fns - Round 33 task 1: admit 7 workflow-clusters5/4 cluster units
+- 2026-09-29 - 16.138% (+0.008 pt), 1473 fns - Round 32 task 2: admit [fn] as a single
+- 2026-09-29 - 16.130% (+0.244 pt), 1472 fns - Round 32 task 1: admit 6 workflow-clusters4-2026-09-29 cluster units
+- 2026-09-28 - 15.886% (+0.256 pt), 1459 fns - Round 31 task 3: admit 12 frontier-ab2-2026-09-28 single functions
+- 2026-09-28 - 15.630% (+0.000 pt), 1448 fns - Round 30 task 4 follow-up: complete the n01-mapwidget-zoom-stdcall supersession
+- 2026-09-28 - 15.630% (+0.257 pt), 1448 fns - Round 30 task 4: admit wave 3 clusters (comm, piecewise, targeting, meters) plus n01/[fn]
+- 2026-09-28 - 15.373% (+0.161 pt), 1434 fns - Round 30 tasks 2+3: Amendment 16 vanished-edge rule (polygon admitted), variadic outside callers (crashreport admitted)
+- 2026-09-28 - 15.212% (+0.000 pt), 1428 fns - Round 29 task 2 follow-up: complete the m07-stats-accumulate supersession
+- 2026-09-28 - 15.212% (+0.055 pt), 1428 fns - Round 29 task 3: admit k02-main-viewer and k03-helptopic-dtor-stack-this under Amendment 15 D4
+- 2026-09-28 - 15.157% (+1.006 pt), 1424 fns - Round 29 task 2: admit 14 workflow-clusters2-2026-09-27 verified cluster units
+- 2026-09-28 - 14.151% (-0.128 pt), 1382 fns - Round 29 task 1: Amendment (15), D1-D4 (invented-helper control, member outside-caller, SEH4 verification, context/member sibling fix + a...
+- 2026-09-27 - 14.279% (+0.308 pt), 1388 fns - Round 28 task 2: admit 3 workflow-clusters2-2026-09-27 cluster units
+- 2026-09-27 - 13.971% (+0.236 pt), 1382 fns - Round 28 task 1: admit 17 frontier-ab-2026-09-27 EXACT candidates
+- 2026-09-27 - 13.735% (+0.041 pt), 1366 fns - Round 27 task 3c prep: refresh 2 stale-source-hash manifest records blocking a source-data control
+- 2026-09-27 - 13.694% (+0.082 pt), 1364 fns - Round 27 task 3b: admit terrainlod + glowtext under the task1 overlay fix; drop 5 Amendment 14 candidates that do not clear it as impleme...
+- 2026-09-27 - 13.612% (+0.412 pt), 1359 fns - Round 27 task 3(a): admit 5 cluster-wave units under the existing rules
+- 2026-09-26 - 13.200% (+0.177 pt), 1341 fns - Round 27 task 2: admit round 26's EXACT candidates (29 of 31, 2 dropped)
+- 2026-09-26 - 13.023% (+0.083 pt), 1336 fns - Round 25 task 4: pad must-fail rule (Amendment 13) plus push-ecx clusters
+- 2026-09-26 - 12.940% (+0.098 pt), 1329 fns - Round 25 task 3: admit round 24's 7 EXACT candidates
+- 2026-09-26 - 12.842% (+0.176 pt), 1322 fns - Round 25 task 2: admit round21/round23 patch-unblocked functions; fix stale manifest sha256s from task 1
+- 2026-09-26 - 12.666% (+0.674 pt), 1312 fns - Round 22 task 2: admit round-23 workflow EXACT functions
+- 2026-09-26 - 11.992% (+0.892 pt), 1251 fns - Round 22 task 1: admit round-21 workflow EXACT functions
+- 2026-09-26 - 11.100% (+0.095 pt), 1182 fns - Round 20 task 1: admit 13 nearmiss-ports6 b6/b7/b8 EXACT functions, 1,053 B
+- 2026-09-26 - 11.005% (-0.024 pt), 1171 fns - Round 20 task 2: admit Speex 1.1.12 + bzip2 1.0.2 as LIBRARY rows
+- 2026-09-26 - 11.029% (+0.074 pt), 1175 fns - Round 19 task 2: admit b0/lod, b0/hist, b0/batch (3 LTCG clusters, 744 B)
+- 2026-09-25 - 10.955% (+0.091 pt), 1169 fns - Round 19 (coordinator addition): admit 10 nearmiss-ports6 EXACT functions, 900 B
+- 2026-09-25 - 10.864% (+0.050 pt), 1159 fns - Round 19 task 1: admit cluster-face-2026-09-25 ( + )
+- 2026-09-25 - 10.814% (+0.066 pt), 1157 fns - Round 18: re-admit 2 nearmiss-ports4 records held pending the regex fix
+- 2026-09-25 - 10.748% (+0.609 pt), 1154 fns - Regenerate metrics after round17 admissions (nearmiss-ports4 + 2 clusters)
+- 2026-09-25 - 10.139% (-0.018 pt), 1128 fns - Regenerate verified-bytes.json after the readability-r2 swap
+- 2026-09-25 - 10.157% (+1.198 pt), 1130 fns - Regenerate metrics after the round-16 admissions (nearmiss3/v9/v7-seh-realias/clusters)
+- 2026-09-24 - 8.959% (+0.886 pt), 1044 fns - Regenerate metrics after the None-tier fix and the v7-seh/v8 admissions
+- 2026-09-24 - 8.073% (+0.100 pt), 926 fns - Regenerate metrics after amendment 10, the 29 admissions and the readability swap
+- 2026-09-24 - 7.973% (+0.104 pt), 918 fns - Regenerate metrics after the 89-function autodraft-v4-hidden/v5/nearmiss2 admission
+- 2026-09-24 - 7.869% (+0.007 pt), 898 fns - Regenerate metrics after the /GL partition, the Quat unit and the source-dependency checks
+- 2026-09-24 - 7.862% (+0.826 pt), 897 fns - BYTES tier: extend the ratified clause to required_tier S-soak
+- 2026-09-23 - 7.036% (+0.000 pt), 864 fns - Inventory overlay: hidden functions and corrected row sizes
+- 2026-09-23 - 7.036% (+0.000 pt), 864 fns - Library tier: independent symbol placements as a [fn] name source
+- 2026-09-23 - 7.036% (+0.110 pt), 864 fns - Regenerate metrics after the frame-rule1-2026-09-23 admissions
+- 2026-09-23 - 6.926% (+0.135 pt), 858 fns - Regenerate metrics after the autodraft-v2-2026-09-23 admission
+- 2026-09-23 - 6.791% (+0.177 pt), 834 fns - Regenerate metrics after the nearmiss-ports-2026-09-23 admission
+- 2026-09-23 - 6.614% (+0.026 pt), 821 fns - Regenerate metrics after the Math frame-alignment cluster and the bss rule
+- 2026-09-23 - 6.588% (+0.391 pt), 819 fns - Regenerate metrics after the 164-single autodraft-2026-09-23 admission
+- 2026-09-23 - 6.197% (+0.086 pt), 697 fns - Regenerate metrics after round 11b admissions (e04/e06/e07)
+- 2026-09-23 - 6.111% (+0.216 pt), 690 fns - Regenerate metrics after the 24-single team-os-island-2026-09-23 admission
+- 2026-09-23 - 5.895% (+0.168 pt), 670 fns - Regenerate metrics after round 10b admissions
+- 2026-09-23 - 5.727% (+0.048 pt), 653 fns - Regenerate metrics after the Team island re-flag and c09 admission
+- 2026-09-23 - 5.679% (+0.007 pt), 646 fns - Add library tier; admit [fn] and [fn]
+- 2026-09-23 - 5.672% (+0.056 pt), 645 fns - Ratify Widget and eight overrides as singles
+- 2026-09-23 - 5.616% (+0.022 pt), 636 fns - Add LTCG cluster mode; ratify Color LTCG and ScrollingList ESI clusters
+- 2026-09-22 - 5.594% (+0.000 pt), 632 fns - Retire redundant SoftBody/MemBuff cluster records
+- 2026-09-22 - 5.594% (+0.045 pt), 632 fns - Ratify round-3 clusters: SoftBody, ChunkBuffer x3, MemBuff, Terrain UV
+- 2026-09-22 - 5.549% (+0.029 pt), 627 fns - Ratify cluster admission and the Viewport pilot cluster
+- 2026-09-22 - 5.520% (+0.011 pt), 625 fns - Ratify MeshInstance create byte match
+- 2026-09-22 - 5.509% (+0.024 pt), 624 fns - Ratify renderer helper byte matches
+- 2026-09-22 - 5.485% (+0.003 pt), 622 fns - Ratify ordinary packet M byte match
+- 2026-09-22 - 5.482% (+0.022 pt), 621 fns - Ratify packet L and OutHistory control admission
+- 2026-09-22 - 5.460% (+0.010 pt), 618 fns - Ratify ordinary packet K byte matches
+- 2026-09-22 - 5.450% (+0.009 pt), 615 fns - Ratify ordinary packet J byte matches
+- 2026-09-22 - 5.441% (+0.015 pt), 612 fns - Ratify ordinary packet I byte matches
+- 2026-09-21 - 5.426% (+0.012 pt), 608 fns - Ratify ordinary six H byte matches
+- 2026-09-21 - 5.414% (+0.014 pt), 605 fns - Ratify ordinary six G byte matches
+- 2026-09-21 - 5.400% (+0.010 pt), 602 fns - Publish ordinary six F runnable admission
+- 2026-09-21 - 5.390% (+0.020 pt), 598 fns - Ratify ordinary six E byte matches
+- 2026-09-21 - 5.370% (+0.005 pt), 592 fns - Ratify ordinary six D byte matches
+- 2026-09-21 - 5.365% (+0.020 pt), 591 fns - Ratify ordinary six C byte matches
+- 2026-09-21 - 5.345% (+0.018 pt), 585 fns - Ratify four ordinary reconstruction bodies
+- 2026-09-21 - 5.327% (+0.020 pt), 581 fns - Ratify ordinary six byte matches
+- 2026-09-21 - 5.307% (+0.025 pt), 577 fns - Ratify three exact networking contexts
+- 2026-09-21 - 5.282% (+0.017 pt), 574 fns - Ratify continuation small batch 3
+- 2026-09-21 - 5.265% (+0.033 pt), 572 fns - Ratify continuation small batch 2
+- 2026-09-21 - 5.232% (+0.011 pt), 568 fns - Ratify continuation small batch 1
+- 2026-09-20 - 5.221% (+0.051 pt), 564 fns - Ratify five small-pool exact functions
+- 2026-09-20 - 5.170% (+0.048 pt), 559 fns - Ratify six small-pool exact functions
+- 2026-09-20 - 5.122% (+0.018 pt), 553 fns - Ratify render frame counter reset
+- 2026-09-19 - 5.104% (+0.010 pt), 552 fns - Close VC8 larger-body batch 217
+- 2026-09-19 - 5.094% (+0.000 pt), 551 fns - Pilot larger VC8 single functions
+- 2026-09-19 - 5.094% (+0.081 pt), 551 fns - Repair VC8 relocation proofs
+- 2026-09-19 - 5.013% (+0.031 pt), 546 fns - Exhaust strict VC8 singles through batch 215
+- 2026-09-19 - 4.982% (+0.037 pt), 542 fns - Close VC8 batches 212 and 213
+- 2026-09-19 - 4.945% (+0.038 pt), 536 fns - Close VC8 batches 210 and 211
+- 2026-09-19 - 4.907% (+0.104 pt), 530 fns - Close VC8 batches 208 and 209
+- 2026-09-19 - 4.803% (+0.045 pt), 519 fns - Close VC8 batches 206 and 207
+- 2026-09-19 - 4.758% (+0.035 pt), 514 fns - Close VC8 batches 204 and 205
+- 2026-09-19 - 4.723% (+0.067 pt), 510 fns - Close VC8 batches 202 and 203
+- 2026-09-19 - 4.656% (+0.066 pt), 504 fns - Close VC8 batches 200 and 201
+- 2026-09-19 - 4.590% (+0.038 pt), 497 fns - Close VC8 batches 198 and 199
+- 2026-09-19 - 4.552% (+0.028 pt), 492 fns - Close VC8 batches 196 and 197
+- 2026-09-19 - 4.524% (+0.070 pt), 489 fns - Close VC8 batches 194 and 195
+- 2026-09-19 - 4.454% (+0.029 pt), 483 fns - rebuild: close VC8 batches 192-193
+- 2026-09-19 - 4.425% (+0.049 pt), 477 fns - rebuild: close VC8 batches 190-191
+- 2026-09-19 - 4.376% (+0.051 pt), 473 fns - rebuild: close VC8 batches 188-189 and trace hybrid
+- 2026-09-18 - 4.325% (+0.047 pt), 467 fns - close VC8 batches 186 and 187
+- 2026-09-18 - 4.278% (+0.066 pt), 463 fns - batches 184-185: 4.278%; seven readings; selector refuses lone custom-convention members
+- 2026-09-18 - 4.212% (+0.113 pt), 457 fns - batches 182-183: 4.212%; frame study 2 -- emission rule found, source still unknown
+- 2026-09-18 - 4.099% (+0.000 pt), 448 fns - the hybrid image RUNS: login screen through DirectDraw, import tables byte-identical
+- 2026-09-18 - 4.099% (+0.076 pt), 448 fns - batches 180-181 partial close: 4.099%; frame-shape mechanism identified
+- 2026-09-18 - 4.023% (+0.022 pt), 441 fns - ratify /GS /EHsc image pin; admit import, EH-frame and indirect classes: 4.023%
+- 2026-09-18 - 4.001% (+0.094 pt), 439 fns - batches 178-179, packet-handler checkpoint, admission pilot: 4.001%
+- 2026-09-18 - 3.907% (+0.110 pt), 429 fns - batches 176-177: second byte-exact-tier round, 3.907%; hybrid-link brief
+- 2026-09-18 - 3.797% (+0.130 pt), 419 fns - batches 174-175: first byte-exact-tier round, 3.797% verified bytes
+- 2026-09-17 - 3.667% (+0.000 pt), 409 fns - verified bytes: report per tier and per subsystem, beside the global figure
+- 2026-09-17 - 3.667% (+0.048 pt), 409 fns - batch 173: four clusters under the measured caller-pull rule (3.619% -> 3.667%)
+- 2026-09-17 - 3.619% (+0.059 pt), 403 fns - batch 172: three convention clusters, the first unhand-picked cluster batch (3.560% -> 3.619%)
+- 2026-09-17 - 3.560% (+0.003 pt), 396 fns - batch 171: the first convention cluster through the new pipeline (3.557% -> 3.560%)
+- 2026-09-17 - 3.557% (+0.015 pt), 395 fns - vc8: ratify the two compiland islands below the core floor; 302 fns, 3.557%
+- 2026-09-17 - 3.542% (+0.088 pt), 393 fns - vc8: adopt the five permuter recoveries -- 300 byte-identical fns, 3.542%
+- 2026-09-17 - 3.454% (+0.031 pt), 388 fns - vc8: batch 169 (below the core floor): [fn] identical; 388 fns, 3.454%
+- 2026-09-13 - 3.423% (+0.002 pt), 386 fns - vc8: final close of the checkpoint -- [fn] identical; 293 fns, 3.423%
+- 2026-09-13 - 3.421% (+0.017 pt), 385 fns - vc8: below-core probe (batch 166): 2 of 6 identical under the image set; two candidate /Od ranges recorded unratified; selector defers un...
+- 2026-09-13 - 3.404% (+0.043 pt), 383 fns - vc8: batch 165 (tiny group): [fns] -- all six identical; selector --floor option
+- 2026-09-13 - 3.361% (+0.024 pt), 372 fns - vc8: batch 163 (Sockets group): [fns], NetManager add/remove read-fdset x3 -- all six identical
+- 2026-09-13 - 3.337% (+0.010 pt), 366 fns - vc8: batch 162 (Protocol group): [fns] -- all six identical
+- 2026-09-13 - 3.327% (+0.034 pt), 364 fns - vc8: batch 161 (MemBuff group): [fns], rewind, [fn] identical; [fn] 0.36; stray scratch file removed
+- 2026-09-13 - 3.293% (+0.002 pt), 355 fns - vc8: [fn] identical (BitPos returned by value through the hidden pointer); reading added
+- 2026-09-13 - 3.291% (+0.038 pt), 354 fns - vc8: /Od range bounds corrected to - (prologue-delimited); per-TU units retired; boundary-signal probe in close_batch; batches 159-160; 3...
+- 2026-09-13 - 3.253% (+0.037 pt), 344 fns - vc8: batches 157-158 (tiny /Od groups): 11 of 12 identical ([fn]/D3D/GDI getters, detectors, surfaces); [fn] 0.94
+- 2026-09-13 - 3.216% (+0.011 pt), 333 fns - vc8: batch 156 (tiny group): [fns] -- all six identical
+- 2026-09-13 - 3.205% (+0.009 pt), 329 fns - vc8: batch 155 (tiny group): [fns] -- all six identical
+- 2026-09-13 - 3.196% (+0.029 pt), 326 fns - vc8: batch 154 (tiny group): [fns]/string/cstring identical; [fn] 0.31; [fn] 0.33 -> 0.93 (returns out)
+- 2026-09-13 - 3.167% (+0.010 pt), 317 fns - vc8: batch 153 (tiny group): [fns] identical; [fn] is a split inventory row (tail-jump into [fn])
+- 2026-09-13 - 3.157% (+0.010 pt), 315 fns - vc8: batch 152 (tiny group): [fns] identical; [fn] 0.76
+- 2026-09-13 - 3.147% (+0.039 pt), 312 fns - vc8: batch 151 (tiny group): [fns] -- all six identical
+- 2026-09-13 - 3.108% (+0.005 pt), 301 fns - vc8: batch 150 (tiny group): [fns] -- all six identical
+- 2026-09-13 - 3.103% (+0.032 pt), 300 fns - vc8: batch 149 (tiny group): [fns] identical; [fn] 0.21; [fn] stays 0.93
+- 2026-09-13 - 3.071% (+0.003 pt), 292 fns - vc8: control last-resort mutation: duplicate a top-level statement (one-statement pointer-store-from-call bodies); [fn] counts
+- 2026-09-13 - 3.068% (+0.022 pt), 291 fns - vc8: batch 148 (tiny group): [fns] -- all six identical
+- 2026-09-13 - 3.046% (+0.002 pt), 285 fns - vc8: batch 147 (tiny group): [fns] identical; [fn] 0.53, [fn] 0.31 (closure on [fn])
+- 2026-09-13 - 3.044% (+0.024 pt), 284 fns - vc8: batches 145-146 (tiny band, grouped worker): [fns] -- all six identical
+- 2026-09-13 - 3.020% (+0.007 pt), 277 fns - vc8: batch 144: [fn] (39 B) identical (two tail-merged guard clauses)
+- 2026-09-13 - 3.013% (+0.004 pt), 275 fns - vc8: batches 141,143: [fn] (46 B) identical; [fn] 0.90 (duplicated epilogue)
+- 2026-09-13 - 3.009% (+0.009 pt), 274 fns - vc8: control fallback is logical negation (arithmetic negation was a no-op on 'return false'); [fn] counts; 3.009%
+- 2026-09-13 - 3.000% (+0.000 pt), 273 fns - vc8: batch 142: [fn] (90 B) identical; selector band widened to 20 B
+- 2026-09-13 - 3.000% (+0.012 pt), 273 fns - vc8: batch 140: [fn] (113 B) identical
+- 2026-09-13 - 2.988% (+0.009 pt), 272 fns - vc8: batch 139: [fn] (93 B) identical
+- 2026-09-13 - 2.979% (+0.010 pt), 271 fns - vc8: batch 137: [fn] (95 B) identical
+- 2026-09-13 - 2.969% (+0.015 pt), 270 fns - vc8: batch 134: [fn] (64 B) identical
+- 2026-09-13 - 2.954% (+0.008 pt), 268 fns - vc8: batches 130-131: [fn] (72 B) identical; [fn] 0.91 (slot-order)
+- 2026-09-13 - 2.946% (+0.025 pt), 267 fns - vc8: batch 128: [fn] (254 B, 11/11) identical under /Od /Ob1
+- 2026-09-13 - 2.921% (+0.009 pt), 266 fns - vc8: batches 127,129: [fn] (86 B) identical; [fn] 0.97 (slot-order)
+- 2026-09-13 - 2.912% (+0.010 pt), 265 fns - vc8: batch 126: [fn] (100 B) identical under /Od /Ob1
+- 2026-09-12 - 2.902% (-0.064 pt), 264 fns - vc8: bare-block nesting lint (depth >= 2 refused as a slot-order contortion); four counted bodies re-phrased to honest plateaus; [fn] ide...
+- 2026-09-12 - 2.966% (+0.014 pt), 267 fns - vc8: batch 121: [fn] (138 B) identical under /Od /Ob1
+- 2026-09-12 - 2.952% (+0.007 pt), 266 fns - vc8: batch 119: [fn] (71 B) identical under /Od /Ob1
+- 2026-09-12 - 2.945% (+0.014 pt), 265 fns - vc8: batch 120: [fn] (132 B) identical under /Od /Ob1
+- 2026-09-12 - 2.931% (+0.009 pt), 264 fns - vc8: /Od frame-slot rule derived (spelling-keyed within a block; nesting the only lever); [fn] identical; [fn] identical
+- 2026-09-12 - 2.922% (+0.006 pt), 263 fns - vc8: batch 117: [fn] (63 B) identical (by-value byte struct reading)
+- 2026-09-12 - 2.916% (+0.032 pt), 262 fns - vc8: /Od compiland is /Od /Ob1 -- [fn] (169 B) identical via an inlined __inline helper; range flags refined (evidence-forced, flagged fo...
+- 2026-09-12 - 2.884% (+0.013 pt), 260 fns - vc8: batch 114: [fn] (129 B) identical under /Od; C89 bare-block reading sharpened
+- 2026-09-12 - 2.871% (+0.012 pt), 259 fns - vc8: batches 111,113: [fn] (115 B) identical; [fn] 0.84 (/Od slot colouring)
+- 2026-09-12 - 2.859% (+0.008 pt), 258 fns - vc8: batches 110,112: [fn] (80 B) identical; [fn] 0.70 (scheduling plateau)
+- 2026-09-12 - 2.851% (+0.034 pt), 257 fns - vc8: batches 108-109: [fn] (164 B), [fn] (173 B) identical; selector: ratified ranges bypass the core-region floor
+- 2026-09-12 - 2.817% (+0.028 pt), 255 fns - vc8: batches 106-107: [fn] (127 B, in-class /Ob1 inlining reading), [fn] (146 B) identical
+- 2026-09-12 - 2.789% (+0.041 pt), 253 fns - vc8: batches 104-105: [fn] (278 B, /Od scope-nesting slot order) and [fn] (123 B) identical
+- 2026-09-12 - 2.748% (+0.024 pt), 251 fns - vc8: batches 102-103: [fns] (120 B each) identical under /Od; bool + guard-clause readings
+- 2026-09-12 - 2.724% (+0.021 pt), 249 fns - vc8: batches 100-101: [fn] (86 B), [fn] (116 B) identical under /Od
+- 2026-09-12 - 2.703% (+0.036 pt), 247 fns - vc8: batches 98-99: [fn] (152 B), [fn] (205 B) identical under /Od
+- 2026-09-12 - 2.667% (+0.015 pt), 245 fns - vc8: batches 96-97: [fn] identical (/Od); [fn] 0.66; /Oi probe recorded
+- 2026-09-12 - 2.652% (+0.098 pt), 243 fns - vc8: /Od compiland range RATIFIED (BYTE-MATCH-TIER amendment 3); batches 92-95 identical; 2.652%
+- 2026-09-12 - 2.554% (+0.050 pt), 233 fns - VC8 track: batches 87-91,93 (6 identical) + control fallbacks; 2.554%
+- 2026-09-12 - 2.504% (+0.036 pt), 226 fns - vc8: batches 80-86: [fn], OutHistory [fns] identical
+- 2026-09-12 - 2.468% (+0.016 pt), 221 fns - vc8: batches 74-79: [fns] identical; LagSim pair 0.86/0.92; [fn] 0.90
+- 2026-09-12 - 2.452% (+0.023 pt), 219 fns - vc8: batches 71-73: [fns] identical
+- 2026-09-12 - 2.429% (+0.000 pt), 216 fns - vc8: the /Od compiland is a VA range (-, 260 fns, 91% ebp-framed) -- tu-flags.json ranges; [fns] identical under /Od (unratified)
+- 2026-09-12 - 2.429% (+0.000 pt), 216 fns - vc8: RHI /Od compiland: DX.c added to tu-flags.json (unratified); [fns] identical under /Od; alias form for unnamed data targets
+- 2026-09-12 - 2.429% (+0.009 pt), 216 fns - vc8: per-TU flag sets (tu-flags.json) -- RHI.c is an /Od compiland, entry UNRATIFIED
+- 2026-09-12 - 2.420% (+0.026 pt), 215 fns - vc8: batches 49-53: [fns] identical; [fn] 0.40, [fn] (RANMAR) 0.85, [fn] 0.80 (a sibling self-call the compiler peels), [fn] 0.94
+- 2026-09-12 - 2.394% (+0.018 pt), 212 fns - verified_bytes: closure bodies were never counted (stray continue); fixed, suite case added; harness passes /I for closure includes in co...
+- 2026-09-12 - 2.376% (+0.038 pt), 210 fns - vc8: batches 43-48: [fns] (closure: 0.43 -> 0.80 -> identical), [fn] identical
+- 2026-09-12 - 2.338% (+0.070 pt), 208 fns - vc8: batches 33-42: Collections/IO run -- [fn], LinkedList [fn]/front, [fn], StringMap [fns] identical
+- 2026-09-12 - 2.268% (+0.029 pt), 201 fns - vc8: batches 31-32 + closure feed: [fn] identical; constructor 0.07 -> 0.98 by closure; [fn] identical
+- 2026-09-12 - 2.239% (+0.106 pt), 199 fns - vc8: batches 22-30: 107 of 214 identical; BYTES 104 fns / 16,516 B; 2.239%
+- 2026-09-12 - 2.133% (+0.022 pt), 195 fns - vc8: batch 21 ([fn] identical, 8/8)
+- 2026-09-12 - 2.111% (+0.026 pt), 194 fns - vc8: batch 18 ([fn] identical, 16/16)
+- 2026-09-12 - 2.085% (+0.007 pt), 193 fns - vc8: batch 17 ([fn] identical)
+- 2026-09-12 - 2.078% (+0.029 pt), 192 fns - vc8: track batch 14: 99 of 200 identical
+- 2026-09-12 - 2.049% (+0.198 pt), 191 fns - vc8: Codex large band folded in; 97 of 197 identical; BYTES 96 fns; 2.049%
+- 2026-09-12 - 1.851% (+0.020 pt), 186 fns - vc8: track batch 13: 92 of 151 identical
+- 2026-09-12 - 1.831% (+0.028 pt), 185 fns - vc8: track batch 12 (second family batch): 91 of 148 identical; 1.831%
+- 2026-09-12 - 1.803% (+0.038 pt), 183 fns - vc8: track batch 11 (first family batch): 89 of 138 identical; 1.803%
+- 2026-09-12 - 1.765% (+0.018 pt), 181 fns - docs: align roadmap and campaign with the 2026-09-12 strategy
+- 2026-09-12 - 1.747% (+0.177 pt), 179 fns - vc8: track batch 10: 85 of 126 identical; BYTES 84 fns / 11,667 B; 1.747%
+- 2026-09-12 - 1.570% (+0.134 pt), 168 fns - vc8: track batch 9: 76 of 114 identical; BYTES 73 fns / 9,919 B; 1.570%
+- 2026-09-12 - 1.436% (+0.134 pt), 159 fns - vc8: track batch 8: 65 of 101 identical; BYTES 64 fns / 8,596 B; 1.436%
+- 2026-09-12 - 1.302% (+0.121 pt), 150 fns - track batch 7 + resumed: 56 of 89 identical; BYTES 55 fns / 7,283 B; 1.302%
+- 2026-09-12 - 1.181% (+0.097 pt), 143 fns - track batch 6: 8 of 12 identical (4 interrupted by the session limit); BYTES 48 fns / 6,082 B; 1.181%
+- 2026-09-11 - 1.084% (+0.098 pt), 136 fns - track batch 5: 6 of 12 identical; BYTES 41 fns / 5,134 B; 1.084%
+- 2026-09-11 - 0.986% (+0.065 pt), 130 fns - track batch 4: 7 of 12 identical; BYTES 35 fns / 4,165 B; 0.986%
+- 2026-09-11 - 0.921% (+0.105 pt), 123 fns - track batch 3: 8 of 12 identical; BYTES 28 fns / 3,523 B; 0.921%
+- 2026-09-11 - 0.816% (+0.099 pt), 115 fns - track batch 2: 8 of 12 identical; BYTES 20 fns / 2,485 B; 0.816%
+- 2026-09-11 - 0.717% (+0.000 pt), 107 fns - toolchain: track selector (callee conventions checked, siblings grouped) + batch closer; batch 2 list
+- 2026-09-11 - 0.717% (+0.154 pt), 107 fns - BYTES tier ratified and counted: 0.563% -> 0.717%
+- 2026-09-11 - 0.563% (+0.168 pt), 95 fns - matched: 20 more hand-matched bodies, 12 proven; run of record re-cut (33 bodies, 21 proven); 0.563%
+- 2026-09-11 - 0.395% (+0.115 pt), 84 fns - pool: pins established for 161 unpinned VAs; 205-body run of record; 0.395%
+- 2026-09-11 - 0.280% (+0.037 pt), 48 fns - pool re-cut as run of record (195 VAs, 0.280%); B1 exact frame-write kill set
+- 2026-09-11 - 0.243% (+0.092 pt), 47 fns - matched: 9 of 13 proven under the ratified gate; reg-arg + caller-pop refusal; 0.243%
+- 2026-09-11 - 0.151% (+0.026 pt), 38 fns - matched: [fn] and [fn] proven; metric reads the matched manifest; 0.151%
+- 2026-09-11 - 0.125% (-0.145 pt), 35 fns - verified_bytes: read required_tier from the current inventory; require the SSE2 verdict; 0.270% -> 0.125%
+- 2026-09-11 - 0.270%, 53 fns - Adopt verified bytes as the headline metric; demote Moravec to acceptance checkpoint

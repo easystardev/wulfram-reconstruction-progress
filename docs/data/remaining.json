@@ -1,0 +1,127 @@
+{
+ "generated_utc": "2026-10-08T02:13:08+00:00",
+ "schema": "wulfram-progress/1",
+ "note": "Progress metrics only; the reconstruction itself is not published here.",
+ "as_of_rebuild_snapshot": "current verified-bytes snapshot",
+ "census_date": "2026-10-04",
+ "first_party_denominator_bytes": 947693,
+ "first_party_verified_bytes": 202527,
+ "remaining_first_party_bytes": 745166,
+ "classified_by_census_bytes": 633278,
+ "overlap_or_drift_bytes": 0,
+ "buckets": [
+  {
+   "key": "plain_singles",
+   "label": "Plain singles",
+   "functions": 378,
+   "bytes": 192783,
+   "percent_of_remaining_first_party": 25.87,
+   "by_class": {
+    "census plain-single track": {
+     "functions": 5,
+     "bytes": 845
+    },
+    "other single candidates": {
+     "functions": 206,
+     "bytes": 56370
+    },
+    "worth a singles wave": {
+     "functions": 167,
+     "bytes": 23680
+    },
+    "outside the census filters (residual)": {
+     "functions": null,
+     "bytes": 111888
+    }
+   }
+  },
+  {
+   "key": "closed_clusters",
+   "label": "Closed clusters",
+   "functions": 394,
+   "bytes": 131575,
+   "percent_of_remaining_first_party": 17.66,
+   "by_class": {
+    "1 member": {
+     "functions": 13,
+     "bytes": 1224
+    },
+    "2-8 members, <=2 KB": {
+     "functions": 188,
+     "bytes": 47532
+    },
+    "2-8 members, >2 KB": {
+     "functions": 30,
+     "bytes": 25092
+    },
+    "9-24 members": {
+     "functions": 86,
+     "bytes": 26502
+    },
+    "25-99 members (library-entangled)": {
+     "functions": 77,
+     "bytes": 31225
+    }
+   }
+  },
+  {
+   "key": "frame_alignment",
+   "label": "Frame / alignment classes",
+   "functions": 176,
+   "bytes": 68211,
+   "percent_of_remaining_first_party": 9.15,
+   "by_class": {
+    "single function": {
+     "functions": 52,
+     "bytes": 24700
+    },
+    "multi-member": {
+     "functions": 124,
+     "bytes": 43511
+    }
+   }
+  },
+  {
+   "key": "giant_component",
+   "label": "Giant tangled component",
+   "functions": 1123,
+   "bytes": 348632,
+   "percent_of_remaining_first_party": 46.79,
+   "by_class": {}
+  },
+  {
+   "key": "policy_held",
+   "label": "Policy-held",
+   "functions": 21,
+   "bytes": 3965,
+   "percent_of_remaining_first_party": 0.53,
+   "by_class": {
+    "reserved by another lane or awaiting an ABI ruling": {
+     "functions": 20,
+     "bytes": 3952
+    },
+    "proven but not countable under current rules": {
+     "functions": 1,
+     "bytes": 13
+    }
+   }
+  }
+ ],
+ "library_tier": {
+  "note": "Library code (static C runtime, Speex, bzip2, libjpeg) is measured on its own line and is NOT part of the first-party figure above.",
+  "denominator_bytes": 302789,
+  "exact_bytes": 172330,
+  "pending_bytes": 90593,
+  "unmatched_bytes": 39866
+ },
+ "definitions": {
+  "remaining_first_party_bytes": "first-party target bytes (library-attributed rows moved out) minus verified bytes.",
+  "plain_singles": "functions with a standard calling convention, no register inputs from callers and no compiler frame-alignment demand; each can be attempted on its own. Includes single-function units the census put on the plain-single track, the census single-candidate list (split into 'worth a singles wave' and the rest), and a residual of first-party bytes that the census did not place in any unit (large, x87-heavy, complex exception handling or otherwise outside its filters).",
+  "closed_clusters": "groups of functions that whole-program optimisation tied together through custom register conventions, whose closure is complete (every member's callers are inside the group). Grouped by size class: number of members and bytes.",
+  "frame_alignment": "single functions or groups whose stack-frame shape (8- or 64-byte realignment, padding slots) depends on callers or callees; reproducing them needs the right neighbours compiled together. Includes groups whose frame chain went beyond the census pull limit.",
+  "giant_component": "one very large connected component (over a thousand functions) where register-convention and frame dependencies chain together; it cannot be cut into small units under current rules.",
+  "policy_held": "work that is held by a process rule rather than by difficulty: units reserved for another work lane, units that need an ownership ruling on a calling-convention contradiction, and results that are proven but not countable under the current counting rules.",
+  "library_pending": "library bytes whose image matches a pinned library object with no disagreeing relocation, but where not every relocation has been verified yet; listed, not counted.",
+  "census_staleness": "bucket membership comes from the latest dependency census (dated above); functions verified since then are removed, so the buckets only shrink between census refreshes."
+ }
+}

@@ -1,0 +1,360 @@
+{
+ "generated_utc": "2026-10-08T02:13:08+00:00",
+ "schema": "wulfram-progress/1",
+ "note": "Progress metrics only; the reconstruction itself is not published here.",
+ "snapshot": {
+  "date": "2026-10-07T18:35:13-05:00",
+  "subject": "Promote 52 verified R51-54 reconstruction functions",
+  "verified_functions": 1701,
+  "verified_bytes": 202527,
+  "denominator_functions": 4392,
+  "denominator_bytes": 986454,
+  "verified_bytes_percent": 20.531,
+  "verified_by_proof_tier": {
+   "BYTES": 199982,
+   "T1-diffexec": 2452,
+   "T1-oracle": 93
+  },
+  "first_party_excluding_library_rows": {
+   "percent": 21.371,
+   "numerator_bytes": 202527,
+   "denominator_bytes": 947693,
+   "functions": 4310
+  },
+  "library_tier": {
+   "percent": 56.914,
+   "exact_bytes": 172330,
+   "pending_bytes": 90593,
+   "denominator_bytes": 302789
+  },
+  "provisional_counted_bytes": 1279,
+  "verified_bytes_by_subsystem": {
+   "System/Graphics": 34295,
+   "Game/Simulation": 34127,
+   "Game/View": 27077,
+   "System/Core": 21246,
+   "Game/Session": 20130,
+   "System/Network": 14825,
+   "System/UI": 10355,
+   "AppInit/AppCore": 6377,
+   "System/Platform": 5353,
+   "Tools/InGameEditors": 5236,
+   "Game/Data": 4804,
+   "System/Input": 4530,
+   "Tools/Debug": 3662,
+   "Services": 3615,
+   "Tools": 1804,
+   "System/Audio": 1483,
+   "Game": 1029,
+   "System": 998,
+   "GUESS3": 595,
+   "Game/Common": 453,
+   "AppInit/AppInit_win32_winmain": 250,
+   "System/Common": 179,
+   "GUESS4": 104
+  },
+  "areas": {
+   "view.hud": {
+    "bytes": 69726,
+    "verified_bytes": 9883,
+    "functions": 234,
+    "verified_functions": 64,
+    "percent": 14.174
+   },
+   "gfx.backend": {
+    "bytes": 66828,
+    "verified_bytes": 25566,
+    "functions": 282,
+    "verified_functions": 153,
+    "percent": 38.256
+   },
+   "view.screens": {
+    "bytes": 58444,
+    "verified_bytes": 8758,
+    "functions": 260,
+    "verified_functions": 73,
+    "percent": 14.985
+   },
+   "tools.editors": {
+    "bytes": 57988,
+    "verified_bytes": 5916,
+    "functions": 250,
+    "verified_functions": 48,
+    "percent": 10.202
+   },
+   "core.debug": {
+    "bytes": 57121,
+    "verified_bytes": 9880,
+    "functions": 202,
+    "verified_functions": 86,
+    "percent": 17.297
+   },
+   "sim.world": {
+    "bytes": 56378,
+    "verified_bytes": 7256,
+    "functions": 174,
+    "verified_functions": 42,
+    "percent": 12.87
+   },
+   "gfx.raster": {
+    "bytes": 55913,
+    "verified_bytes": 6403,
+    "functions": 208,
+    "verified_functions": 48,
+    "percent": 11.452
+   },
+   "ui.widgets": {
+    "bytes": 55790,
+    "verified_bytes": 10355,
+    "functions": 329,
+    "verified_functions": 107,
+    "percent": 18.561
+   },
+   "sim.physics": {
+    "bytes": 38806,
+    "verified_bytes": 11840,
+    "functions": 174,
+    "verified_functions": 92,
+    "percent": 30.511
+   },
+   "view.tactical": {
+    "bytes": 38434,
+    "verified_bytes": 3321,
+    "functions": 140,
+    "verified_functions": 28,
+    "percent": 8.641
+   },
+   "sim.collision": {
+    "bytes": 38411,
+    "verified_bytes": 6587,
+    "functions": 122,
+    "verified_functions": 38,
+    "percent": 17.149
+   },
+   "social": {
+    "bytes": 35515,
+    "verified_bytes": 6105,
+    "functions": 125,
+    "verified_functions": 61,
+    "percent": 17.19
+   },
+   "view.fx": {
+    "bytes": 30657,
+    "verified_bytes": 1423,
+    "functions": 116,
+    "verified_functions": 14,
+    "percent": 4.642
+   },
+   "core.concurrency": {
+    "bytes": 28893,
+    "verified_bytes": 1092,
+    "functions": 68,
+    "verified_functions": 20,
+    "percent": 3.779
+   },
+   "sim.entities": {
+    "bytes": 28700,
+    "verified_bytes": 8444,
+    "functions": 155,
+    "verified_functions": 87,
+    "percent": 29.422
+   },
+   "app.bootstrap": {
+    "bytes": 27558,
+    "verified_bytes": 6627,
+    "functions": 83,
+    "verified_functions": 39,
+    "percent": 24.047
+   },
+   "gfx.texture": {
+    "bytes": 23996,
+    "verified_bytes": 3608,
+    "functions": 126,
+    "verified_functions": 37,
+    "percent": 15.036
+   },
+   "net.replication": {
+    "bytes": 20317,
+    "verified_bytes": 6325,
+    "functions": 93,
+    "verified_functions": 44,
+    "percent": 31.132
+   },
+   "core.io": {
+    "bytes": 19930,
+    "verified_bytes": 2218,
+    "functions": 117,
+    "verified_functions": 33,
+    "percent": 11.129
+   },
+   "services.updater": {
+    "bytes": 19712,
+    "verified_bytes": 5841,
+    "functions": 120,
+    "verified_functions": 60,
+    "percent": 29.632
+   },
+   "net.protocol": {
+    "bytes": 18207,
+    "verified_bytes": 10021,
+    "functions": 152,
+    "verified_functions": 111,
+    "percent": 55.039
+   },
+   "math.kernel": {
+    "bytes": 15641,
+    "verified_bytes": 6800,
+    "functions": 101,
+    "verified_functions": 60,
+    "percent": 43.475
+   },
+   "assets.formats": {
+    "bytes": 15278,
+    "verified_bytes": 6722,
+    "functions": 66,
+    "verified_functions": 33,
+    "percent": 43.998
+   },
+   "net.session": {
+    "bytes": 14005,
+    "verified_bytes": 6271,
+    "functions": 86,
+    "verified_functions": 53,
+    "percent": 44.777
+   },
+   "input.devices": {
+    "bytes": 13219,
+    "verified_bytes": 4822,
+    "functions": 88,
+    "verified_functions": 44,
+    "percent": 36.478
+   },
+   "net.transport": {
+    "bytes": 12514,
+    "verified_bytes": 4477,
+    "functions": 78,
+    "verified_functions": 44,
+    "percent": 35.776
+   },
+   "core.runtime": {
+    "bytes": 12024,
+    "verified_bytes": 6501,
+    "functions": 125,
+    "verified_functions": 78,
+    "percent": 54.067
+   },
+   "session.lifecycle": {
+    "bytes": 11580,
+    "verified_bytes": 1488,
+    "functions": 69,
+    "verified_functions": 22,
+    "percent": 12.85
+   },
+   "input.bindings": {
+    "bytes": 7899,
+    "verified_bytes": 1029,
+    "functions": 44,
+    "verified_functions": 7,
+    "percent": 13.027
+   },
+   "platform.window": {
+    "bytes": 7418,
+    "verified_bytes": 2047,
+    "functions": 30,
+    "verified_functions": 16,
+    "percent": 27.595
+   },
+   "audio.runtime": {
+    "bytes": 6656,
+    "verified_bytes": 1040,
+    "functions": 40,
+    "verified_functions": 9,
+    "percent": 15.625
+   },
+   "view.camera": {
+    "bytes": 6436,
+    "verified_bytes": 549,
+    "functions": 30,
+    "verified_functions": 7,
+    "percent": 8.53
+   },
+   "view.comms": {
+    "bytes": 5244,
+    "verified_bytes": 829,
+    "functions": 25,
+    "verified_functions": 6,
+    "percent": 15.809
+   },
+   "audio.backend": {
+    "bytes": 5212,
+    "verified_bytes": 490,
+    "functions": 38,
+    "verified_functions": 9,
+    "percent": 9.401
+   },
+   "crypto.hash": {
+    "bytes": 2992,
+    "verified_bytes": 220,
+    "functions": 7,
+    "verified_functions": 4,
+    "percent": 7.353
+   },
+   "sim.clock": {
+    "bytes": 2843,
+    "verified_bytes": 1773,
+    "functions": 34,
+    "verified_functions": 24,
+    "percent": 62.364
+   },
+   "third-party.bzip2": {
+    "bytes": 169,
+    "verified_bytes": 0,
+    "functions": 1,
+    "verified_functions": 0,
+    "percent": 0.0
+   }
+  },
+  "roles": {
+   "presentation": {
+    "bytes": 423336,
+    "verified_bytes": 72225,
+    "percent": 17.061
+   },
+   "simulation": {
+    "bytes": 180779,
+    "verified_bytes": 42700,
+    "percent": 23.62
+   },
+   "tooling": {
+    "bytes": 134821,
+    "verified_bytes": 21637,
+    "percent": 16.049
+   },
+   "gameplay": {
+    "bytes": 82552,
+    "verified_bytes": 15249,
+    "percent": 18.472
+   },
+   "platform": {
+    "bytes": 62044,
+    "verified_bytes": 12438,
+    "percent": 20.047
+   },
+   "protocol": {
+    "bytes": 55521,
+    "verified_bytes": 22837,
+    "percent": 41.132
+   },
+   "engine": {
+    "bytes": 47232,
+    "verified_bytes": 15441,
+    "percent": 32.692
+   },
+   "third-party": {
+    "bytes": 169,
+    "verified_bytes": 0,
+    "percent": 0.0
+   }
+  }
+ }
+}

@@ -2,6 +2,8 @@
 
 Progress reports for a byte-exact reconstruction of the Wulfram II game client.
 
+**📊 Live dashboard: <https://easystardev.github.io/wulfram-reconstruction-progress/>**
+
 > **This repository tracks progress metrics only.** It holds numbers, charts and prose.
 > The reconstruction itself (source code, game binaries, assets and build tooling) is
 > not published here.

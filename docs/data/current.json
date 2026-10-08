@@ -1,23 +1,23 @@
 {
- "generated_utc": "2026-10-08T15:38:02+00:00",
+ "generated_utc": "2026-10-08T17:43:51+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "snapshot": {
-  "date": "2026-10-08T10:37:51-05:00",
-  "subject": "Promote 18 verified edge-corrections reconstruction functions",
-  "verified_functions": 1895,
-  "verified_bytes": 245235,
+  "date": "2026-10-08T12:43:40-05:00",
+  "subject": "Promote 45 verified rulings2 reconstruction functions",
+  "verified_functions": 1939,
+  "verified_bytes": 254510,
   "denominator_functions": 4392,
   "denominator_bytes": 986454,
-  "verified_bytes_percent": 24.86,
+  "verified_bytes_percent": 25.8,
   "verified_by_proof_tier": {
-   "BYTES": 242690,
-   "T1-diffexec": 2452,
+   "BYTES": 251991,
+   "T1-diffexec": 2426,
    "T1-oracle": 93
   },
   "first_party_excluding_library_rows": {
-   "percent": 25.877,
-   "numerator_bytes": 245235,
+   "percent": 26.856,
+   "numerator_bytes": 254510,
    "denominator_bytes": 947693,
    "functions": 4310
   },
@@ -27,27 +27,27 @@
    "pending_bytes": 90593,
    "denominator_bytes": 302789
   },
-  "provisional_counted_bytes": 3727,
-  "bytes_tier_bytes": 242690,
-  "bytes_tier_functions": 1868,
+  "provisional_counted_bytes": 5298,
+  "bytes_tier_bytes": 251991,
+  "bytes_tier_functions": 1913,
   "verified_bytes_by_subsystem": {
    "Game/Simulation": 42605,
-   "System/Graphics": 36148,
-   "Game/View": 35853,
-   "System/Core": 25202,
-   "Game/Session": 22718,
-   "System/Network": 17633,
-   "System/UI": 12328,
-   "AppInit/AppCore": 10497,
+   "System/Graphics": 37042,
+   "Game/View": 36431,
+   "System/Core": 25482,
+   "Game/Session": 22964,
+   "System/Network": 19140,
+   "System/UI": 13045,
+   "AppInit/AppCore": 11656,
    "System/Platform": 7458,
-   "Game/Data": 6843,
-   "Tools/InGameEditors": 6116,
+   "Tools/InGameEditors": 7287,
+   "Game/Data": 6957,
+   "System/Input": 5840,
    "Services": 5032,
-   "System/Input": 4717,
-   "Tools/Debug": 3783,
+   "Tools/Debug": 4575,
+   "Tools": 2431,
    "System/Audio": 2059,
-   "Tools": 1804,
-   "Game": 1701,
+   "Game": 1768,
    "System": 1157,
    "GUESS3": 595,
    "Game/Common": 453,
@@ -65,31 +65,31 @@
    },
    "gfx.backend": {
     "bytes": 66828,
-    "verified_bytes": 26840,
+    "verified_bytes": 26960,
     "functions": 282,
-    "verified_functions": 163,
-    "percent": 40.163
+    "verified_functions": 164,
+    "percent": 40.342
    },
    "view.screens": {
     "bytes": 58444,
-    "verified_bytes": 12367,
+    "verified_bytes": 12480,
     "functions": 260,
-    "verified_functions": 86,
-    "percent": 21.16
+    "verified_functions": 88,
+    "percent": 21.354
    },
    "tools.editors": {
     "bytes": 57988,
-    "verified_bytes": 6796,
+    "verified_bytes": 8594,
     "functions": 250,
-    "verified_functions": 55,
-    "percent": 11.72
+    "verified_functions": 60,
+    "percent": 14.82
    },
    "core.debug": {
     "bytes": 57121,
-    "verified_bytes": 11076,
+    "verified_bytes": 12149,
     "functions": 202,
-    "verified_functions": 94,
-    "percent": 19.39
+    "verified_functions": 101,
+    "percent": 21.269
    },
    "sim.world": {
     "bytes": 56378,
@@ -100,17 +100,17 @@
    },
    "gfx.raster": {
     "bytes": 55913,
-    "verified_bytes": 7920,
+    "verified_bytes": 8385,
     "functions": 208,
-    "verified_functions": 53,
-    "percent": 14.165
+    "verified_functions": 54,
+    "percent": 14.997
    },
    "ui.widgets": {
     "bytes": 55790,
-    "verified_bytes": 12328,
+    "verified_bytes": 13045,
     "functions": 329,
-    "verified_functions": 117,
-    "percent": 22.097
+    "verified_functions": 119,
+    "percent": 23.382
    },
    "sim.physics": {
     "bytes": 38806,
@@ -135,10 +135,10 @@
    },
    "social": {
     "bytes": 35515,
-    "verified_bytes": 7256,
+    "verified_bytes": 7292,
     "functions": 125,
-    "verified_functions": 69,
-    "percent": 20.431
+    "verified_functions": 70,
+    "percent": 20.532
    },
    "view.fx": {
     "bytes": 30657,
@@ -163,24 +163,24 @@
    },
    "app.bootstrap": {
     "bytes": 27558,
-    "verified_bytes": 10747,
+    "verified_bytes": 11906,
     "functions": 83,
-    "verified_functions": 44,
-    "percent": 38.998
+    "verified_functions": 46,
+    "percent": 43.203
    },
    "gfx.texture": {
     "bytes": 23996,
-    "verified_bytes": 4121,
+    "verified_bytes": 4895,
     "functions": 126,
-    "verified_functions": 41,
-    "percent": 17.174
+    "verified_functions": 48,
+    "percent": 20.399
    },
    "net.replication": {
     "bytes": 20317,
-    "verified_bytes": 6678,
+    "verified_bytes": 6754,
     "functions": 93,
-    "verified_functions": 48,
-    "percent": 32.869
+    "verified_functions": 49,
+    "percent": 33.243
    },
    "core.io": {
     "bytes": 19930,
@@ -205,45 +205,45 @@
    },
    "math.kernel": {
     "bytes": 15641,
-    "verified_bytes": 8249,
+    "verified_bytes": 8352,
     "functions": 101,
-    "verified_functions": 65,
-    "percent": 52.74
+    "verified_functions": 66,
+    "percent": 53.398
    },
    "assets.formats": {
     "bytes": 15278,
-    "verified_bytes": 9044,
+    "verified_bytes": 9158,
     "functions": 66,
-    "verified_functions": 39,
-    "percent": 59.196
+    "verified_functions": 40,
+    "percent": 59.942
    },
    "net.session": {
     "bytes": 14005,
-    "verified_bytes": 6726,
+    "verified_bytes": 6860,
     "functions": 86,
-    "verified_functions": 56,
-    "percent": 48.026
+    "verified_functions": 57,
+    "percent": 48.983
    },
    "input.devices": {
     "bytes": 13219,
-    "verified_bytes": 5009,
+    "verified_bytes": 6132,
     "functions": 88,
-    "verified_functions": 47,
-    "percent": 37.892
+    "verified_functions": 52,
+    "percent": 46.388
    },
    "net.transport": {
     "bytes": 12514,
-    "verified_bytes": 5750,
+    "verified_bytes": 6976,
     "functions": 78,
-    "verified_functions": 52,
-    "percent": 45.949
+    "verified_functions": 56,
+    "percent": 55.746
    },
    "core.runtime": {
     "bytes": 12024,
-    "verified_bytes": 7031,
+    "verified_bytes": 7208,
     "functions": 125,
-    "verified_functions": 83,
-    "percent": 58.475
+    "verified_functions": 85,
+    "percent": 59.947
    },
    "session.lifecycle": {
     "bytes": 11580,
@@ -254,10 +254,10 @@
    },
    "input.bindings": {
     "bytes": 7899,
-    "verified_bytes": 1252,
+    "verified_bytes": 1319,
     "functions": 44,
-    "verified_functions": 8,
-    "percent": 15.85
+    "verified_functions": 9,
+    "percent": 16.698
    },
    "platform.window": {
     "bytes": 7418,
@@ -319,38 +319,38 @@
   "roles": {
    "presentation": {
     "bytes": 423336,
-    "verified_bytes": 85403,
-    "percent": 20.174
+    "verified_bytes": 87592,
+    "percent": 20.691
    },
    "simulation": {
     "bytes": 180779,
-    "verified_bytes": 52821,
-    "percent": 29.219
+    "verified_bytes": 52924,
+    "percent": 29.276
    },
    "tooling": {
     "bytes": 134821,
-    "verified_bytes": 27138,
-    "percent": 20.129
+    "verified_bytes": 30009,
+    "percent": 22.258
    },
    "gameplay": {
     "bytes": 82552,
-    "verified_bytes": 21468,
-    "percent": 26.005
+    "verified_bytes": 22730,
+    "percent": 27.534
    },
    "platform": {
     "bytes": 62044,
-    "verified_bytes": 14154,
-    "percent": 22.813
+    "verified_bytes": 16503,
+    "percent": 26.599
    },
    "protocol": {
     "bytes": 55521,
-    "verified_bytes": 24733,
-    "percent": 44.547
+    "verified_bytes": 24943,
+    "percent": 44.925
    },
    "engine": {
     "bytes": 47232,
-    "verified_bytes": 19518,
-    "percent": 41.324
+    "verified_bytes": 19809,
+    "percent": 41.94
    },
    "third-party": {
     "bytes": 169,
@@ -360,17 +360,17 @@
   }
  },
  "exceptions": {
-  "counted_bytes": 245235,
-  "counted_functions": 1895,
-  "bytes_tier_bytes": 242690,
-  "bytes_tier_functions": 1868,
+  "counted_bytes": 254510,
+  "counted_functions": 1939,
+  "bytes_tier_bytes": 251991,
+  "bytes_tier_functions": 1913,
   "categories": [
    {
     "key": "provisional_amendment_20b",
     "label": "Shared-context rule (provisional)",
-    "functions": 26,
-    "bytes": 3727,
-    "percent_of_counted": 1.52,
+    "functions": 40,
+    "bytes": 5298,
+    "percent_of_counted": 2.082,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical. These functions sit in multi-function units whose only outside helpers are functions that were already verified; those helpers ride along unchanged as shared build context and are not counted a second time. The open question is the admission rule, not the bytes.",
@@ -379,9 +379,9 @@
    {
     "key": "T1",
     "label": "Behaviour-verified (lower tier)",
-    "functions": 27,
-    "bytes": 2545,
-    "percent_of_counted": 1.038,
+    "functions": 26,
+    "bytes": 2519,
+    "percent_of_counted": 0.99,
     "proof_tier": "behaviour",
     "bytes_identical": false,
     "nature": "Not yet byte-proven. Each function was run side by side with the original on recorded inputs and gave the same results, with a control that is able to fail. Counted in the campaign figure on a lower proof tier; not part of the byte-exact tier.",
@@ -392,7 +392,7 @@
     "label": "Chosen local-variable names",
     "functions": 5,
     "bytes": 1792,
-    "percent_of_counted": 0.731,
+    "percent_of_counted": 0.704,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical. The period compiler orders some stack slots by the spelling of local variable names. Where no evidence names the original variable, a name was chosen that reproduces the layout.",
@@ -401,9 +401,9 @@
    {
     "key": "invented_helpers",
     "label": "Invented helpers",
-    "functions": 32,
-    "bytes": 8160,
-    "percent_of_counted": 3.327,
+    "functions": 43,
+    "bytes": 11056,
+    "percent_of_counted": 4.344,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical. The source uses a small helper the original may not have had, for example a stand-in caller that gives the compiler the right surrounding context. The helper itself is never counted.",
@@ -412,9 +412,9 @@
    {
     "key": "unnamed_global_aliases",
     "label": "References to not-yet-named globals",
-    "functions": 264,
-    "bytes": 52367,
-    "percent_of_counted": 21.354,
+    "functions": 281,
+    "bytes": 56717,
+    "percent_of_counted": 22.285,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical, and every reference lands on the same address as in the original. The referenced global or function simply has no independently backed name yet.",
@@ -425,7 +425,7 @@
     "label": "Older alignment annotation",
     "functions": 4,
     "bytes": 420,
-    "percent_of_counted": 0.171,
+    "percent_of_counted": 0.165,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical, but the source reproduces the stack frame with an explicit alignment annotation. A later study of frame alignment suggests the original was written differently.",

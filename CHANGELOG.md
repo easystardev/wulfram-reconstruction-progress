@@ -2,6 +2,10 @@
 
 One line per commit that changed the verified-bytes measurement, newest first. Subjects are sanitised (function names and addresses removed).
 
+- 2026-10-08 - 25.800% (+0.940 pt), 1939 fns - Promote 45 verified rulings2 reconstruction functions
+- 2026-10-08 - 24.860% (+0.000 pt), 1895 fns - Amendment 20b extensions (PROVISIONAL): published giant hubs on the roster; EH-funclet call edges
+- 2026-10-08 - 24.860% (+0.000 pt), 1895 fns - verified_bytes: list every T1 row a BYTES row supersedes ([fn])
+- 2026-10-08 - 24.860% (+0.000 pt), 1895 fns - Retire the stale non-counting record k05-compass-hud-ltcg-2026-09-26
 - 2026-10-08 - 24.860% (+0.321 pt), 1895 fns - Promote 18 verified edge-corrections reconstruction functions
 - 2026-10-08 - 24.539% (+1.376 pt), 1877 fns - Promote 36 verified clusters11 reconstruction functions
 - 2026-10-08 - 23.163% (+1.292 pt), 1841 fns - Promote 46 verified queue-b reconstruction functions

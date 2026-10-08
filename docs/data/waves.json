@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-08T07:39:19+00:00",
+ "generated_utc": "2026-10-08T09:12:36+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "note_waves": "Counts only. 'counted now' = bytes of the wave that are in the current verified total. label_date is the date in the wave's planning label; result_date is when its results were recorded.",
@@ -114,12 +114,12 @@
    "label_date": "2026-10-04",
    "result_date": "2026-10-04",
    "attempted_functions": 20,
-   "attempted_bytes": 1980,
+   "attempted_bytes": 1976,
    "attempted_functions_unsized": 0,
    "exact_functions": 13,
    "exact_bytes": 1303,
-   "counted_now_functions": 12,
-   "counted_now_bytes": 1228
+   "counted_now_functions": 13,
+   "counted_now_bytes": 1288
   },
   {
    "wave": "round 56",
@@ -131,8 +131,8 @@
    "attempted_functions_unsized": 0,
    "exact_functions": 13,
    "exact_bytes": 1590,
-   "counted_now_functions": 11,
-   "counted_now_bytes": 1302
+   "counted_now_functions": 12,
+   "counted_now_bytes": 1439
   },
   {
    "wave": "round 57",
@@ -170,8 +170,8 @@
    "attempted_functions_unsized": 0,
    "exact_functions": 12,
    "exact_bytes": 1765,
-   "counted_now_functions": 10,
-   "counted_now_bytes": 1479
+   "counted_now_functions": 11,
+   "counted_now_bytes": 1673
   },
   {
    "wave": "round 60",
@@ -222,8 +222,8 @@
    "attempted_functions_unsized": 0,
    "exact_functions": 34,
    "exact_bytes": 4233,
-   "counted_now_functions": 13,
-   "counted_now_bytes": 1279
+   "counted_now_functions": 18,
+   "counted_now_bytes": 2708
   },
   {
    "wave": "cluster wave 8",
@@ -235,8 +235,8 @@
    "attempted_functions_unsized": 0,
    "exact_functions": 29,
    "exact_bytes": 7626,
-   "counted_now_functions": 0,
-   "counted_now_bytes": 0
+   "counted_now_functions": 13,
+   "counted_now_bytes": 5465
   },
   {
    "wave": "cluster wave 10",
@@ -248,8 +248,8 @@
    "attempted_functions_unsized": 0,
    "exact_functions": 35,
    "exact_bytes": 5650,
-   "counted_now_functions": 0,
-   "counted_now_bytes": 0
+   "counted_now_functions": 8,
+   "counted_now_bytes": 1869
   },
   {
    "wave": "cluster wave 11",
@@ -274,8 +274,8 @@
    "attempted_functions_unsized": 0,
    "exact_functions": 52,
    "exact_bytes": 13007,
-   "counted_now_functions": 1,
-   "counted_now_bytes": 26
+   "counted_now_functions": 15,
+   "counted_now_bytes": 3331
   }
  ]
 }

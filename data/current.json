@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-08T10:44:13+00:00",
+ "generated_utc": "2026-10-08T12:19:02+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "snapshot": {
@@ -28,6 +28,8 @@
    "denominator_bytes": 302789
   },
   "provisional_counted_bytes": 1279,
+  "bytes_tier_bytes": 239520,
+  "bytes_tier_functions": 1850,
   "verified_bytes_by_subsystem": {
    "Game/Simulation": 42183,
    "System/Graphics": 36148,
@@ -356,5 +358,81 @@
     "percent": 0.0
    }
   }
+ },
+ "exceptions": {
+  "counted_bytes": 242065,
+  "counted_functions": 1877,
+  "bytes_tier_bytes": 239520,
+  "bytes_tier_functions": 1850,
+  "categories": [
+   {
+    "key": "provisional_amendment_20b",
+    "label": "Shared-context rule (provisional)",
+    "functions": 13,
+    "bytes": 1279,
+    "percent_of_counted": 0.528,
+    "proof_tier": "byte-exact",
+    "bytes_identical": true,
+    "nature": "Byte-identical. These functions sit in multi-function units whose only outside helpers are functions that were already verified; those helpers ride along unchanged as shared build context and are not counted a second time. The open question is the admission rule, not the bytes.",
+    "plan": "Gate rule under review. If it is tightened, the whole block can be taken out of the count in one step."
+   },
+   {
+    "key": "T1",
+    "label": "Behaviour-verified (lower tier)",
+    "functions": 27,
+    "bytes": 2545,
+    "percent_of_counted": 1.051,
+    "proof_tier": "behaviour",
+    "bytes_identical": false,
+    "nature": "Not yet byte-proven. Each function was run side by side with the original on recorded inputs and gave the same results, with a control that is able to fail. Counted in the campaign figure on a lower proof tier; not part of the byte-exact tier.",
+    "plan": "Expected to be temporary: these are meant to be replaced by byte-exact versions as their units are rebuilt."
+   },
+   {
+    "key": "name_forced",
+    "label": "Chosen local-variable names",
+    "functions": 5,
+    "bytes": 1792,
+    "percent_of_counted": 0.74,
+    "proof_tier": "byte-exact",
+    "bytes_identical": true,
+    "nature": "Byte-identical. The period compiler orders some stack slots by the spelling of local variable names. Where no evidence names the original variable, a name was chosen that reproduces the layout.",
+    "plan": "Evidence-quality flag; revisit if naming evidence turns up."
+   },
+   {
+    "key": "invented_helpers",
+    "label": "Invented helpers",
+    "functions": 32,
+    "bytes": 8160,
+    "percent_of_counted": 3.371,
+    "proof_tier": "byte-exact",
+    "bytes_identical": true,
+    "nature": "Byte-identical. The source uses a small helper the original may not have had, for example a stand-in caller that gives the compiler the right surrounding context. The helper itself is never counted.",
+    "plan": "Evidence-quality flag; revisit and replace with the original structure where it can be identified."
+   },
+   {
+    "key": "unnamed_global_aliases",
+    "label": "References to not-yet-named globals",
+    "functions": 248,
+    "bytes": 49619,
+    "percent_of_counted": 20.498,
+    "proof_tier": "byte-exact",
+    "bytes_identical": true,
+    "nature": "Byte-identical, and every reference lands on the same address as in the original. The referenced global or function simply has no independently backed name yet.",
+    "plan": "Naming work; the bytes and addresses already agree."
+   },
+   {
+    "key": "declspec_align_grandfathered",
+    "label": "Older alignment annotation",
+    "functions": 4,
+    "bytes": 420,
+    "percent_of_counted": 0.174,
+    "proof_tier": "byte-exact",
+    "bytes_identical": true,
+    "nature": "Byte-identical, but the source reproduces the stack frame with an explicit alignment annotation. A later study of frame alignment suggests the original was written differently.",
+    "plan": "Grandfathered; due to be re-ported the newer way."
+   }
+  ],
+  "library_provisional_rules": [],
+  "note": "Apart from the behaviour-verified row, these flags describe how a unit was admitted or attributed (the evidence rules), not bytes that fail to match. A function can carry more than one flag, so the rows overlap and do not add up."
  }
 }

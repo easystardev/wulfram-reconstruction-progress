@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-08T10:44:13+00:00",
+ "generated_utc": "2026-10-08T12:19:02+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "snapshots": [
@@ -18,6 +18,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": null,
+   "bytes_tier_functions": null,
    "verified_bytes_by_subsystem": {
     "System/Core": 1042,
     "Game/Simulation": 570,
@@ -49,6 +51,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": null,
+   "bytes_tier_functions": null,
    "verified_bytes_by_subsystem": {
     "System/Core": 491,
     "System/Graphics": 207,
@@ -77,6 +81,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": null,
+   "bytes_tier_functions": null,
    "verified_bytes_by_subsystem": {
     "System/Core": 746,
     "System/Graphics": 207,
@@ -105,6 +111,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": null,
+   "bytes_tier_functions": null,
    "verified_bytes_by_subsystem": {
     "System/Core": 966,
     "Game/Simulation": 807,
@@ -134,6 +142,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": null,
+   "bytes_tier_functions": null,
    "verified_bytes_by_subsystem": {
     "System/Core": 979,
     "Game/Simulation": 801,
@@ -164,6 +174,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": null,
+   "bytes_tier_functions": null,
    "verified_bytes_by_subsystem": {
     "System/Core": 1249,
     "Game/Simulation": 1042,
@@ -197,6 +209,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": null,
+   "bytes_tier_functions": null,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 1848,
     "System/Core": 1716,
@@ -232,6 +246,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 1517,
+   "bytes_tier_functions": 12,
    "verified_bytes_by_subsystem": {
     "System/Core": 2083,
     "Game/Simulation": 1983,
@@ -267,6 +283,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 1517,
+   "bytes_tier_functions": 12,
    "verified_bytes_by_subsystem": {
     "System/Core": 2083,
     "Game/Simulation": 1983,
@@ -302,6 +320,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 2485,
+   "bytes_tier_functions": 20,
    "verified_bytes_by_subsystem": {
     "System/Core": 2083,
     "Game/Simulation": 1983,
@@ -338,6 +358,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 3523,
+   "bytes_tier_functions": 28,
    "verified_bytes_by_subsystem": {
     "System/Core": 2083,
     "Game/Simulation": 1983,
@@ -374,6 +396,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 4165,
+   "bytes_tier_functions": 35,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 2625,
     "System/Core": 2083,
@@ -410,6 +434,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 5134,
+   "bytes_tier_functions": 41,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 3594,
     "System/Core": 2083,
@@ -446,6 +472,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 6082,
+   "bytes_tier_functions": 48,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 4542,
     "System/Core": 2083,
@@ -482,6 +510,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 7283,
+   "bytes_tier_functions": 55,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 5743,
     "System/Core": 2083,
@@ -518,6 +548,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 8596,
+   "bytes_tier_functions": 64,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 7056,
     "System/Core": 2083,
@@ -554,6 +586,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 9919,
+   "bytes_tier_functions": 73,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 8379,
     "System/Core": 2083,
@@ -590,6 +624,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 11667,
+   "bytes_tier_functions": 84,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 10127,
     "System/Core": 2083,
@@ -626,6 +662,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 11843,
+   "bytes_tier_functions": 86,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 10303,
     "System/Core": 2083,
@@ -662,6 +700,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 12222,
+   "bytes_tier_functions": 88,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 10682,
     "System/Core": 2083,
@@ -698,6 +738,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 12489,
+   "bytes_tier_functions": 90,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 10682,
     "System/Core": 2350,
@@ -734,6 +776,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 12690,
+   "bytes_tier_functions": 91,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 10883,
     "System/Core": 2350,
@@ -770,6 +814,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 14638,
+   "bytes_tier_functions": 96,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 12281,
     "System/Core": 2900,
@@ -806,6 +852,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 14927,
+   "bytes_tier_functions": 97,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 12570,
     "System/Core": 2900,
@@ -842,6 +890,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 14992,
+   "bytes_tier_functions": 98,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 12635,
     "System/Core": 2900,
@@ -878,6 +928,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 15253,
+   "bytes_tier_functions": 99,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 12896,
     "System/Core": 2900,
@@ -914,6 +966,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 15472,
+   "bytes_tier_functions": 100,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13115,
     "System/Core": 2900,
@@ -950,6 +1004,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 16516,
+   "bytes_tier_functions": 104,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 2900,
@@ -986,6 +1042,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 16830,
+   "bytes_tier_functions": 107,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 2900,
@@ -1024,6 +1082,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 17526,
+   "bytes_tier_functions": 114,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 3596,
@@ -1062,6 +1122,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 17987,
+   "bytes_tier_functions": 117,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 3969,
@@ -1100,6 +1162,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 18164,
+   "bytes_tier_functions": 119,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 4146,
@@ -1138,6 +1202,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 18418,
+   "bytes_tier_functions": 122,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 4400,
@@ -1176,6 +1242,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 18508,
+   "bytes_tier_functions": 123,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 4490,
@@ -1214,6 +1282,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 18508,
+   "bytes_tier_functions": 123,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 4490,
@@ -1252,6 +1322,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 18474,
+   "bytes_tier_functions": 122,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 4490,
@@ -1290,6 +1362,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 18702,
+   "bytes_tier_functions": 125,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 4490,
@@ -1328,6 +1402,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 18855,
+   "bytes_tier_functions": 127,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 4490,
@@ -1366,6 +1442,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 19211,
+   "bytes_tier_functions": 132,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 4490,
@@ -1404,6 +1482,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 19707,
+   "bytes_tier_functions": 139,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 4421,
@@ -1442,6 +1522,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 20671,
+   "bytes_tier_functions": 149,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 4490,
@@ -1480,6 +1562,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 20823,
+   "bytes_tier_functions": 151,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 4490,
@@ -1518,6 +1602,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 21180,
+   "bytes_tier_functions": 153,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 4490,
@@ -1556,6 +1642,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 21382,
+   "bytes_tier_functions": 155,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 4490,
@@ -1594,6 +1682,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 21622,
+   "bytes_tier_functions": 157,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 4490,
@@ -1632,6 +1722,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 22023,
+   "bytes_tier_functions": 159,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 4490,
@@ -1670,6 +1762,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 22296,
+   "bytes_tier_functions": 161,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 4490,
@@ -1708,6 +1802,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 22633,
+   "bytes_tier_functions": 163,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 4490,
@@ -1746,6 +1842,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 22713,
+   "bytes_tier_functions": 164,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 4490,
@@ -1784,6 +1882,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 22828,
+   "bytes_tier_functions": 165,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 4490,
@@ -1822,6 +1922,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 22957,
+   "bytes_tier_functions": 166,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 4490,
@@ -1860,6 +1962,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 23273,
+   "bytes_tier_functions": 168,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 4659,
@@ -1898,6 +2002,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 23336,
+   "bytes_tier_functions": 169,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 4659,
@@ -1936,6 +2042,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 23426,
+   "bytes_tier_functions": 170,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 4659,
@@ -1974,6 +2082,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 23558,
+   "bytes_tier_functions": 171,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 4659,
@@ -2012,6 +2122,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 23629,
+   "bytes_tier_functions": 172,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 4659,
@@ -2050,6 +2162,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 23767,
+   "bytes_tier_functions": 173,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 4659,
@@ -2088,6 +2202,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 23134,
+   "bytes_tier_functions": 170,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 4659,
@@ -2126,6 +2242,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 23234,
+   "bytes_tier_functions": 171,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 4659,
@@ -2164,6 +2282,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 23320,
+   "bytes_tier_functions": 172,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 4659,
@@ -2202,6 +2322,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 23574,
+   "bytes_tier_functions": 173,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 4659,
@@ -2240,6 +2362,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 23646,
+   "bytes_tier_functions": 174,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 4659,
@@ -2278,6 +2402,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 23797,
+   "bytes_tier_functions": 176,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 4659,
@@ -2316,6 +2442,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 23892,
+   "bytes_tier_functions": 177,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 4659,
@@ -2354,6 +2482,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 23985,
+   "bytes_tier_functions": 178,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 4659,
@@ -2392,6 +2522,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 24098,
+   "bytes_tier_functions": 179,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 4659,
@@ -2430,6 +2562,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 24098,
+   "bytes_tier_functions": 179,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 4659,
@@ -2468,6 +2602,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 24188,
+   "bytes_tier_functions": 180,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 4659,
@@ -2507,6 +2643,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 24234,
+   "bytes_tier_functions": 181,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 4659,
@@ -2547,6 +2685,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 24296,
+   "bytes_tier_functions": 183,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 13928,
     "System/Core": 4659,
@@ -2587,6 +2727,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 24538,
+   "bytes_tier_functions": 190,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 14021,
     "System/Core": 4659,
@@ -2627,6 +2769,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 24558,
+   "bytes_tier_functions": 191,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 14041,
     "System/Core": 4659,
@@ -2667,6 +2811,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 24775,
+   "bytes_tier_functions": 197,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 14258,
     "System/Core": 4659,
@@ -2707,6 +2853,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 24804,
+   "bytes_tier_functions": 198,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 14287,
     "System/Core": 4659,
@@ -2747,6 +2895,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 25115,
+   "bytes_tier_functions": 206,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 14598,
     "System/Core": 4659,
@@ -2787,6 +2937,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 25163,
+   "bytes_tier_functions": 207,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 14646,
     "System/Core": 4659,
@@ -2827,6 +2979,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 25547,
+   "bytes_tier_functions": 218,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 14712,
     "System/Core": 4687,
@@ -2867,6 +3021,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 25654,
+   "bytes_tier_functions": 221,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 14712,
     "System/Core": 4794,
@@ -2907,6 +3063,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 25746,
+   "bytes_tier_functions": 223,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 14712,
     "System/Core": 4886,
@@ -2947,6 +3105,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 26035,
+   "bytes_tier_functions": 232,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 14712,
     "System/Core": 5175,
@@ -2987,6 +3147,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 26128,
+   "bytes_tier_functions": 235,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 14712,
     "System/Core": 5248,
@@ -3027,6 +3189,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 26235,
+   "bytes_tier_functions": 239,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 14712,
     "System/Core": 5248,
@@ -3067,6 +3231,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 26594,
+   "bytes_tier_functions": 250,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 14712,
     "System/Core": 5248,
@@ -3107,6 +3273,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 27005,
+   "bytes_tier_functions": 261,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 14712,
     "System/Core": 5248,
@@ -3147,6 +3315,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 27029,
+   "bytes_tier_functions": 262,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 14712,
     "System/Core": 5248,
@@ -3187,6 +3357,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 27363,
+   "bytes_tier_functions": 271,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 14712,
     "System/Core": 5248,
@@ -3227,6 +3399,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 27458,
+   "bytes_tier_functions": 273,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 14712,
     "System/Core": 5248,
@@ -3267,6 +3441,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 27693,
+   "bytes_tier_functions": 279,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 14712,
     "System/Core": 5248,
@@ -3307,6 +3483,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 28117,
+   "bytes_tier_functions": 290,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 14712,
     "System/Core": 5248,
@@ -3347,6 +3525,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 28283,
+   "bytes_tier_functions": 292,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 14712,
     "System/Core": 5248,
@@ -3387,6 +3567,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 28307,
+   "bytes_tier_functions": 293,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 14712,
     "System/Core": 5179,
@@ -3427,6 +3609,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 28614,
+   "bytes_tier_functions": 295,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 14712,
     "System/Core": 5248,
@@ -3467,6 +3651,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 29479,
+   "bytes_tier_functions": 300,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 14712,
     "System/Core": 5248,
@@ -3507,6 +3693,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 29623,
+   "bytes_tier_functions": 302,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 14712,
     "System/Core": 5248,
@@ -3547,6 +3735,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 29654,
+   "bytes_tier_functions": 303,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 14712,
     "System/Core": 5248,
@@ -3587,6 +3777,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 30236,
+   "bytes_tier_functions": 310,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 14712,
     "System/Core": 5248,
@@ -3627,6 +3819,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 30715,
+   "bytes_tier_functions": 316,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 14712,
     "System/Core": 5248,
@@ -3667,6 +3861,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 30715,
+   "bytes_tier_functions": 316,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 14712,
     "System/Core": 5248,
@@ -3996,6 +4192,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 31989,
+   "bytes_tier_functions": 326,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 15264,
     "System/Core": 5248,
@@ -4325,6 +4523,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 33079,
+   "bytes_tier_functions": 336,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 15775,
     "System/Core": 5248,
@@ -4654,6 +4854,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 34006,
+   "bytes_tier_functions": 346,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 16245,
     "System/Core": 5248,
@@ -4983,6 +5185,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 34222,
+   "bytes_tier_functions": 348,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 16317,
     "System/Network": 5315,
@@ -5312,6 +5516,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 34972,
+   "bytes_tier_functions": 355,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 16317,
     "System/Network": 5384,
@@ -5641,6 +5847,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 34972,
+   "bytes_tier_functions": 355,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 16317,
     "System/Network": 5384,
@@ -5970,6 +6178,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 36086,
+   "bytes_tier_functions": 364,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 16622,
     "System/Network": 5384,
@@ -6299,6 +6509,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 36729,
+   "bytes_tier_functions": 370,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 16622,
     "Game/Session": 5799,
@@ -6628,6 +6840,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 37192,
+   "bytes_tier_functions": 374,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 16622,
     "Game/Session": 6136,
@@ -6957,6 +7171,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 37694,
+   "bytes_tier_functions": 380,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 16918,
     "Game/Session": 6342,
@@ -7286,6 +7502,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 38181,
+   "bytes_tier_functions": 384,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 17405,
     "Game/Session": 6342,
@@ -7615,6 +7833,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 38472,
+   "bytes_tier_functions": 390,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 17696,
     "Game/Session": 6342,
@@ -7944,6 +8164,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 39155,
+   "bytes_tier_functions": 396,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 18379,
     "Game/Session": 6342,
@@ -8273,6 +8495,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 39431,
+   "bytes_tier_functions": 399,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 18655,
     "Game/Session": 6342,
@@ -8602,6 +8826,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 39804,
+   "bytes_tier_functions": 404,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 19028,
     "Game/Session": 6342,
@@ -8931,6 +9157,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 40460,
+   "bytes_tier_functions": 411,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 19684,
     "Game/Session": 6342,
@@ -9260,6 +9488,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 41121,
+   "bytes_tier_functions": 417,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 20345,
     "Game/Session": 6342,
@@ -9589,6 +9819,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 41465,
+   "bytes_tier_functions": 421,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 20689,
     "Game/Session": 6342,
@@ -9918,6 +10150,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 41908,
+   "bytes_tier_functions": 426,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 20689,
     "Game/Session": 6342,
@@ -10247,6 +10481,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 42928,
+   "bytes_tier_functions": 437,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 20689,
     "System/Core": 6770,
@@ -10576,6 +10812,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 43310,
+   "bytes_tier_functions": 443,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 20689,
     "System/Core": 6790,
@@ -10905,6 +11143,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 43667,
+   "bytes_tier_functions": 449,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 20689,
     "System/Core": 6790,
@@ -11234,6 +11474,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 43974,
+   "bytes_tier_functions": 453,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 20689,
     "System/Core": 6790,
@@ -11563,6 +11805,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 44779,
+   "bytes_tier_functions": 458,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 20814,
     "System/Core": 6984,
@@ -11892,6 +12136,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 44779,
+   "bytes_tier_functions": 458,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 20814,
     "System/Core": 6984,
@@ -12221,6 +12467,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 44874,
+   "bytes_tier_functions": 459,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 20814,
     "System/Core": 6984,
@@ -12550,6 +12798,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 45051,
+   "bytes_tier_functions": 460,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 20814,
     "System/Core": 6984,
@@ -12879,6 +13129,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 45528,
+   "bytes_tier_functions": 466,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 20814,
     "System/Core": 7112,
@@ -13208,6 +13460,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 46026,
+   "bytes_tier_functions": 471,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 20814,
     "System/Core": 7112,
@@ -13537,6 +13791,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 46133,
+   "bytes_tier_functions": 475,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 20814,
     "System/Core": 7112,
@@ -13866,6 +14122,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 46461,
+   "bytes_tier_functions": 479,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 20814,
     "System/Network": 7262,
@@ -14195,6 +14453,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 46628,
+   "bytes_tier_functions": 481,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 20814,
     "System/Network": 7429,
@@ -14524,6 +14784,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 46871,
+   "bytes_tier_functions": 484,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 20814,
     "System/Network": 7672,
@@ -14853,6 +15115,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 47073,
+   "bytes_tier_functions": 488,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 20814,
     "System/Network": 7672,
@@ -15182,6 +15446,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 47251,
+   "bytes_tier_functions": 492,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 20814,
     "System/Network": 7672,
@@ -15512,6 +15778,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 47450,
+   "bytes_tier_functions": 498,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 20814,
     "System/Network": 7672,
@@ -15842,6 +16110,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 47588,
+   "bytes_tier_functions": 502,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 20814,
     "System/Network": 7672,
@@ -16172,6 +16442,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 47780,
+   "bytes_tier_functions": 508,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 20814,
     "System/Network": 7672,
@@ -16502,6 +16774,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 47881,
+   "bytes_tier_functions": 512,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 20814,
     "System/Network": 7672,
@@ -16832,6 +17106,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 48013,
+   "bytes_tier_functions": 515,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 20814,
     "System/Network": 7672,
@@ -17162,6 +17438,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 48164,
+   "bytes_tier_functions": 519,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 20814,
     "System/Network": 7672,
@@ -17492,6 +17770,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 48316,
+   "bytes_tier_functions": 523,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 20814,
     "System/Network": 7672,
@@ -17823,6 +18103,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 48401,
+   "bytes_tier_functions": 526,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 20814,
     "System/Network": 7672,
@@ -18154,6 +18436,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 48500,
+   "bytes_tier_functions": 529,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 20814,
     "System/Network": 7672,
@@ -18485,6 +18769,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 48717,
+   "bytes_tier_functions": 532,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 20814,
     "System/Network": 7803,
@@ -18816,6 +19102,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 48750,
+   "bytes_tier_functions": 533,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 20814,
     "System/Network": 7803,
@@ -19147,6 +19435,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 48980,
+   "bytes_tier_functions": 535,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 20814,
     "System/Network": 7803,
@@ -19478,6 +19768,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 49090,
+   "bytes_tier_functions": 536,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 20814,
     "System/Network": 7803,
@@ -19809,6 +20101,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 49374,
+   "bytes_tier_functions": 538,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 20814,
     "System/Network": 7803,
@@ -20140,6 +20434,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 49817,
+   "bytes_tier_functions": 543,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 21082,
     "System/Network": 7803,
@@ -20471,6 +20767,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 49817,
+   "bytes_tier_functions": 543,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 21082,
     "System/Network": 7803,
@@ -20802,6 +21100,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 50039,
+   "bytes_tier_functions": 547,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 21082,
     "System/Network": 7803,
@@ -21133,6 +21433,8 @@
    "first_party_excluding_library_rows": null,
    "library_tier": null,
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 50591,
+   "bytes_tier_functions": 556,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 21082,
     "System/Network": 7803,
@@ -21474,6 +21776,8 @@
     "denominator_bytes": 193761
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 50680,
+   "bytes_tier_functions": 558,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 21082,
     "System/Network": 7803,
@@ -21815,6 +22119,8 @@
     "denominator_bytes": 193761
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 51144,
+   "bytes_tier_functions": 565,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 21115,
     "System/Network": 7803,
@@ -22156,6 +22462,8 @@
     "denominator_bytes": 193761
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 52826,
+   "bytes_tier_functions": 583,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 21115,
     "System/Network": 7803,
@@ -22497,6 +22805,8 @@
     "denominator_bytes": 193761
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 54953,
+   "bytes_tier_functions": 603,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 21132,
     "System/Core": 8255,
@@ -22838,6 +23148,8 @@
     "denominator_bytes": 193761
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 55806,
+   "bytes_tier_functions": 610,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 21132,
     "Game/Session": 8392,
@@ -23179,6 +23491,8 @@
     "denominator_bytes": 193761
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 60099,
+   "bytes_tier_functions": 757,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 21265,
     "System/Core": 9019,
@@ -23520,6 +23834,8 @@
     "denominator_bytes": 193761
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 60359,
+   "bytes_tier_functions": 759,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 21265,
     "System/Core": 9279,
@@ -23861,6 +24177,8 @@
     "denominator_bytes": 193761
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 62098,
+   "bytes_tier_functions": 772,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 21810,
     "System/Core": 9279,
@@ -24202,6 +24520,8 @@
     "denominator_bytes": 193761
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 63432,
+   "bytes_tier_functions": 796,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 21843,
     "System/Core": 9714,
@@ -24543,6 +24863,8 @@
     "denominator_bytes": 193761
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 64521,
+   "bytes_tier_functions": 802,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 22165,
     "System/Core": 10115,
@@ -24884,6 +25206,8 @@
     "denominator_bytes": 193761
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 64521,
+   "bytes_tier_functions": 802,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 22165,
     "System/Core": 10115,
@@ -25225,6 +25549,8 @@
     "denominator_bytes": 194168
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 64521,
+   "bytes_tier_functions": 802,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 22165,
     "System/Core": 10115,
@@ -25566,6 +25892,8 @@
     "denominator_bytes": 194168
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 72657,
+   "bytes_tier_functions": 835,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 24401,
     "System/Core": 12205,
@@ -25907,6 +26235,8 @@
     "denominator_bytes": 194168
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 72725,
+   "bytes_tier_functions": 836,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 24401,
     "System/Core": 12273,
@@ -26248,6 +26578,8 @@
     "denominator_bytes": 194168
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 73811,
+   "bytes_tier_functions": 859,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 24401,
     "System/Core": 12477,
@@ -26589,6 +26921,8 @@
     "denominator_bytes": 194168
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 74795,
+   "bytes_tier_functions": 867,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 24458,
     "System/Core": 12477,
@@ -26930,6 +27264,8 @@
     "denominator_bytes": 194168
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 83777,
+   "bytes_tier_functions": 994,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 24969,
     "System/Core": 12677,
@@ -27271,6 +27607,8 @@
     "denominator_bytes": 194168
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 95744,
+   "bytes_tier_functions": 1083,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 26426,
     "System/Core": 14184,
@@ -27612,6 +27950,8 @@
     "denominator_bytes": 194168
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 95571,
+   "bytes_tier_functions": 1081,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 26426,
     "System/Core": 14184,
@@ -27953,6 +28293,8 @@
     "denominator_bytes": 194168
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 101571,
+   "bytes_tier_functions": 1107,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 27307,
     "System/Core": 14710,
@@ -28294,6 +28636,8 @@
     "denominator_bytes": 194168
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 102219,
+   "bytes_tier_functions": 1110,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 27828,
     "System/Core": 14710,
@@ -28635,6 +28979,8 @@
     "denominator_bytes": 194168
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 102711,
+   "bytes_tier_functions": 1112,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 27828,
     "System/Core": 14710,
@@ -28976,6 +29322,8 @@
     "denominator_bytes": 194168
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 103611,
+   "bytes_tier_functions": 1122,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 27828,
     "System/Core": 15184,
@@ -29317,6 +29665,8 @@
     "denominator_bytes": 194168
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 104341,
+   "bytes_tier_functions": 1128,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 28016,
     "System/Core": 15184,
@@ -29658,6 +30008,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 104095,
+   "bytes_tier_functions": 1124,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 28016,
     "System/Core": 15089,
@@ -30011,6 +30363,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 105148,
+   "bytes_tier_functions": 1137,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 28016,
     "System/Core": 15449,
@@ -30364,6 +30718,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 114029,
+   "bytes_tier_functions": 1209,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 28513,
     "System/Core": 18197,
@@ -30717,6 +31073,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 121184,
+   "bytes_tier_functions": 1277,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 28970,
     "System/Core": 19164,
@@ -31070,6 +31428,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 122917,
+   "bytes_tier_functions": 1287,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 29768,
     "System/Core": 19164,
@@ -31423,6 +31783,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 123887,
+   "bytes_tier_functions": 1294,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 29768,
     "System/Core": 19387,
@@ -31776,6 +32138,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 124710,
+   "bytes_tier_functions": 1301,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 29768,
     "System/Core": 19387,
@@ -32129,6 +32493,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 126778,
+   "bytes_tier_functions": 1309,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 28974,
     "System/Core": 18229,
@@ -32482,6 +32848,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 130839,
+   "bytes_tier_functions": 1327,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 28974,
     "System/Core": 18378,
@@ -32835,6 +33203,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 131651,
+   "bytes_tier_functions": 1332,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 29386,
     "System/Core": 18378,
@@ -33188,6 +33558,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 132058,
+   "bytes_tier_functions": 1334,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 29386,
     "System/Core": 18644,
@@ -33541,6 +33913,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 134480,
+   "bytes_tier_functions": 1351,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 29386,
     "System/Core": 19113,
@@ -33894,6 +34268,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 137513,
+   "bytes_tier_functions": 1357,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 29490,
     "System/Graphics": 19929,
@@ -34247,6 +34623,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 136256,
+   "bytes_tier_functions": 1351,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 29490,
     "System/Graphics": 19809,
@@ -34600,6 +34978,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 146166,
+   "bytes_tier_functions": 1393,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 29555,
     "System/Graphics": 21285,
@@ -34955,6 +35335,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 146709,
+   "bytes_tier_functions": 1397,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 29555,
     "System/Graphics": 21285,
@@ -35310,6 +35692,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 146709,
+   "bytes_tier_functions": 1397,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 29555,
     "System/Graphics": 21285,
@@ -35665,6 +36049,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 148296,
+   "bytes_tier_functions": 1403,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 30348,
     "System/Graphics": 21285,
@@ -36020,6 +36406,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 150830,
+   "bytes_tier_functions": 1417,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 30348,
     "System/Graphics": 21377,
@@ -36375,6 +36763,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 150830,
+   "bytes_tier_functions": 1417,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 30348,
     "System/Graphics": 21377,
@@ -36730,6 +37120,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 153503,
+   "bytes_tier_functions": 1429,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 31343,
     "System/Graphics": 21377,
@@ -37085,6 +37477,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 155913,
+   "bytes_tier_functions": 1442,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 31750,
     "System/Graphics": 21468,
@@ -37440,6 +37834,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 155990,
+   "bytes_tier_functions": 1443,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 31750,
     "System/Graphics": 21468,
@@ -37795,6 +38191,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 158200,
+   "bytes_tier_functions": 1460,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 32454,
     "System/Graphics": 21594,
@@ -38150,6 +38548,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 158537,
+   "bytes_tier_functions": 1464,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 32454,
     "System/Graphics": 21594,
@@ -38505,6 +38905,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 159728,
+   "bytes_tier_functions": 1478,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 32482,
     "System/Graphics": 21594,
@@ -38860,6 +39262,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 162273,
+   "bytes_tier_functions": 1492,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 33741,
     "System/Graphics": 22514,
@@ -39215,6 +39619,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 162876,
+   "bytes_tier_functions": 1496,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 33741,
     "System/Graphics": 22514,
@@ -39570,6 +39976,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 162062,
+   "bytes_tier_functions": 1493,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 33741,
     "System/Graphics": 22514,
@@ -39925,6 +40333,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 162876,
+   "bytes_tier_functions": 1496,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 33741,
     "System/Graphics": 22514,
@@ -40280,6 +40690,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 164867,
+   "bytes_tier_functions": 1505,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 33741,
     "System/Graphics": 22877,
@@ -40635,6 +41047,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 165859,
+   "bytes_tier_functions": 1508,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 33741,
     "Game/View": 23110,
@@ -40990,6 +41404,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 166439,
+   "bytes_tier_functions": 1513,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 33741,
     "Game/View": 23110,
@@ -41345,6 +41761,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 166933,
+   "bytes_tier_functions": 1517,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 33741,
     "Game/View": 23110,
@@ -41700,6 +42118,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 167098,
+   "bytes_tier_functions": 1520,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 33741,
     "System/Graphics": 23268,
@@ -42055,6 +42475,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 167216,
+   "bytes_tier_functions": 1521,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 33741,
     "System/Graphics": 23268,
@@ -42410,6 +42832,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 167216,
+   "bytes_tier_functions": 1521,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 33741,
     "System/Graphics": 23268,
@@ -42765,6 +43189,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 168772,
+   "bytes_tier_functions": 1526,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 33741,
     "System/Graphics": 23268,
@@ -43120,6 +43546,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 169612,
+   "bytes_tier_functions": 1530,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 33776,
     "System/Graphics": 23595,
@@ -43475,6 +43903,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 169832,
+   "bytes_tier_functions": 1531,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 33776,
     "System/Graphics": 23595,
@@ -43830,6 +44260,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 170073,
+   "bytes_tier_functions": 1532,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 33776,
     "System/Graphics": 23836,
@@ -44185,6 +44617,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 171350,
+   "bytes_tier_functions": 1535,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 33776,
     "System/Graphics": 24509,
@@ -44540,6 +44974,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 172639,
+   "bytes_tier_functions": 1543,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 33833,
     "System/Graphics": 24731,
@@ -44895,6 +45331,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 172658,
+   "bytes_tier_functions": 1544,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 33833,
     "System/Graphics": 24731,
@@ -45250,6 +45688,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 175616,
+   "bytes_tier_functions": 1556,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 33833,
     "System/Graphics": 25200,
@@ -45605,6 +46045,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 178388,
+   "bytes_tier_functions": 1557,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 33833,
     "System/Graphics": 27972,
@@ -45960,6 +46402,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 178798,
+   "bytes_tier_functions": 1559,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 33833,
     "System/Graphics": 27972,
@@ -46315,6 +46759,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 180946,
+   "bytes_tier_functions": 1568,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 33833,
     "System/Graphics": 27972,
@@ -46670,6 +47116,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 184480,
+   "bytes_tier_functions": 1571,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 33833,
     "System/Graphics": 30812,
@@ -47025,6 +47473,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 184694,
+   "bytes_tier_functions": 1573,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 33833,
     "System/Graphics": 30908,
@@ -47380,6 +47830,8 @@
     "denominator_bytes": 302774
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 185193,
+   "bytes_tier_functions": 1579,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 33833,
     "System/Graphics": 30976,
@@ -47735,6 +48187,8 @@
     "denominator_bytes": 302789
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 187469,
+   "bytes_tier_functions": 1590,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 33833,
     "System/Graphics": 31853,
@@ -48090,6 +48544,8 @@
     "denominator_bytes": 302789
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 190191,
+   "bytes_tier_functions": 1598,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 33833,
     "System/Graphics": 33507,
@@ -48445,6 +48901,8 @@
     "denominator_bytes": 302789
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 190252,
+   "bytes_tier_functions": 1599,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 33833,
     "System/Graphics": 33568,
@@ -48800,6 +49258,8 @@
     "denominator_bytes": 302789
    },
    "provisional_counted_bytes": null,
+   "bytes_tier_bytes": 193075,
+   "bytes_tier_functions": 1609,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 34055,
     "System/Graphics": 33568,
@@ -49155,6 +49615,8 @@
     "denominator_bytes": 302789
    },
    "provisional_counted_bytes": 1279,
+   "bytes_tier_bytes": 194354,
+   "bytes_tier_functions": 1622,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 34055,
     "System/Graphics": 33568,
@@ -49510,6 +49972,8 @@
     "denominator_bytes": 302789
    },
    "provisional_counted_bytes": 1279,
+   "bytes_tier_bytes": 199982,
+   "bytes_tier_functions": 1674,
    "verified_bytes_by_subsystem": {
     "System/Graphics": 34295,
     "Game/Simulation": 34127,
@@ -49865,6 +50329,8 @@
     "denominator_bytes": 302789
    },
    "provisional_counted_bytes": 1279,
+   "bytes_tier_bytes": 208731,
+   "bytes_tier_functions": 1748,
    "verified_bytes_by_subsystem": {
     "System/Graphics": 35858,
     "Game/Simulation": 35086,
@@ -50220,6 +50686,8 @@
     "denominator_bytes": 302789
    },
    "provisional_counted_bytes": 1279,
+   "bytes_tier_bytes": 209528,
+   "bytes_tier_functions": 1752,
    "verified_bytes_by_subsystem": {
     "System/Graphics": 35858,
     "Game/Simulation": 35195,
@@ -50575,6 +51043,8 @@
     "denominator_bytes": 302789
    },
    "provisional_counted_bytes": 1279,
+   "bytes_tier_bytes": 213200,
+   "bytes_tier_functions": 1768,
    "verified_bytes_by_subsystem": {
     "System/Graphics": 36148,
     "Game/Simulation": 35517,
@@ -50930,6 +51400,8 @@
     "denominator_bytes": 302789
    },
    "provisional_counted_bytes": 1279,
+   "bytes_tier_bytes": 225949,
+   "bytes_tier_functions": 1814,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 41188,
     "System/Graphics": 36148,
@@ -51285,6 +51757,8 @@
     "denominator_bytes": 302789
    },
    "provisional_counted_bytes": 1279,
+   "bytes_tier_bytes": 239520,
+   "bytes_tier_functions": 1850,
    "verified_bytes_by_subsystem": {
     "Game/Simulation": 42183,
     "System/Graphics": 36148,

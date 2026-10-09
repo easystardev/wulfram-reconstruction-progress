@@ -2,6 +2,8 @@
 
 One line per commit that changed the verified-bytes measurement, newest first. Subjects are sanitised (function names and addresses removed).
 
+- 2026-10-09 - 26.861% (+1.061 pt), 1950 fns - Promote 11 verified ready-wave1 + vecctor-owner reconstruction functions
+- 2026-10-09 - 25.800% (+0.000 pt), 1939 fns - Library Rule B isolation (PROVISIONAL sidecar): first-party readers see Rule A only
 - 2026-10-08 - 25.800% (+0.000 pt), 1939 fns - Library tier Rule B (PROVISIONAL): bss-gap-fit, with its validator
 - 2026-10-08 - 25.800% (+0.000 pt), 1939 fns - Library tier Rule A: storage-unit keying of uninitialised references
 - 2026-10-08 - 25.800% (+0.940 pt), 1939 fns - Promote 45 verified rulings2 reconstruction functions

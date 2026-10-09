@@ -2,6 +2,8 @@
 
 One line per commit that changed the verified-bytes measurement, newest first. Subjects are sanitised (function names and addresses removed).
 
+- 2026-10-08 - 25.800% (+0.000 pt), 1939 fns - Library tier Rule B (PROVISIONAL): bss-gap-fit, with its validator
+- 2026-10-08 - 25.800% (+0.000 pt), 1939 fns - Library tier Rule A: storage-unit keying of uninitialised references
 - 2026-10-08 - 25.800% (+0.940 pt), 1939 fns - Promote 45 verified rulings2 reconstruction functions
 - 2026-10-08 - 24.860% (+0.000 pt), 1895 fns - Amendment 20b extensions (PROVISIONAL): published giant hubs on the roster; EH-funclet call edges
 - 2026-10-08 - 24.860% (+0.000 pt), 1895 fns - verified_bytes: list every T1 row a BYTES row supersedes ([fn])

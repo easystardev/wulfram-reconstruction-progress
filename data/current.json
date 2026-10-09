@@ -1,10 +1,10 @@
 {
- "generated_utc": "2026-10-08T17:43:51+00:00",
+ "generated_utc": "2026-10-09T13:20:52+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "snapshot": {
-  "date": "2026-10-08T12:43:40-05:00",
-  "subject": "Promote 45 verified rulings2 reconstruction functions",
+  "date": "2026-10-08T12:59:42-05:00",
+  "subject": "Library tier Rule B (PROVISIONAL): bss-gap-fit, with its validator",
   "verified_functions": 1939,
   "verified_bytes": 254510,
   "denominator_functions": 4392,
@@ -22,9 +22,9 @@
    "functions": 4310
   },
   "library_tier": {
-   "percent": 56.914,
-   "exact_bytes": 172330,
-   "pending_bytes": 90593,
+   "percent": 59.073,
+   "exact_bytes": 178866,
+   "pending_bytes": 83449,
    "denominator_bytes": 302789
   },
   "provisional_counted_bytes": 5298,
@@ -432,7 +432,15 @@
     "plan": "Grandfathered; due to be re-ported the newer way."
    }
   ],
-  "library_provisional_rules": [],
+  "library_provisional_rules": [
+   {
+    "key": "provisional_bss_gap_fit",
+    "label": "provisional bss gap fit",
+    "bytes": null,
+    "nature": "Library tier only: library bytes admitted under an evidence rule marked provisional.",
+    "plan": "Under review; never part of the first-party figure."
+   }
+  ],
   "note": "Apart from the behaviour-verified row, these flags describe how a unit was admitted or attributed (the evidence rules), not bytes that fail to match. A function can carry more than one flag, so the rows overlap and do not add up."
  }
 }

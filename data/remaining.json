@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-08T17:43:51+00:00",
+ "generated_utc": "2026-10-09T13:20:52+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "as_of_rebuild_snapshot": "current verified-bytes snapshot",
@@ -82,12 +82,226 @@
    }
   },
   {
-   "key": "giant_component",
-   "label": "Giant tangled component",
+   "key": "interlinked",
+   "label": "Interlinked code",
    "functions": 1078,
    "bytes": 341149,
    "percent_of_remaining_first_party": 49.21,
-   "by_class": {}
+   "by_class": {},
+   "subsections": [
+    {
+     "label": "Interlinked: HUD & targeting",
+     "area": "HUD & targeting",
+     "functions": 87,
+     "bytes": 36377,
+     "percent_of_remaining_first_party": 5.25,
+     "verified_since_census_bytes": 209,
+     "percent_done_since_census": 0.6,
+     "hubs_waited_on": 42
+    },
+    {
+     "label": "Interlinked: In-game editors",
+     "area": "In-game editors",
+     "functions": 95,
+     "bytes": 30122,
+     "percent_of_remaining_first_party": 4.35,
+     "verified_since_census_bytes": 692,
+     "percent_done_since_census": 2.2,
+     "hubs_waited_on": 63
+    },
+    {
+     "label": "Interlinked: World, entities & game data",
+     "area": "World, entities & game data",
+     "functions": 101,
+     "bytes": 29661,
+     "percent_of_remaining_first_party": 4.28,
+     "verified_since_census_bytes": 484,
+     "percent_done_since_census": 1.6,
+     "hubs_waited_on": 52
+    },
+    {
+     "label": "Interlinked: Map & tactical view",
+     "area": "Map & tactical view",
+     "functions": 81,
+     "bytes": 27518,
+     "percent_of_remaining_first_party": 3.97,
+     "verified_since_census_bytes": 336,
+     "percent_done_since_census": 1.2,
+     "hubs_waited_on": 41
+    },
+    {
+     "label": "Interlinked: 3D rendering & camera",
+     "area": "3D rendering & camera",
+     "functions": 99,
+     "bytes": 27065,
+     "percent_of_remaining_first_party": 3.9,
+     "verified_since_census_bytes": 748,
+     "percent_done_since_census": 2.7,
+     "hubs_waited_on": 46
+    },
+    {
+     "label": "Interlinked: UI widgets & menus",
+     "area": "UI widgets & menus",
+     "functions": 111,
+     "bytes": 24786,
+     "percent_of_remaining_first_party": 3.58,
+     "verified_since_census_bytes": 1388,
+     "percent_done_since_census": 5.3,
+     "hubs_waited_on": 53
+    },
+    {
+     "label": "Interlinked: Visual effects",
+     "area": "Visual effects",
+     "functions": 81,
+     "bytes": 24368,
+     "percent_of_remaining_first_party": 3.52,
+     "verified_since_census_bytes": 0,
+     "percent_done_since_census": 0.0,
+     "hubs_waited_on": 37
+    },
+    {
+     "label": "Interlinked: Game screens & states",
+     "area": "Game screens & states",
+     "functions": 67,
+     "bytes": 22737,
+     "percent_of_remaining_first_party": 3.28,
+     "verified_since_census_bytes": 1634,
+     "percent_done_since_census": 6.7,
+     "hubs_waited_on": 53
+    },
+    {
+     "label": "Interlinked: Social, chat & lobby",
+     "area": "Social, chat & lobby",
+     "functions": 31,
+     "bytes": 20754,
+     "percent_of_remaining_first_party": 2.99,
+     "verified_since_census_bytes": 112,
+     "percent_done_since_census": 0.5,
+     "hubs_waited_on": 22
+    },
+    {
+     "label": "Interlinked: Textures & images",
+     "area": "Textures & images",
+     "functions": 48,
+     "bytes": 12438,
+     "percent_of_remaining_first_party": 1.79,
+     "verified_since_census_bytes": 458,
+     "percent_done_since_census": 3.6,
+     "hubs_waited_on": 22
+    },
+    {
+     "label": "Interlinked: Networking",
+     "area": "Networking",
+     "functions": 38,
+     "bytes": 11502,
+     "percent_of_remaining_first_party": 1.66,
+     "verified_since_census_bytes": 76,
+     "percent_done_since_census": 0.7,
+     "hubs_waited_on": 16
+    },
+    {
+     "label": "Interlinked: Debug tools & console",
+     "area": "Debug tools & console",
+     "functions": 25,
+     "bytes": 10420,
+     "percent_of_remaining_first_party": 1.5,
+     "verified_since_census_bytes": 388,
+     "percent_done_since_census": 3.6,
+     "hubs_waited_on": 12
+    },
+    {
+     "label": "Interlinked: Startup & config",
+     "area": "Startup & config",
+     "functions": 18,
+     "bytes": 8645,
+     "percent_of_remaining_first_party": 1.25,
+     "verified_since_census_bytes": 0,
+     "percent_done_since_census": 0.0,
+     "hubs_waited_on": 12
+    },
+    {
+     "label": "Interlinked: Audio & voice",
+     "area": "Audio & voice",
+     "functions": 32,
+     "bytes": 7315,
+     "percent_of_remaining_first_party": 1.06,
+     "verified_since_census_bytes": 0,
+     "percent_done_since_census": 0.0,
+     "hubs_waited_on": 7
+    },
+    {
+     "label": "Interlinked: Input & controls",
+     "area": "Input & controls",
+     "functions": 38,
+     "bytes": 6852,
+     "percent_of_remaining_first_party": 0.99,
+     "verified_since_census_bytes": 494,
+     "percent_done_since_census": 6.7,
+     "hubs_waited_on": 22
+    },
+    {
+     "label": "Interlinked: Graphics drivers (DirectX/GDI)",
+     "area": "Graphics drivers (DirectX/GDI)",
+     "functions": 10,
+     "bytes": 4466,
+     "percent_of_remaining_first_party": 0.64,
+     "verified_since_census_bytes": 120,
+     "percent_done_since_census": 2.6,
+     "hubs_waited_on": 6
+    },
+    {
+     "label": "Interlinked: Core runtime & platform",
+     "area": "Core runtime & platform",
+     "functions": 19,
+     "bytes": 2336,
+     "percent_of_remaining_first_party": 0.34,
+     "verified_since_census_bytes": 381,
+     "percent_done_since_census": 14.0,
+     "hubs_waited_on": 12
+    },
+    {
+     "label": "Interlinked: Unattributed (no TU yet)",
+     "area": "Unattributed (no TU yet)",
+     "functions": 6,
+     "bytes": 2132,
+     "percent_of_remaining_first_party": 0.31,
+     "verified_since_census_bytes": 0,
+     "percent_done_since_census": 0.0,
+     "hubs_waited_on": 7
+    },
+    {
+     "label": "Interlinked: Physics & collision",
+     "area": "Physics & collision",
+     "functions": 2,
+     "bytes": 516,
+     "percent_of_remaining_first_party": 0.07,
+     "verified_since_census_bytes": 75,
+     "percent_done_since_census": 12.7,
+     "hubs_waited_on": 0
+    },
+    {
+     "label": "Interlinked: Updater (CSN)",
+     "area": "Updater (CSN)",
+     "functions": 1,
+     "bytes": 272,
+     "percent_of_remaining_first_party": 0.04,
+     "verified_since_census_bytes": 0,
+     "percent_done_since_census": 0.0,
+     "hubs_waited_on": 0
+    },
+    {
+     "label": "Interlinked: loosened since the census",
+     "area": null,
+     "functions": 88,
+     "bytes": 30867,
+     "percent_of_remaining_first_party": 4.45,
+     "verified_since_census_bytes": 0,
+     "percent_done_since_census": 0.0,
+     "hubs_waited_on": 0
+    }
+   ],
+   "hubs_total_distinct": 256,
+   "subsections_bytes_sum": 341149
   },
   {
    "key": "policy_held",
@@ -110,16 +324,16 @@
  "library_tier": {
   "note": "Library code (static C runtime, Speex, bzip2, libjpeg) is measured on its own line and is NOT part of the first-party figure above.",
   "denominator_bytes": 302789,
-  "exact_bytes": 172330,
-  "pending_bytes": 90593,
-  "unmatched_bytes": 39866
+  "exact_bytes": 178866,
+  "pending_bytes": 83449,
+  "unmatched_bytes": 40474
  },
  "definitions": {
   "remaining_first_party_bytes": "first-party target bytes (library-attributed rows moved out) minus verified bytes.",
   "plain_singles": "functions with a standard calling convention, no register inputs from callers and no compiler frame-alignment demand; each can be attempted on its own. Includes single-function units the census put on the plain-single track, the census single-candidate list (split into 'worth a singles wave' and the rest), and a residual of first-party bytes that the census did not place in any unit (large, x87-heavy, complex exception handling or otherwise outside its filters).",
   "closed_clusters": "groups of functions that whole-program optimisation tied together through custom register conventions, whose closure is complete (every member's callers are inside the group). Grouped by size class: number of members and bytes.",
   "frame_alignment": "single functions or groups whose stack-frame shape (8- or 64-byte realignment, padding slots) depends on callers or callees; reproducing them needs the right neighbours compiled together. Includes groups whose frame chain went beyond the census pull limit.",
-  "giant_component": "one very large connected component (over a thousand functions) where register-convention and frame dependencies chain together; it cannot be cut into small units under current rules.",
+  "interlinked": "functions that call each other through calling conventions the compiler chose privately across the whole program, so a function can only be rebuilt once the shared helpers (hubs) it depends on are rebuilt and published. In the census these chain into one very large connected group of over a thousand functions; here it is split by feature area. Each subsection gives its bytes, the share of its census-time code verified since the census, and how many distinct hubs its code still waits on (a hub can serve several areas, so subsection hub counts overlap). 'Loosened since the census' is code the current work map no longer finds in the tangle because hubs it depended on were verified; it moves to another bucket at the next census refresh.",
   "policy_held": "work that is held by a process rule rather than by difficulty: units reserved for another work lane, units that need an ownership ruling on a calling-convention contradiction, and results that are proven but not countable under the current counting rules.",
   "library_pending": "library bytes whose image matches a pinned library object with no disagreeing relocation, but where not every relocation has been verified yet; listed, not counted.",
   "census_staleness": "bucket membership comes from the latest dependency census (dated above); functions verified since then are removed, so the buckets only shrink between census refreshes."

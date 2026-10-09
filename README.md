@@ -19,7 +19,7 @@ The raw numbers are in [`data/`](data), and every change to the measurement is l
 |---|---:|---|
 | **Campaign verified bytes** | **25.80%** | 1,939 functions, 254,510 of 986,454 first-party target bytes |
 | First-party, library rows excluded | 26.86% | 254,510 of 947,693 bytes, with the rows found to be library code moved out of the denominator |
-| **Library-exact** (separate line) | 56.9% | 172,330 of 302,789 bytes of statically linked library code; 90,593 more bytes pending |
+| **Library-exact** (separate line) | 59.1% | 178,866 of 302,789 bytes of statically linked library code; 83,449 more bytes pending |
 | First-party code still to do | 693,183 bytes | broken down under "What's left" below |
 
 The campaign figure started at 0.27% on 2026-09-11, when this measurement was adopted.
@@ -94,9 +94,12 @@ them:
   They are split by size class in `data/remaining.json`.
 - **Frame / alignment classes** are functions whose stack-frame shape depends on their
   callers or callees. They need the right neighbours compiled together.
-- **The giant tangled component** is one connected web of more than 1,100 functions. It
-  cannot yet be cut into small units under the current rules, and it holds almost half of
-  what is left.
+- **Interlinked code** is groups of functions that share calling conventions the compiler
+  chose for the whole program, so they are unlocked hub by hub: once a shared helper (a
+  hub) is rebuilt, the code that calls it can follow. It holds almost half of what is left
+  and is shown split by feature area, each line with its size, the share done since the
+  census and how many hubs it still waits on. The dashboard's deep dive shows the groups
+  themselves and where the hubs are, as counts only.
 - **Policy-held** work is blocked by a process rule rather than by difficulty: it is
   reserved for another work lane, awaiting a ruling, or proven but not countable under
   the current rules.
@@ -128,7 +131,7 @@ The campaign headline is that tier plus 2,519 bytes (26 functions) verified by b
 
 Apart from the behaviour-verified row, these flags describe how a unit was admitted or attributed (the evidence rules), not bytes that fail to match. A function can carry more than one flag, so the rows overlap and do not add up.
 
-No provisional evidence rule is in effect on the library tier in this snapshot. Library-pending bytes are listed but never counted.
+- Library tier: *provisional bss gap fit*. Library tier only: library bytes admitted under an evidence rule marked provisional. Under review; never part of the first-party figure.
 
 A **draft-link tier** also exists in the private workspace. It links drafted functions into a runnable program for testing. It is provisional and diagnostic, and it is **not counted** in any number here.
 <!-- EXCEPTIONS:END -->

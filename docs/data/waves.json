@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-09T22:31:07+00:00",
+ "generated_utc": "2026-10-10T03:23:12+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "note_waves": "Counts only. 'counted now' = bytes of the wave that are in the current verified total. label_date is the date in the wave's planning label; result_date is when its results were recorded.",
@@ -40,8 +40,8 @@
    "attempted_functions_unsized": 0,
    "exact_functions": 31,
    "exact_bytes": 8396,
-   "counted_now_functions": 10,
-   "counted_now_bytes": 3545
+   "counted_now_functions": 11,
+   "counted_now_bytes": 3905
   },
   {
    "wave": "round 50",
@@ -62,12 +62,12 @@
    "label_date": "2026-10-04",
    "result_date": "2026-10-04",
    "attempted_functions": 20,
-   "attempted_bytes": 3432,
+   "attempted_bytes": 3430,
    "attempted_functions_unsized": 0,
    "exact_functions": 15,
    "exact_bytes": 2541,
-   "counted_now_functions": 15,
-   "counted_now_bytes": 2541
+   "counted_now_functions": 16,
+   "counted_now_bytes": 2699
   },
   {
    "wave": "round 52",
@@ -79,8 +79,8 @@
    "attempted_functions_unsized": 0,
    "exact_functions": 16,
    "exact_bytes": 1820,
-   "counted_now_functions": 14,
-   "counted_now_bytes": 1513
+   "counted_now_functions": 15,
+   "counted_now_bytes": 1617
   },
   {
    "wave": "round 53",

@@ -1,23 +1,23 @@
 {
- "generated_utc": "2026-10-10T15:00:26+00:00",
+ "generated_utc": "2026-10-10T19:37:49+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "snapshot": {
-  "date": "2026-10-10T09:57:36-05:00",
-  "subject": "Promote 5 verified R3 supersede and K04 stale-replace functions (superseded-records sidecar, PROVISIONAL)",
-  "verified_functions": 2155,
-  "verified_bytes": 323869,
+  "date": "2026-10-10T14:37:36-05:00",
+  "subject": "Promote 76 verified ready-wave5 reconstruction functions",
+  "verified_functions": 2231,
+  "verified_bytes": 343988,
   "denominator_functions": 4392,
   "denominator_bytes": 986454,
-  "verified_bytes_percent": 32.832,
+  "verified_bytes_percent": 34.871,
   "verified_by_proof_tier": {
-   "BYTES": 321350,
+   "BYTES": 341469,
    "T1-diffexec": 2426,
    "T1-oracle": 93
   },
   "first_party_excluding_library_rows": {
-   "percent": 34.174,
-   "numerator_bytes": 323869,
+   "percent": 36.297,
+   "numerator_bytes": 343988,
    "denominator_bytes": 947693,
    "functions": 4310
   },
@@ -28,89 +28,89 @@
    "denominator_bytes": 302789
   },
   "provisional_counted_bytes": 5298,
-  "bytes_tier_bytes": 321350,
-  "bytes_tier_functions": 2129,
+  "bytes_tier_bytes": 341469,
+  "bytes_tier_functions": 2205,
   "verified_bytes_by_subsystem": {
-   "Game/Simulation": 56901,
-   "System/Graphics": 52453,
-   "Game/View": 43050,
-   "System/Core": 36885,
-   "Game/Session": 27777,
-   "System/Network": 21910,
-   "System/UI": 14972,
-   "AppInit/AppCore": 12469,
-   "Tools/InGameEditors": 11738,
-   "System/Platform": 9287,
+   "Game/Simulation": 63835,
+   "System/Graphics": 53625,
+   "Game/View": 44383,
+   "System/Core": 37476,
+   "Game/Session": 28206,
+   "System/Network": 22285,
+   "System/UI": 15381,
+   "System/Platform": 13253,
+   "AppInit/AppCore": 12783,
+   "Tools/InGameEditors": 12049,
+   "Tools/Debug": 9105,
    "Game/Data": 7391,
    "System/Input": 7074,
    "Services": 5569,
-   "Tools/Debug": 5148,
    "Game": 2459,
    "Tools": 2431,
-   "System/Audio": 2059,
-   "System": 1402,
+   "System/Audio": 2159,
+   "System": 1465,
    "GUESS3": 972,
    "Game/Common": 843,
    "AppInit/AppInit_win32_winmain": 615,
-   "System/Common": 360,
+   "System/Common": 525,
    "GUESS4": 104
   },
   "areas": {
    "view.hud": {
     "bytes": 69726,
-    "verified_bytes": 14151,
+    "verified_bytes": 14316,
     "functions": 234,
-    "verified_functions": 83,
-    "percent": 20.295
+    "verified_functions": 86,
+    "percent": 20.532
    },
    "gfx.backend": {
     "bytes": 66828,
-    "verified_bytes": 40876,
+    "verified_bytes": 41548,
     "functions": 282,
-    "verified_functions": 193,
-    "percent": 61.166
+    "verified_functions": 201,
+    "percent": 62.172
    },
    "view.screens": {
     "bytes": 58444,
-    "verified_bytes": 16297,
+    "verified_bytes": 17040,
     "functions": 260,
-    "verified_functions": 97,
-    "percent": 27.885
+    "verified_functions": 104,
+    "percent": 29.156
    },
    "tools.editors": {
     "bytes": 57988,
-    "verified_bytes": 13045,
+    "verified_bytes": 13356,
     "functions": 250,
-    "verified_functions": 73,
-    "percent": 22.496
+    "verified_functions": 77,
+    "percent": 23.032
    },
    "core.debug": {
     "bytes": 57121,
-    "verified_bytes": 16966,
+    "verified_bytes": 21349,
     "functions": 202,
-    "verified_functions": 114,
-    "percent": 29.702
+    "verified_functions": 125,
+    "percent": 37.375
    },
    "sim.world": {
     "bytes": 56378,
-    "verified_bytes": 11234,
+    "verified_bytes": 17762,
     "functions": 174,
-    "verified_functions": 50,
-    "percent": 19.926
+    "verified_functions": 54,
+    "percent": 31.505
    },
    "gfx.raster": {
     "bytes": 55913,
-    "verified_bytes": 9821,
+    "verified_bytes": 10521,
     "functions": 208,
-    "verified_functions": 59,
-    "percent": 17.565
+    "verified_functions": 65,
+    "percent": 18.817
    },
    "ui.widgets": {
     "bytes": 55790,
-    "verified_bytes": 14972,
+    "verified_bytes": 15381,
     "functions": 329,
-    "verified_functions": 130,
-    "percent": 26.836
+    "verified_functions": 133,
+    "percent": 27.569
    },
    "sim.physics": {
     "bytes": 38806,
@@ -128,80 +128,80 @@
    },
    "sim.collision": {
     "bytes": 38411,
-    "verified_bytes": 13523,
+    "verified_bytes": 13780,
     "functions": 122,
-    "verified_functions": 61,
-    "percent": 35.206
+    "verified_functions": 63,
+    "percent": 35.875
    },
    "social": {
     "bytes": 35515,
-    "verified_bytes": 8378,
+    "verified_bytes": 8467,
     "functions": 125,
-    "verified_functions": 74,
-    "percent": 23.59
+    "verified_functions": 75,
+    "percent": 23.841
    },
    "view.fx": {
     "bytes": 30657,
-    "verified_bytes": 1777,
+    "verified_bytes": 1890,
     "functions": 116,
-    "verified_functions": 17,
-    "percent": 5.796
+    "verified_functions": 18,
+    "percent": 6.165
    },
    "core.concurrency": {
     "bytes": 28893,
-    "verified_bytes": 1496,
+    "verified_bytes": 1559,
     "functions": 68,
-    "verified_functions": 22,
-    "percent": 5.178
+    "verified_functions": 23,
+    "percent": 5.396
    },
    "sim.entities": {
     "bytes": 28700,
-    "verified_bytes": 13675,
+    "verified_bytes": 13824,
     "functions": 155,
-    "verified_functions": 101,
-    "percent": 47.648
+    "verified_functions": 103,
+    "percent": 48.167
    },
    "app.bootstrap": {
     "bytes": 27558,
-    "verified_bytes": 13084,
+    "verified_bytes": 13398,
     "functions": 83,
-    "verified_functions": 51,
-    "percent": 47.478
+    "verified_functions": 52,
+    "percent": 48.617
    },
    "gfx.texture": {
     "bytes": 23996,
-    "verified_bytes": 5579,
+    "verified_bytes": 5691,
     "functions": 126,
-    "verified_functions": 50,
-    "percent": 23.25
+    "verified_functions": 52,
+    "percent": 23.716
    },
    "net.replication": {
     "bytes": 20317,
-    "verified_bytes": 7488,
+    "verified_bytes": 7740,
     "functions": 93,
-    "verified_functions": 51,
-    "percent": 36.856
+    "verified_functions": 52,
+    "percent": 38.096
    },
    "core.io": {
     "bytes": 19930,
-    "verified_bytes": 6477,
+    "verified_bytes": 6524,
     "functions": 117,
-    "verified_functions": 50,
-    "percent": 32.499
+    "verified_functions": 51,
+    "percent": 32.735
    },
    "services.updater": {
     "bytes": 19712,
-    "verified_bytes": 10773,
+    "verified_bytes": 10900,
     "functions": 120,
-    "verified_functions": 85,
-    "percent": 54.652
+    "verified_functions": 86,
+    "percent": 55.296
    },
    "net.protocol": {
     "bytes": 18207,
-    "verified_bytes": 11974,
+    "verified_bytes": 12081,
     "functions": 152,
-    "verified_functions": 122,
-    "percent": 65.766
+    "verified_functions": 123,
+    "percent": 66.354
    },
    "math.kernel": {
     "bytes": 15641,
@@ -233,24 +233,24 @@
    },
    "net.transport": {
     "bytes": 12514,
-    "verified_bytes": 8881,
+    "verified_bytes": 9149,
     "functions": 78,
-    "verified_functions": 62,
-    "percent": 70.969
+    "verified_functions": 64,
+    "percent": 73.11
    },
    "core.runtime": {
     "bytes": 12024,
-    "verified_bytes": 8402,
+    "verified_bytes": 8685,
     "functions": 125,
-    "verified_functions": 95,
-    "percent": 69.877
+    "verified_functions": 99,
+    "percent": 72.231
    },
    "session.lifecycle": {
     "bytes": 11580,
-    "verified_bytes": 3181,
+    "verified_bytes": 3269,
     "functions": 69,
-    "verified_functions": 32,
-    "percent": 27.47
+    "verified_functions": 33,
+    "percent": 28.23
    },
    "input.bindings": {
     "bytes": 7899,
@@ -261,17 +261,17 @@
    },
    "platform.window": {
     "bytes": 7418,
-    "verified_bytes": 3003,
+    "verified_bytes": 6842,
     "functions": 30,
-    "verified_functions": 20,
-    "percent": 40.483
+    "verified_functions": 27,
+    "percent": 92.235
    },
    "audio.runtime": {
     "bytes": 6656,
-    "verified_bytes": 1040,
+    "verified_bytes": 1140,
     "functions": 40,
-    "verified_functions": 9,
-    "percent": 15.625
+    "verified_functions": 11,
+    "percent": 17.127
    },
    "view.camera": {
     "bytes": 6436,
@@ -319,38 +319,38 @@
   "roles": {
    "presentation": {
     "bytes": 423336,
-    "verified_bytes": 111926,
-    "percent": 26.439
+    "verified_bytes": 114940,
+    "percent": 27.151
    },
    "simulation": {
     "bytes": 180779,
-    "verified_bytes": 70164,
-    "percent": 38.812
+    "verified_bytes": 77098,
+    "percent": 42.648
    },
    "tooling": {
     "bytes": 134821,
-    "verified_bytes": 40784,
-    "percent": 30.25
+    "verified_bytes": 45605,
+    "percent": 33.826
    },
    "gameplay": {
     "bytes": 82552,
-    "verified_bytes": 26279,
-    "percent": 31.833
+    "verified_bytes": 26770,
+    "percent": 32.428
    },
    "platform": {
     "bytes": 62044,
-    "verified_bytes": 20746,
-    "percent": 33.438
+    "verified_bytes": 24916,
+    "percent": 40.159
    },
    "protocol": {
     "bytes": 55521,
-    "verified_bytes": 28957,
-    "percent": 52.155
+    "verified_bytes": 29316,
+    "percent": 52.802
    },
    "engine": {
     "bytes": 47232,
-    "verified_bytes": 24845,
-    "percent": 52.602
+    "verified_bytes": 25175,
+    "percent": 53.301
    },
    "third-party": {
     "bytes": 169,
@@ -360,17 +360,17 @@
   }
  },
  "exceptions": {
-  "counted_bytes": 323869,
-  "counted_functions": 2155,
-  "bytes_tier_bytes": 321350,
-  "bytes_tier_functions": 2129,
+  "counted_bytes": 343988,
+  "counted_functions": 2231,
+  "bytes_tier_bytes": 341469,
+  "bytes_tier_functions": 2205,
   "categories": [
    {
     "key": "provisional_amendment_20b",
     "label": "Shared-context rule (provisional)",
     "functions": 40,
     "bytes": 5298,
-    "percent_of_counted": 1.636,
+    "percent_of_counted": 1.54,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical. These functions sit in multi-function units whose only outside helpers are functions that were already verified; those helpers ride along unchanged as shared build context and are not counted a second time. The open question is the admission rule, not the bytes.",
@@ -381,7 +381,7 @@
     "label": "Behaviour-verified (lower tier)",
     "functions": 26,
     "bytes": 2519,
-    "percent_of_counted": 0.778,
+    "percent_of_counted": 0.732,
     "proof_tier": "behaviour",
     "bytes_identical": false,
     "nature": "Not yet byte-proven. Each function was run side by side with the original on recorded inputs and gave the same results, with a control that is able to fail. Counted in the campaign figure on a lower proof tier; not part of the byte-exact tier.",
@@ -392,7 +392,7 @@
     "label": "Chosen local-variable names",
     "functions": 5,
     "bytes": 1792,
-    "percent_of_counted": 0.553,
+    "percent_of_counted": 0.521,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical. The period compiler orders some stack slots by the spelling of local variable names. Where no evidence names the original variable, a name was chosen that reproduces the layout.",
@@ -401,9 +401,9 @@
    {
     "key": "invented_helpers",
     "label": "Invented helpers",
-    "functions": 51,
-    "bytes": 15725,
-    "percent_of_counted": 4.855,
+    "functions": 60,
+    "bytes": 19968,
+    "percent_of_counted": 5.805,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical. The source uses a small helper the original may not have had, for example a stand-in caller that gives the compiler the right surrounding context. The helper itself is never counted.",
@@ -412,9 +412,9 @@
    {
     "key": "unnamed_global_aliases",
     "label": "References to not-yet-named globals",
-    "functions": 321,
-    "bytes": 74584,
-    "percent_of_counted": 23.029,
+    "functions": 344,
+    "bytes": 86248,
+    "percent_of_counted": 25.073,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical, and every reference lands on the same address as in the original. The referenced global or function simply has no independently backed name yet.",
@@ -425,7 +425,7 @@
     "label": "Older alignment annotation",
     "functions": 4,
     "bytes": 420,
-    "percent_of_counted": 0.13,
+    "percent_of_counted": 0.122,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical, but the source reproduces the stack frame with an explicit alignment annotation. A later study of frame alignment suggests the original was written differently.",
@@ -436,7 +436,7 @@
     "label": "Other provisional rule",
     "functions": 3,
     "bytes": 998,
-    "percent_of_counted": 0.308,
+    "percent_of_counted": 0.29,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical; admitted under a rule that is marked provisional.",
@@ -447,7 +447,7 @@
     "label": "Other provisional rule",
     "functions": 3,
     "bytes": 1277,
-    "percent_of_counted": 0.394,
+    "percent_of_counted": 0.371,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical; admitted under a rule that is marked provisional.",
@@ -458,7 +458,7 @@
     "label": "Other provisional rule",
     "functions": 7,
     "bytes": 3235,
-    "percent_of_counted": 0.999,
+    "percent_of_counted": 0.94,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical; admitted under a rule that is marked provisional.",
@@ -469,7 +469,7 @@
     "label": "Other provisional rule",
     "functions": 2,
     "bytes": 1167,
-    "percent_of_counted": 0.36,
+    "percent_of_counted": 0.339,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical; admitted under a rule that is marked provisional.",
@@ -480,7 +480,7 @@
     "label": "Other provisional rule",
     "functions": 1,
     "bytes": 298,
-    "percent_of_counted": 0.092,
+    "percent_of_counted": 0.087,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical; admitted under a rule that is marked provisional.",
@@ -491,7 +491,7 @@
     "label": "Replaced records (provisional)",
     "functions": 5,
     "bytes": 1442,
-    "percent_of_counted": 0.445,
+    "percent_of_counted": 0.419,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical. A newer proof replaced an older record: either a larger unit that contains the old one, or a fresh proof for a record whose source had gone out of date. The old records are kept verbatim in a separate file; every function is counted once.",

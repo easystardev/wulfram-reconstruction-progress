@@ -1,10 +1,10 @@
 {
- "generated_utc": "2026-10-10T15:00:26+00:00",
+ "generated_utc": "2026-10-10T19:37:49+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "map_date": "2026-10-10",
  "map_verified_bytes": 323869,
- "matches_current_snapshot": true,
+ "matches_current_snapshot": false,
  "remaining_bytes": 660630,
  "remaining_functions": 2237,
  "kinds": [
@@ -320,15 +320,15 @@
    "key": "ready-now",
    "label": "Ready to attempt now",
    "caption": "An admissible path exists under today's rules; it is porting work.",
-   "bytes": 238195,
-   "functions": 885
+   "bytes": 240846,
+   "functions": 895
   },
   {
    "key": "plateaued",
    "label": "Stuck on a known compiler quirk",
    "caption": "Close attempts stall on a named compiler choice (register allocation, instruction order, floating-point stack order, stack-slot order, exception-handling state).",
-   "bytes": 29144,
-   "functions": 113
+   "bytes": 26493,
+   "functions": 103
   },
   {
    "key": "blocked-on-hub",
@@ -346,13 +346,12 @@
   }
  ],
  "plateau_bytes_by_cause": {
-  "register allocation": 11355,
-  "stack-slot order": 7936,
+  "register allocation": 9188,
+  "stack-slot order": 7789,
   "instruction order": 5553,
-  "floating-point stack order": 2724,
+  "floating-point stack order": 2484,
   "exception-handling state": 1028,
-  "other": 451,
-  "whole-program register assumption": 97
+  "other": 451
  },
  "rule_decision_bytes": {
   "library code counted as game code": 39028,

@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-10T03:23:12+00:00",
+ "generated_utc": "2026-10-10T05:50:00+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "note_waves": "Counts only. 'counted now' = bytes of the wave that are in the current verified total. label_date is the date in the wave's planning label; result_date is when its results were recorded.",
@@ -118,8 +118,8 @@
    "attempted_functions_unsized": 0,
    "exact_functions": 13,
    "exact_bytes": 1303,
-   "counted_now_functions": 13,
-   "counted_now_bytes": 1288
+   "counted_now_functions": 14,
+   "counted_now_bytes": 1349
   },
   {
    "wave": "round 56",
@@ -131,8 +131,8 @@
    "attempted_functions_unsized": 0,
    "exact_functions": 13,
    "exact_bytes": 1590,
-   "counted_now_functions": 13,
-   "counted_now_bytes": 1526
+   "counted_now_functions": 14,
+   "counted_now_bytes": 1611
   },
   {
    "wave": "round 57",
@@ -170,8 +170,8 @@
    "attempted_functions_unsized": 0,
    "exact_functions": 12,
    "exact_bytes": 1765,
-   "counted_now_functions": 11,
-   "counted_now_bytes": 1673
+   "counted_now_functions": 12,
+   "counted_now_bytes": 1735
   },
   {
    "wave": "round 60",
@@ -192,12 +192,12 @@
    "label_date": "2026-10-04",
    "result_date": "2026-10-05",
    "attempted_functions": 20,
-   "attempted_bytes": 4553,
+   "attempted_bytes": 4552,
    "attempted_functions_unsized": 0,
    "exact_functions": 13,
    "exact_bytes": 2721,
-   "counted_now_functions": 8,
-   "counted_now_bytes": 914
+   "counted_now_functions": 9,
+   "counted_now_bytes": 1046
   },
   {
    "wave": "round 62",
@@ -248,8 +248,8 @@
    "attempted_functions_unsized": 0,
    "exact_functions": 35,
    "exact_bytes": 5650,
-   "counted_now_functions": 10,
-   "counted_now_bytes": 2239
+   "counted_now_functions": 13,
+   "counted_now_bytes": 2657
   },
   {
    "wave": "cluster wave 11",

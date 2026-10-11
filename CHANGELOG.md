@@ -2,6 +2,7 @@
 
 One line per commit that changed the verified-bytes measurement, newest first. Subjects are sanitised (function names and addresses removed).
 
+- 2026-10-10 - 35.107% (+0.236 pt), 2277 fns - Promote 46 verified ready-wave6 reconstruction functions
 - 2026-10-10 - 34.871% (+2.039 pt), 2231 fns - Promote 76 verified ready-wave5 reconstruction functions
 - 2026-10-10 - 32.832% (+0.147 pt), 2155 fns - Promote 5 verified R3 supersede and K04 stale-replace functions (superseded-records sidecar, PROVISIONAL)
 - 2026-10-10 - 32.685% (+0.484 pt), 2150 fns - Promote 11 verified rulings R1/R2/R6 functions (+ the single)

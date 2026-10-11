@@ -1,12 +1,12 @@
 {
- "generated_utc": "2026-10-10T19:37:49+00:00",
+ "generated_utc": "2026-10-11T00:24:56+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "map_date": "2026-10-10",
- "map_verified_bytes": 323869,
+ "map_verified_bytes": 343988,
  "matches_current_snapshot": false,
- "remaining_bytes": 660630,
- "remaining_functions": 2237,
+ "remaining_bytes": 640418,
+ "remaining_functions": 2161,
  "kinds": [
   {
    "key": "plain",
@@ -52,13 +52,13 @@
  "areas": [
   "World, entities & game data",
   "HUD & targeting",
-  "Core runtime & platform",
   "3D rendering & camera",
+  "Core runtime & platform",
   "Physics & collision",
   "In-game editors",
   "Game screens & states",
-  "Debug tools & console",
   "UI widgets & menus",
+  "Debug tools & console",
   "Map & tactical view",
   "Social, chat & lobby",
   "Visual effects",
@@ -73,93 +73,93 @@
  ],
  "area_by_kind_bytes": {
   "World, entities & game data": {
-   "plain": 17908,
+   "plain": 17595,
    "object": 2102,
-   "frame": 12084,
+   "frame": 5808,
    "interlinked": 29842,
    "tiny": 18
   },
   "HUD & targeting": {
-   "plain": 11700,
+   "plain": 11535,
    "frame": 7269,
    "interlinked": 36377
   },
+  "3D rendering & camera": {
+   "plain": 7764,
+   "frame": 16187,
+   "interlinked": 27225
+  },
   "Core runtime & platform": {
-   "plain": 9505,
+   "plain": 9285,
    "object": 1174,
-   "frame": 5000,
+   "frame": 1051,
    "interlinked": 2537,
    "library": 36529,
    "tiny": 82
   },
-  "3D rendering & camera": {
-   "plain": 8464,
-   "frame": 16187,
-   "interlinked": 27225
-  },
   "Physics & collision": {
-   "plain": 23407,
+   "plain": 23150,
    "object": 12686,
    "frame": 6094,
    "interlinked": 516,
    "tiny": 10
   },
   "In-game editors": {
-   "plain": 7547,
+   "plain": 7216,
    "frame": 5778,
    "interlinked": 30143,
    "tiny": 5
   },
   "Game screens & states": {
-   "plain": 9003,
+   "plain": 8127,
    "frame": 11320,
    "interlinked": 23553,
    "tiny": 19
   },
-  "Debug tools & console": {
-   "plain": 8666,
-   "object": 857,
-   "frame": 7982,
-   "interlinked": 20329,
-   "tiny": 9
-  },
   "UI widgets & menus": {
-   "plain": 3491,
+   "plain": 3075,
    "frame": 7318,
    "interlinked": 27135,
    "tiny": 33
+  },
+  "Debug tools & console": {
+   "plain": 9906,
+   "object": 857,
+   "frame": 2345,
+   "interlinked": 20329,
+   "tiny": 9
   },
   "Map & tactical view": {
    "plain": 4368,
    "interlinked": 27518
   },
   "Social, chat & lobby": {
-   "plain": 5872,
+   "plain": 5783,
    "frame": 4609,
    "interlinked": 21913,
    "tiny": 8
   },
   "Visual effects": {
-   "plain": 2796,
+   "plain": 2683,
    "frame": 1140,
    "interlinked": 24422
   },
   "Networking": {
-   "plain": 15120,
+   "plain": 14682,
    "object": 491,
    "frame": 176,
    "interlinked": 11502,
    "tiny": 48
   },
   "Graphics drivers (DirectX/GDI)": {
-   "plain": 11328,
+   "plain": 10656,
    "frame": 7755,
    "interlinked": 5114,
    "library": 1546,
    "tiny": 36
   },
   "Textures & images": {
-   "plain": 669,
+   "plain": 557,
    "frame": 3505,
    "interlinked": 13818,
    "tiny": 5
@@ -176,14 +176,13 @@
    "interlinked": 7288
   },
   "Audio & voice": {
-   "plain": 646,
+   "plain": 546,
    "frame": 1258,
    "interlinked": 7542,
    "tiny": 3
   },
   "Updater (CSN)": {
-   "plain": 7831,
-   "frame": 314,
+   "plain": 7704,
    "interlinked": 272,
    "library": 953,
    "tiny": 16
@@ -195,93 +194,93 @@
  },
  "area_by_kind_functions": {
   "World, entities & game data": {
-   "plain": 57,
+   "plain": 55,
    "object": 5,
-   "frame": 17,
+   "frame": 14,
    "interlinked": 102,
    "tiny": 3
   },
   "HUD & targeting": {
-   "plain": 45,
+   "plain": 42,
    "frame": 18,
    "interlinked": 87
   },
+  "3D rendering & camera": {
+   "plain": 25,
+   "frame": 40,
+   "interlinked": 101
+  },
   "Core runtime & platform": {
-   "plain": 53,
+   "plain": 49,
    "object": 5,
-   "frame": 17,
+   "frame": 9,
    "interlinked": 22,
    "library": 77,
    "tiny": 9
   },
-  "3D rendering & camera": {
-   "plain": 31,
-   "frame": 40,
-   "interlinked": 101
-  },
   "Physics & collision": {
-   "plain": 64,
+   "plain": 62,
    "object": 26,
    "frame": 22,
    "interlinked": 2,
    "tiny": 2
   },
   "In-game editors": {
-   "plain": 53,
+   "plain": 49,
    "frame": 23,
    "interlinked": 95,
    "tiny": 1
   },
   "Game screens & states": {
-   "plain": 67,
+   "plain": 59,
    "frame": 28,
    "interlinked": 72,
    "tiny": 3
   },
-  "Debug tools & console": {
-   "plain": 29,
-   "object": 2,
-   "frame": 13,
-   "interlinked": 42,
-   "tiny": 2
-  },
   "UI widgets & menus": {
-   "plain": 25,
+   "plain": 22,
    "frame": 34,
    "interlinked": 123,
    "tiny": 4
+  },
+  "Debug tools & console": {
+   "plain": 23,
+   "object": 2,
+   "frame": 8,
+   "interlinked": 42,
+   "tiny": 2
   },
   "Map & tactical view": {
    "plain": 20,
    "interlinked": 81
   },
   "Social, chat & lobby": {
-   "plain": 21,
+   "plain": 20,
    "frame": 13,
    "interlinked": 37,
    "tiny": 1
   },
   "Visual effects": {
-   "plain": 10,
+   "plain": 9,
    "frame": 4,
    "interlinked": 82
   },
   "Networking": {
-   "plain": 64,
+   "plain": 60,
    "object": 4,
    "frame": 1,
    "interlinked": 38,
    "tiny": 9
   },
   "Graphics drivers (DirectX/GDI)": {
-   "plain": 44,
+   "plain": 36,
    "frame": 26,
    "interlinked": 12,
    "library": 3,
    "tiny": 4
   },
   "Textures & images": {
-   "plain": 7,
+   "plain": 5,
    "frame": 13,
    "interlinked": 59,
    "tiny": 1
@@ -298,14 +297,13 @@
    "interlinked": 40
   },
   "Audio & voice": {
-   "plain": 10,
+   "plain": 8,
    "frame": 7,
    "interlinked": 35,
    "tiny": 1
   },
   "Updater (CSN)": {
-   "plain": 25,
-   "frame": 1,
+   "plain": 24,
    "interlinked": 1,
    "library": 7,
    "tiny": 3
@@ -320,15 +318,15 @@
    "key": "ready-now",
    "label": "Ready to attempt now",
    "caption": "An admissible path exists under today's rules; it is porting work.",
-   "bytes": 240846,
-   "functions": 895
+   "bytes": 197376,
+   "functions": 768
   },
   {
    "key": "plateaued",
    "label": "Stuck on a known compiler quirk",
    "caption": "Close attempts stall on a named compiler choice (register allocation, instruction order, floating-point stack order, stack-slot order, exception-handling state).",
-   "bytes": 26493,
-   "functions": 103
+   "bytes": 46266,
+   "functions": 142
   },
   {
    "key": "blocked-on-hub",
@@ -341,23 +339,23 @@
    "key": "blocked-on-ruling",
    "label": "Waiting on a rule decision",
    "caption": "Held by a counting or process decision, not by difficulty; much of it already matches in drafts.",
-   "bytes": 69136,
-   "functions": 208
+   "bytes": 72621,
+   "functions": 220
   }
  ],
  "plateau_bytes_by_cause": {
-  "register allocation": 9188,
-  "stack-slot order": 7789,
-  "instruction order": 5553,
-  "floating-point stack order": 2484,
-  "exception-handling state": 1028,
+  "floating-point stack order": 14788,
+  "register allocation": 12007,
+  "stack-slot order": 9747,
+  "instruction order": 7458,
+  "exception-handling state": 1815,
   "other": 451
  },
  "rule_decision_bytes": {
   "library code counted as game code": 39028,
-  "other process decisions": 30108
+  "other process decisions": 33593
  },
- "never_attempted_bytes": 196403,
+ "never_attempted_bytes": 115980,
  "in_draft_link_tier_bytes": 5944,
  "waiting_on_hub_by_area": [
   {

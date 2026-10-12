@@ -1,12 +1,12 @@
 {
- "generated_utc": "2026-10-11T00:24:56+00:00",
+ "generated_utc": "2026-10-12T04:03:57+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
- "map_date": "2026-10-10",
- "map_verified_bytes": 343988,
- "matches_current_snapshot": false,
- "remaining_bytes": 640418,
- "remaining_functions": 2161,
+ "map_date": "2026-10-11",
+ "map_verified_bytes": 348097,
+ "matches_current_snapshot": true,
+ "remaining_bytes": 636061,
+ "remaining_functions": 2107,
  "kinds": [
   {
    "key": "plain",
@@ -73,26 +73,26 @@
  ],
  "area_by_kind_bytes": {
   "World, entities & game data": {
-   "plain": 17595,
+   "plain": 17552,
    "object": 2102,
-   "frame": 5808,
-   "interlinked": 29842,
+   "frame": 4764,
+   "interlinked": 30886,
    "tiny": 18
   },
   "HUD & targeting": {
-   "plain": 11535,
+   "plain": 11093,
    "frame": 7269,
    "interlinked": 36377
   },
   "3D rendering & camera": {
-   "plain": 7764,
-   "frame": 16187,
+   "plain": 7364,
+   "frame": 16093,
    "interlinked": 27225
   },
   "Core runtime & platform": {
-   "plain": 9285,
+   "plain": 8867,
    "object": 1174,
-   "frame": 1051,
+   "frame": 949,
    "interlinked": 2537,
    "library": 36529,
    "tiny": 82
@@ -105,32 +105,32 @@
    "tiny": 10
   },
   "In-game editors": {
-   "plain": 7216,
-   "frame": 5778,
-   "interlinked": 30143,
+   "plain": 6975,
+   "frame": 5470,
+   "interlinked": 30339,
    "tiny": 5
   },
   "Game screens & states": {
-   "plain": 8127,
+   "plain": 7772,
    "frame": 11320,
    "interlinked": 23553,
    "tiny": 19
   },
   "UI widgets & menus": {
-   "plain": 3075,
+   "plain": 2889,
    "frame": 7318,
    "interlinked": 27135,
    "tiny": 33
   },
   "Debug tools & console": {
-   "plain": 9906,
+   "plain": 9842,
    "object": 857,
    "frame": 2345,
    "interlinked": 20329,
    "tiny": 9
   },
   "Map & tactical view": {
-   "plain": 4368,
+   "plain": 4192,
    "interlinked": 27518
   },
   "Social, chat & lobby": {
@@ -141,37 +141,37 @@
   },
   "Visual effects": {
    "plain": 2683,
-   "frame": 1140,
-   "interlinked": 24422
+   "frame": 787,
+   "interlinked": 24775
   },
   "Networking": {
-   "plain": 14682,
+   "plain": 14465,
    "object": 491,
    "frame": 176,
    "interlinked": 11502,
    "tiny": 48
   },
   "Graphics drivers (DirectX/GDI)": {
-   "plain": 10656,
+   "plain": 10511,
    "frame": 7755,
    "interlinked": 5114,
    "library": 1546,
    "tiny": 36
   },
   "Textures & images": {
-   "plain": 557,
-   "frame": 3505,
-   "interlinked": 13818,
+   "plain": 525,
+   "frame": 2997,
+   "interlinked": 14326,
    "tiny": 5
   },
   "Startup & config": {
-   "plain": 4588,
-   "frame": 3103,
-   "interlinked": 8645,
+   "plain": 3468,
+   "frame": 400,
+   "interlinked": 11480,
    "tiny": 25
   },
   "Input & controls": {
-   "plain": 3448,
+   "plain": 3332,
    "frame": 1631,
    "interlinked": 7288
   },
@@ -182,7 +182,7 @@
    "tiny": 3
   },
   "Updater (CSN)": {
-   "plain": 7704,
+   "plain": 7478,
    "interlinked": 272,
    "library": 953,
    "tiny": 16
@@ -194,26 +194,26 @@
  },
  "area_by_kind_functions": {
   "World, entities & game data": {
-   "plain": 55,
+   "plain": 54,
    "object": 5,
-   "frame": 14,
-   "interlinked": 102,
+   "frame": 11,
+   "interlinked": 105,
    "tiny": 3
   },
   "HUD & targeting": {
-   "plain": 42,
+   "plain": 38,
    "frame": 18,
    "interlinked": 87
   },
   "3D rendering & camera": {
-   "plain": 25,
-   "frame": 40,
+   "plain": 23,
+   "frame": 39,
    "interlinked": 101
   },
   "Core runtime & platform": {
-   "plain": 49,
+   "plain": 44,
    "object": 5,
-   "frame": 9,
+   "frame": 8,
    "interlinked": 22,
    "library": 77,
    "tiny": 9
@@ -226,32 +226,32 @@
    "tiny": 2
   },
   "In-game editors": {
-   "plain": 49,
-   "frame": 23,
-   "interlinked": 95,
+   "plain": 44,
+   "frame": 21,
+   "interlinked": 96,
    "tiny": 1
   },
   "Game screens & states": {
-   "plain": 59,
+   "plain": 50,
    "frame": 28,
    "interlinked": 72,
    "tiny": 3
   },
   "UI widgets & menus": {
-   "plain": 22,
+   "plain": 19,
    "frame": 34,
    "interlinked": 123,
    "tiny": 4
   },
   "Debug tools & console": {
-   "plain": 23,
+   "plain": 22,
    "object": 2,
    "frame": 8,
    "interlinked": 42,
    "tiny": 2
   },
   "Map & tactical view": {
-   "plain": 20,
+   "plain": 18,
    "interlinked": 81
   },
   "Social, chat & lobby": {
@@ -262,37 +262,37 @@
   },
   "Visual effects": {
    "plain": 9,
-   "frame": 4,
-   "interlinked": 82
+   "frame": 2,
+   "interlinked": 84
   },
   "Networking": {
-   "plain": 60,
+   "plain": 56,
    "object": 4,
    "frame": 1,
    "interlinked": 38,
    "tiny": 9
   },
   "Graphics drivers (DirectX/GDI)": {
-   "plain": 36,
+   "plain": 33,
    "frame": 26,
    "interlinked": 12,
    "library": 3,
    "tiny": 4
   },
   "Textures & images": {
-   "plain": 5,
-   "frame": 13,
-   "interlinked": 59,
+   "plain": 4,
+   "frame": 12,
+   "interlinked": 60,
    "tiny": 1
   },
   "Startup & config": {
-   "plain": 14,
-   "frame": 3,
-   "interlinked": 18,
+   "plain": 9,
+   "frame": 2,
+   "interlinked": 20,
    "tiny": 2
   },
   "Input & controls": {
-   "plain": 21,
+   "plain": 19,
    "frame": 6,
    "interlinked": 40
   },
@@ -303,7 +303,7 @@
    "tiny": 1
   },
   "Updater (CSN)": {
-   "plain": 24,
+   "plain": 19,
    "interlinked": 1,
    "library": 7,
    "tiny": 3
@@ -318,34 +318,34 @@
    "key": "ready-now",
    "label": "Ready to attempt now",
    "caption": "An admissible path exists under today's rules; it is porting work.",
-   "bytes": 197376,
-   "functions": 768
+   "bytes": 186964,
+   "functions": 702
   },
   {
    "key": "plateaued",
    "label": "Stuck on a known compiler quirk",
    "caption": "Close attempts stall on a named compiler choice (register allocation, instruction order, floating-point stack order, stack-slot order, exception-handling state).",
-   "bytes": 46266,
-   "functions": 142
+   "bytes": 46593,
+   "functions": 144
   },
   {
    "key": "blocked-on-hub",
    "label": "Waiting on a shared helper",
    "caption": "Needs a heavily shared helper function (a hub) rebuilt first. Almost all of it is interlinked code, broken down by area below.",
-   "bytes": 324155,
-   "functions": 1031
+   "bytes": 329091,
+   "functions": 1040
   },
   {
    "key": "blocked-on-ruling",
    "label": "Waiting on a rule decision",
    "caption": "Held by a counting or process decision, not by difficulty; much of it already matches in drafts.",
-   "bytes": 72621,
-   "functions": 220
+   "bytes": 73413,
+   "functions": 221
   }
  ],
  "plateau_bytes_by_cause": {
-  "floating-point stack order": 14788,
-  "register allocation": 12007,
+  "floating-point stack order": 15028,
+  "register allocation": 12094,
   "stack-slot order": 9747,
   "instruction order": 7458,
   "exception-handling state": 1815,
@@ -353,9 +353,9 @@
  },
  "rule_decision_bytes": {
   "library code counted as game code": 39028,
-  "other process decisions": 33593
+  "other process decisions": 34385
  },
- "never_attempted_bytes": 115980,
+ "never_attempted_bytes": 110840,
  "in_draft_link_tier_bytes": 5944,
  "waiting_on_hub_by_area": [
   {
@@ -368,15 +368,15 @@
   {
    "label": "Interlinked: World, entities & game data",
    "area": "World, entities & game data",
-   "bytes": 29735,
-   "functions": 101,
+   "bytes": 30779,
+   "functions": 104,
    "hubs_waited_on": 52
   },
   {
    "label": "Interlinked: In-game editors",
    "area": "In-game editors",
-   "bytes": 28645,
-   "functions": 85,
+   "bytes": 28841,
+   "functions": 86,
    "hubs_waited_on": 60
   },
   {
@@ -403,9 +403,9 @@
   {
    "label": "Interlinked: Visual effects",
    "area": "Visual effects",
-   "bytes": 24223,
-   "functions": 80,
-   "hubs_waited_on": 37
+   "bytes": 24576,
+   "functions": 82,
+   "hubs_waited_on": 38
   },
   {
    "label": "Interlinked: Game screens & states",
@@ -431,9 +431,9 @@
   {
    "label": "Interlinked: Textures & images",
    "area": "Textures & images",
-   "bytes": 13818,
-   "functions": 59,
-   "hubs_waited_on": 24
+   "bytes": 14326,
+   "functions": 60,
+   "hubs_waited_on": 25
   },
   {
    "label": "Interlinked: Networking",
@@ -445,8 +445,8 @@
   {
    "label": "Interlinked: Startup & config",
    "area": "Startup & config",
-   "bytes": 8451,
-   "functions": 17,
+   "bytes": 11286,
+   "functions": 19,
    "hubs_waited_on": 11
   },
   {
@@ -507,11 +507,11 @@
   }
  ],
  "interlinked": {
-  "functions": 1055,
-  "bytes": 327823,
-  "core_functions": 412,
-  "core_bytes": 161142,
-  "hubs": 269,
+  "functions": 1064,
+  "bytes": 332759,
+  "core_functions": 416,
+  "core_bytes": 164822,
+  "hubs": 270,
   "hubs_by_home_area": [
    {
     "area": "UI widgets & menus",
@@ -520,8 +520,8 @@
    },
    {
     "area": "Visual effects",
-    "hubs": 32,
-    "bytes": 8974
+    "hubs": 33,
+    "bytes": 9087
    },
    {
     "area": "3D rendering & camera",
@@ -608,74 +608,83 @@
    {
     "name": "Social, chat & lobby A",
     "area": "Social, chat & lobby",
-    "functions": 102,
-    "bytes": 47174,
-    "core_functions": 72,
+    "functions": 103,
+    "bytes": 48255,
+    "core_functions": 73,
     "hubs_inside": 26,
-    "hubs_waited_on": 30
-   },
-   {
-    "name": "3D rendering & camera A",
-    "area": "3D rendering & camera",
-    "functions": 74,
-    "bytes": 26122,
-    "core_functions": 48,
-    "hubs_inside": 16,
-    "hubs_waited_on": 28
-   },
-   {
-    "name": "Debug tools & console A",
-    "area": "Debug tools & console",
-    "functions": 44,
-    "bytes": 18120,
-    "core_functions": 14,
-    "hubs_inside": 11,
-    "hubs_waited_on": 12
+    "hubs_waited_on": 31
    },
    {
     "name": "Startup & config",
     "area": "Startup & config",
-    "functions": 57,
-    "bytes": 17605,
-    "core_functions": 20,
+    "functions": 86,
+    "bytes": 26912,
+    "core_functions": 36,
+    "hubs_inside": 19,
+    "hubs_waited_on": 22
+   },
+   {
+    "name": "World, entities & game data A",
+    "area": "World, entities & game data",
+    "functions": 52,
+    "bytes": 21418,
+    "core_functions": 25,
     "hubs_inside": 10,
-    "hubs_waited_on": 12
+    "hubs_waited_on": 16
    },
    {
-    "name": "Networking",
-    "area": "Networking",
-    "functions": 56,
-    "bytes": 16643,
-    "core_functions": 13,
-    "hubs_inside": 15,
-    "hubs_waited_on": 18
-   },
-   {
-    "name": "HUD & targeting A",
-    "area": "HUD & targeting",
-    "functions": 42,
-    "bytes": 14273,
-    "core_functions": 18,
-    "hubs_inside": 8,
-    "hubs_waited_on": 8
+    "name": "World, entities & game data B",
+    "area": "World, entities & game data",
+    "functions": 66,
+    "bytes": 20675,
+    "core_functions": 28,
+    "hubs_inside": 17,
+    "hubs_waited_on": 17
    },
    {
     "name": "Visual effects A",
     "area": "Visual effects",
-    "functions": 53,
-    "bytes": 13795,
-    "core_functions": 30,
-    "hubs_inside": 17,
-    "hubs_waited_on": 21
+    "functions": 67,
+    "bytes": 20301,
+    "core_functions": 31,
+    "hubs_inside": 21,
+    "hubs_waited_on": 22
    },
    {
-    "name": "3D rendering & camera B",
+    "name": "3D rendering & camera A",
     "area": "3D rendering & camera",
-    "functions": 47,
-    "bytes": 13445,
+    "functions": 62,
+    "bytes": 18416,
+    "core_functions": 31,
+    "hubs_inside": 14,
+    "hubs_waited_on": 20
+   },
+   {
+    "name": "Map & tactical view A",
+    "area": "Map & tactical view",
+    "functions": 51,
+    "bytes": 17495,
     "core_functions": 25,
     "hubs_inside": 16,
-    "hubs_waited_on": 16
+    "hubs_waited_on": 20
+   },
+   {
+    "name": "Networking",
+    "area": "Networking",
+    "functions": 59,
+    "bytes": 17320,
+    "core_functions": 14,
+    "hubs_inside": 16,
+    "hubs_waited_on": 19
+   },
+   {
+    "name": "HUD & targeting A",
+    "area": "HUD & targeting",
+    "functions": 47,
+    "bytes": 15071,
+    "core_functions": 23,
+    "hubs_inside": 8,
+    "hubs_waited_on": 8
    },
    {
     "name": "In-game editors A",
@@ -687,40 +696,22 @@
     "hubs_waited_on": 19
    },
    {
-    "name": "Debug tools & console B",
+    "name": "3D rendering & camera B",
+    "area": "3D rendering & camera",
+    "functions": 44,
+    "bytes": 12917,
+    "core_functions": 23,
+    "hubs_inside": 15,
+    "hubs_waited_on": 16
+   },
+   {
+    "name": "Debug tools & console",
     "area": "Debug tools & console",
     "functions": 32,
     "bytes": 12585,
     "core_functions": 0,
     "hubs_inside": 9,
     "hubs_waited_on": 9
-   },
-   {
-    "name": "World, entities & game data A",
-    "area": "World, entities & game data",
-    "functions": 54,
-    "bytes": 12312,
-    "core_functions": 28,
-    "hubs_inside": 15,
-    "hubs_waited_on": 15
-   },
-   {
-    "name": "Map & tactical view A",
-    "area": "Map & tactical view",
-    "functions": 43,
-    "bytes": 11792,
-    "core_functions": 13,
-    "hubs_inside": 13,
-    "hubs_waited_on": 17
-   },
-   {
-    "name": "Visual effects B",
-    "area": "Visual effects",
-    "functions": 33,
-    "bytes": 10762,
-    "core_functions": 17,
-    "hubs_inside": 11,
-    "hubs_waited_on": 11
    },
    {
     "name": "Game screens & states A",
@@ -732,6 +723,15 @@
     "hubs_waited_on": 8
    },
    {
+    "name": "Game screens & states B",
+    "area": "Game screens & states",
+    "functions": 35,
+    "bytes": 9558,
+    "core_functions": 13,
+    "hubs_inside": 10,
+    "hubs_waited_on": 10
+   },
+   {
     "name": "In-game editors B",
     "area": "In-game editors",
     "functions": 47,
@@ -741,22 +741,13 @@
     "hubs_waited_on": 17
    },
    {
-    "name": "Visual effects C",
+    "name": "Visual effects B",
     "area": "Visual effects",
     "functions": 24,
     "bytes": 8477,
     "core_functions": 5,
     "hubs_inside": 6,
     "hubs_waited_on": 7
-   },
-   {
-    "name": "3D rendering & camera C",
-    "area": "3D rendering & camera",
-    "functions": 12,
-    "bytes": 8363,
-    "core_functions": 0,
-    "hubs_inside": 2,
-    "hubs_waited_on": 3
    },
    {
     "name": "Map & tactical view B",
@@ -777,15 +768,6 @@
     "hubs_waited_on": 12
    },
    {
-    "name": "Audio & voice",
-    "area": "Audio & voice",
-    "functions": 33,
-    "bytes": 7634,
-    "core_functions": 0,
-    "hubs_inside": 7,
-    "hubs_waited_on": 7
-   },
-   {
     "name": "Social, chat & lobby B",
     "area": "Social, chat & lobby",
     "functions": 36,
@@ -795,7 +777,7 @@
     "hubs_waited_on": 7
    },
    {
-    "name": "World, entities & game data B",
+    "name": "World, entities & game data C",
     "area": "World, entities & game data",
     "functions": 19,
     "bytes": 6589,
@@ -804,30 +786,12 @@
     "hubs_waited_on": 7
    },
    {
-    "name": "World, entities & game data C",
-    "area": "World, entities & game data",
-    "functions": 17,
-    "bytes": 5184,
-    "core_functions": 9,
-    "hubs_inside": 5,
-    "hubs_waited_on": 6
-   },
-   {
-    "name": "3D rendering & camera D",
-    "area": "3D rendering & camera",
-    "functions": 18,
-    "bytes": 3894,
-    "core_functions": 12,
-    "hubs_inside": 5,
-    "hubs_waited_on": 8
-   },
-   {
-    "name": "Textures & images B",
-    "area": "Textures & images",
-    "functions": 16,
-    "bytes": 3699,
-    "core_functions": 1,
-    "hubs_inside": 5,
+    "name": "Audio & voice",
+    "area": "Audio & voice",
+    "functions": 25,
+    "bytes": 5378,
+    "core_functions": 0,
+    "hubs_inside": 4,
     "hubs_waited_on": 5
    },
    {
@@ -840,15 +804,6 @@
     "hubs_waited_on": 5
    },
    {
-    "name": "World, entities & game data D",
-    "area": "World, entities & game data",
-    "functions": 14,
-    "bytes": 2636,
-    "core_functions": 3,
-    "hubs_inside": 2,
-    "hubs_waited_on": 2
-   },
-   {
     "name": "UI widgets & menus A",
     "area": "UI widgets & menus",
     "functions": 13,
@@ -856,6 +811,24 @@
     "core_functions": 0,
     "hubs_inside": 0,
     "hubs_waited_on": 1
+   },
+   {
+    "name": "Textures & images B",
+    "area": "Textures & images",
+    "functions": 11,
+    "bytes": 2466,
+    "core_functions": 0,
+    "hubs_inside": 4,
+    "hubs_waited_on": 4
+   },
+   {
+    "name": "Map & tactical view C",
+    "area": "Map & tactical view",
+    "functions": 16,
+    "bytes": 2207,
+    "core_functions": 5,
+    "hubs_inside": 5,
+    "hubs_waited_on": 5
    },
    {
     "name": "UI widgets & menus B",
@@ -876,7 +849,7 @@
     "hubs_waited_on": 3
    },
    {
-    "name": "Game screens & states B",
+    "name": "Game screens & states C",
     "area": "Game screens & states",
     "functions": 8,
     "bytes": 1047,

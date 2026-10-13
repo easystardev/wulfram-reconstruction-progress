@@ -2,6 +2,7 @@
 
 One line per commit that changed the verified-bytes measurement, newest first. Subjects are sanitised (function names and addresses removed).
 
+- 2026-10-13 - 35.968% (+0.680 pt), 2363 fns - Promote 78 verified ready-wave7 reconstruction functions
 - 2026-10-11 - 35.288% (+0.181 pt), 2285 fns - Promote 8 verified rulings sweep #2 reconstruction functions
 - 2026-10-11 - 35.107% (+0.000 pt), 2277 fns - Regenerate verified-bytes.json after the fallback-counts-nothing ruling
 - 2026-10-10 - 35.107% (+0.236 pt), 2277 fns - Promote 46 verified ready-wave6 reconstruction functions

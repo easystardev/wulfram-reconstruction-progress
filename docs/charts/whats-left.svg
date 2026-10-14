@@ -41,8 +41,8 @@ z
    </g>
    <g id="patch_4">
     <path d="M 174.986797 437.576845 
-L 351.092656 437.576845 
-L 351.092656 427.558309 
+L 348.684264 437.576845 
+L 348.684264 427.558309 
 L 174.986797 427.558309 
 z
 " clip-path="url(#p820f420fdf)" style="fill: #1baf7a"/>
@@ -602,7 +602,7 @@ L 649.286797 474.812406
     <text style="font-size: 8.5px; font-family: 'Segoe UI', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #52514e" x="196.494208" y="451.477213" transform="rotate(-0 196.494208 451.477213)">4 KiB</text>
    </g>
    <g id="text_34">
-    <text style="font-size: 8.5px; font-family: 'Segoe UI', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #52514e" x="357.097998" y="434.779652" transform="rotate(-0 357.097998 434.779652)">44 KiB</text>
+    <text style="font-size: 8.5px; font-family: 'Segoe UI', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #52514e" x="354.689606" y="434.779652" transform="rotate(-0 354.689606 434.779652)">43 KiB</text>
    </g>
    <g id="text_35">
     <text style="font-size: 8.5px; font-family: 'Segoe UI', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #52514e" x="182.055584" y="418.082091" transform="rotate(-0 182.055584 418.082091)">&lt;1 KiB</text>
@@ -674,7 +674,7 @@ L 649.286797 474.812406
     <text style="font-size: 8.5px; font-family: 'Segoe UI', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #52514e" x="576.242138" y="50.73575" transform="rotate(-0 576.242138 50.73575)">99 KiB</text>
    </g>
    <g id="text_58">
-    <text style="font-weight: 700; font-size: 13px; font-family: 'Segoe UI', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #0b0b0b" x="174.986797" y="16.976406" transform="rotate(-0 174.986797 16.976406)">What's left: 569 KiB of first-party code, by blocker</text>
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Segoe UI', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #0b0b0b" x="174.986797" y="16.976406" transform="rotate(-0 174.986797 16.976406)">What's left: 568 KiB of first-party code, by blocker</text>
    </g>
   </g>
   <g id="text_59">

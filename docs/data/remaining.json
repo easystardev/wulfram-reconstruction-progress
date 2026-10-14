@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-14T04:08:33+00:00",
+ "generated_utc": "2026-10-14T04:09:11+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "as_of_rebuild_snapshot": "current verified-bytes snapshot",
@@ -92,12 +92,12 @@
     {
      "label": "Interlinked: HUD & targeting",
      "area": "HUD & targeting",
-     "functions": 85,
-     "bytes": 35664,
-     "percent_of_remaining_first_party": 6.08,
+     "functions": 84,
+     "bytes": 35400,
+     "percent_of_remaining_first_party": 6.04,
      "verified_since_census_bytes": 2144,
      "percent_done_since_census": 5.7,
-     "hubs_waited_on": 42
+     "hubs_waited_on": 41
     },
     {
      "label": "Interlinked: In-game editors",
@@ -107,47 +107,27 @@
      "percent_of_remaining_first_party": 5.14,
      "verified_since_census_bytes": 1923,
      "percent_done_since_census": 6.0,
-     "hubs_waited_on": 63
-    },
-    {
-     "label": "Interlinked: World, entities & game data",
-     "area": "World, entities & game data",
-     "functions": 99,
-     "bytes": 29115,
-     "percent_of_remaining_first_party": 4.96,
-     "verified_since_census_bytes": 1030,
-     "percent_done_since_census": 3.4,
-     "hubs_waited_on": 52
+     "hubs_waited_on": 62
     },
     {
      "label": "Interlinked: Map & tactical view",
      "area": "Map & tactical view",
-     "functions": 80,
-     "bytes": 27477,
-     "percent_of_remaining_first_party": 4.68,
+     "functions": 77,
+     "bytes": 25708,
+     "percent_of_remaining_first_party": 4.38,
      "verified_since_census_bytes": 377,
      "percent_done_since_census": 1.4,
-     "hubs_waited_on": 41
+     "hubs_waited_on": 38
     },
     {
      "label": "Interlinked: 3D rendering & camera",
      "area": "3D rendering & camera",
-     "functions": 95,
-     "bytes": 26289,
-     "percent_of_remaining_first_party": 4.48,
+     "functions": 92,
+     "bytes": 24449,
+     "percent_of_remaining_first_party": 4.17,
      "verified_since_census_bytes": 1524,
-     "percent_done_since_census": 5.5,
-     "hubs_waited_on": 44
-    },
-    {
-     "label": "Interlinked: UI widgets & menus",
-     "area": "UI widgets & menus",
-     "functions": 111,
-     "bytes": 24786,
-     "percent_of_remaining_first_party": 4.23,
-     "verified_since_census_bytes": 1388,
-     "percent_done_since_census": 5.3,
-     "hubs_waited_on": 53
+     "percent_done_since_census": 5.9,
+     "hubs_waited_on": 43
     },
     {
      "label": "Interlinked: Visual effects",
@@ -160,14 +140,34 @@
      "hubs_waited_on": 37
     },
     {
+     "label": "Interlinked: World, entities & game data",
+     "area": "World, entities & game data",
+     "functions": 84,
+     "bytes": 23251,
+     "percent_of_remaining_first_party": 3.96,
+     "verified_since_census_bytes": 1030,
+     "percent_done_since_census": 4.2,
+     "hubs_waited_on": 42
+    },
+    {
      "label": "Interlinked: Game screens & states",
      "area": "Game screens & states",
-     "functions": 67,
-     "bytes": 22737,
-     "percent_of_remaining_first_party": 3.88,
+     "functions": 65,
+     "bytes": 22266,
+     "percent_of_remaining_first_party": 3.8,
      "verified_since_census_bytes": 1634,
-     "percent_done_since_census": 6.7,
-     "hubs_waited_on": 53
+     "percent_done_since_census": 6.8,
+     "hubs_waited_on": 51
+    },
+    {
+     "label": "Interlinked: UI widgets & menus",
+     "area": "UI widgets & menus",
+     "functions": 98,
+     "bytes": 21985,
+     "percent_of_remaining_first_party": 3.75,
+     "verified_since_census_bytes": 1388,
+     "percent_done_since_census": 5.9,
+     "hubs_waited_on": 51
     },
     {
      "label": "Interlinked: Social, chat & lobby",
@@ -187,17 +187,7 @@
      "percent_of_remaining_first_party": 1.94,
      "verified_since_census_bytes": 198,
      "percent_done_since_census": 1.7,
-     "hubs_waited_on": 16
-    },
-    {
-     "label": "Interlinked: Textures & images",
-     "area": "Textures & images",
-     "functions": 39,
-     "bytes": 10717,
-     "percent_of_remaining_first_party": 1.83,
-     "verified_since_census_bytes": 2179,
-     "percent_done_since_census": 16.9,
-     "hubs_waited_on": 22
+     "hubs_waited_on": 15
     },
     {
      "label": "Interlinked: Debug tools & console",
@@ -210,6 +200,16 @@
      "hubs_waited_on": 12
     },
     {
+     "label": "Interlinked: Textures & images",
+     "area": "Textures & images",
+     "functions": 32,
+     "bytes": 8659,
+     "percent_of_remaining_first_party": 1.48,
+     "verified_since_census_bytes": 2179,
+     "percent_done_since_census": 20.1,
+     "hubs_waited_on": 15
+    },
+    {
      "label": "Interlinked: Startup & config",
      "area": "Startup & config",
      "functions": 17,
@@ -217,7 +217,7 @@
      "percent_of_remaining_first_party": 1.42,
      "verified_since_census_bytes": 317,
      "percent_done_since_census": 3.7,
-     "hubs_waited_on": 11
+     "hubs_waited_on": 10
     },
     {
      "label": "Interlinked: Input & controls",
@@ -232,22 +232,22 @@
     {
      "label": "Interlinked: Audio & voice",
      "area": "Audio & voice",
-     "functions": 21,
-     "bytes": 5616,
-     "percent_of_remaining_first_party": 0.96,
+     "functions": 15,
+     "bytes": 3261,
+     "percent_of_remaining_first_party": 0.56,
      "verified_since_census_bytes": 1699,
-     "percent_done_since_census": 23.2,
-     "hubs_waited_on": 7
+     "percent_done_since_census": 34.3,
+     "hubs_waited_on": 4
     },
     {
      "label": "Interlinked: Graphics drivers (DirectX/GDI)",
      "area": "Graphics drivers (DirectX/GDI)",
-     "functions": 10,
-     "bytes": 4466,
-     "percent_of_remaining_first_party": 0.76,
+     "functions": 8,
+     "bytes": 2686,
+     "percent_of_remaining_first_party": 0.46,
      "verified_since_census_bytes": 120,
-     "percent_done_since_census": 2.6,
-     "hubs_waited_on": 6
+     "percent_done_since_census": 4.3,
+     "hubs_waited_on": 4
     },
     {
      "label": "Interlinked: Core runtime & platform",
@@ -292,15 +292,15 @@
     {
      "label": "Interlinked: loosened since the census",
      "area": null,
-     "functions": 77,
-     "bytes": 28196,
-     "percent_of_remaining_first_party": 4.81,
+     "functions": 129,
+     "bytes": 47398,
+     "percent_of_remaining_first_party": 8.08,
      "verified_since_census_bytes": 0,
      "percent_done_since_census": 0.0,
      "hubs_waited_on": 0
     }
    ],
-   "hubs_total_distinct": 256,
+   "hubs_total_distinct": 240,
    "subsections_bytes_sum": 332362
   },
   {

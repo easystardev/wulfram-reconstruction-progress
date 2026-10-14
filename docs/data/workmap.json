@@ -1,10 +1,10 @@
 {
- "generated_utc": "2026-10-13T17:32:43+00:00",
+ "generated_utc": "2026-10-14T04:08:33+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "map_date": "2026-10-13",
  "map_verified_bytes": 354808,
- "matches_current_snapshot": true,
+ "matches_current_snapshot": false,
  "remaining_bytes": 629204,
  "remaining_functions": 2029,
  "kinds": [

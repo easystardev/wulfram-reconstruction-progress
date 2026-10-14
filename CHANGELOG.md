@@ -2,6 +2,7 @@
 
 One line per commit that changed the verified-bytes measurement, newest first. Subjects are sanitised (function names and addresses removed).
 
+- 2026-10-14 - 37.017% (+0.402 pt), 2410 fns - Promote 11 verified intake-b1 reconstruction functions
 - 2026-10-13 - 36.615% (+0.647 pt), 2399 fns - Promote 36 verified hub-wave1 reconstruction functions
 - 2026-10-13 - 35.968% (+0.680 pt), 2363 fns - Promote 78 verified ready-wave7 reconstruction functions
 - 2026-10-11 - 35.288% (+0.181 pt), 2285 fns - Promote 8 verified rulings sweep #2 reconstruction functions

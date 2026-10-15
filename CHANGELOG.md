@@ -2,6 +2,7 @@
 
 One line per commit that changed the verified-bytes measurement, newest first. Subjects are sanitised (function names and addresses removed).
 
+- 2026-10-14 - 37.163% (+0.000 pt), 2420 fns - Migrate the round16-b3 supersede to strict in-place re-certification (credit-neutral)
 - 2026-10-14 - 37.163% (+0.084 pt), 2420 fns - Promote intake-b3: W3b strict in-place re-certification of h13 (+7 verified functions)
 - 2026-10-14 - 37.079% (+0.062 pt), 2413 fns - Promote 3 verified intake-b2 reconstruction functions
 - 2026-10-14 - 37.017% (+0.402 pt), 2410 fns - Promote 11 verified intake-b1 reconstruction functions

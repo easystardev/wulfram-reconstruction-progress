@@ -133,7 +133,7 @@ The campaign headline is that tier plus 2,519 bytes (26 functions) verified by b
 | Other provisional rule | 4,130 (11 fn) | 1.13% | yes | Byte-identical; admitted under a rule that is marked provisional. | Under review. |
 | Other provisional rule | 1,167 (2 fn) | 0.32% | yes | Byte-identical; admitted under a rule that is marked provisional. | Under review. |
 | Other provisional rule | 298 (1 fn) | 0.08% | yes | Byte-identical; admitted under a rule that is marked provisional. | Under review. |
-| Replaced records (provisional) | 1,442 (5 fn) | 0.39% | yes | Byte-identical. A newer proof replaced an older record: either a larger unit that contains the old one, or a fresh proof for a record whose source had gone out of date. The old records are kept verbatim in a separate file; every function is counted once. | Rule under review. Deleting that one file returns the count to what it was before the rule. |
+| Replaced records (provisional) | 1,333 (4 fn) | 0.36% | yes | Byte-identical. A newer proof replaced an older record: either a larger unit that contains the old one, or a fresh proof for a record whose source had gone out of date. The old records are kept verbatim in a separate file; every function is counted once. | Rule under review. Deleting that one file returns the count to what it was before the rule. |
 
 Apart from the behaviour-verified row, these flags describe how a unit was admitted or attributed (the evidence rules), not bytes that fail to match. A function can carry more than one flag, so the rows overlap and do not add up.
 

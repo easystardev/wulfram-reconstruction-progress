@@ -1,10 +1,10 @@
 {
- "generated_utc": "2026-10-15T00:15:58+00:00",
+ "generated_utc": "2026-10-15T02:50:52+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "snapshot": {
-  "date": "2026-10-14T19:15:45-05:00",
-  "subject": "Promote intake-b3: W3b strict in-place re-certification of h13 (+7 verified functions)",
+  "date": "2026-10-14T21:50:39-05:00",
+  "subject": "Migrate the round16-b3 supersede to strict in-place re-certification (credit-neutral)",
   "verified_functions": 2420,
   "verified_bytes": 366600,
   "denominator_functions": 4392,
@@ -489,9 +489,9 @@
    {
     "key": "provisional_superseded_records",
     "label": "Replaced records (provisional)",
-    "functions": 5,
-    "bytes": 1442,
-    "percent_of_counted": 0.393,
+    "functions": 4,
+    "bytes": 1333,
+    "percent_of_counted": 0.364,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical. A newer proof replaced an older record: either a larger unit that contains the old one, or a fresh proof for a record whose source had gone out of date. The old records are kept verbatim in a separate file; every function is counted once.",

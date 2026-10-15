@@ -1,10 +1,10 @@
 {
- "generated_utc": "2026-10-15T14:55:45+00:00",
+ "generated_utc": "2026-10-15T17:54:52+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "snapshot": {
-  "date": "2026-10-15T09:55:31-05:00",
-  "subject": "Promote intake-m1: [fn] fresh byte proof (+1 fn / +100 B)",
+  "date": "2026-10-15T12:54:38-05:00",
+  "subject": "Promote intake-decl: g4 and k02 re-certified in place on the shared List/InputWidget/Viewer header (credit-neutral)",
   "verified_functions": 2421,
   "verified_bytes": 366700,
   "denominator_functions": 4392,

@@ -2,6 +2,7 @@
 
 One line per commit that changed the verified-bytes measurement, newest first. Subjects are sanitised (function names and addresses removed).
 
+- 2026-10-15 - 37.174% (+0.000 pt), 2421 fns - Promote intake-decl: g4 and k02 re-certified in place on the shared List/InputWidget/Viewer header (credit-neutral)
 - 2026-10-15 - 37.174% (+0.011 pt), 2421 fns - Promote intake-m1: [fn] fresh byte proof (+1 fn / +100 B)
 - 2026-10-14 - 37.163% (+0.000 pt), 2420 fns - Migrate the round16-b3 supersede to strict in-place re-certification (credit-neutral)
 - 2026-10-14 - 37.163% (+0.084 pt), 2420 fns - Promote intake-b3: W3b strict in-place re-certification of h13 (+7 verified functions)

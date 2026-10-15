@@ -1,12 +1,12 @@
 {
- "generated_utc": "2026-10-15T02:50:52+00:00",
+ "generated_utc": "2026-10-15T14:55:45+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "as_of_rebuild_snapshot": "current verified-bytes snapshot",
  "census_date": "2026-10-04",
  "first_party_denominator_bytes": 947693,
- "first_party_verified_bytes": 366600,
- "remaining_first_party_bytes": 581093,
+ "first_party_verified_bytes": 366700,
+ "remaining_first_party_bytes": 580993,
  "classified_by_census_bytes": 508994,
  "overlap_or_drift_bytes": 0,
  "buckets": [
@@ -14,8 +14,8 @@
    "key": "plain_singles",
    "label": "Plain singles",
    "functions": 119,
-   "bytes": 101094,
-   "percent_of_remaining_first_party": 17.4,
+   "bytes": 100994,
+   "percent_of_remaining_first_party": 17.38,
    "by_class": {
     "census plain-single track": {
      "functions": 4,
@@ -31,7 +31,7 @@
     },
     "outside the census filters (residual)": {
      "functions": null,
-     "bytes": 72099
+     "bytes": 71999
     }
    }
   },
@@ -40,7 +40,7 @@
    "label": "Closed clusters",
    "functions": 269,
    "bytes": 89399,
-   "percent_of_remaining_first_party": 15.38,
+   "percent_of_remaining_first_party": 15.39,
    "by_class": {
     "1 member": {
      "functions": 9,
@@ -69,7 +69,7 @@
    "label": "Frame / alignment classes",
    "functions": 162,
    "bytes": 58075,
-   "percent_of_remaining_first_party": 9.99,
+   "percent_of_remaining_first_party": 10.0,
    "by_class": {
     "single function": {
      "functions": 44,
@@ -86,7 +86,7 @@
    "label": "Interlinked code",
    "functions": 1017,
    "bytes": 328560,
-   "percent_of_remaining_first_party": 56.54,
+   "percent_of_remaining_first_party": 56.55,
    "by_class": {},
    "subsections": [
     {

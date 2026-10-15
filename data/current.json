@@ -1,23 +1,23 @@
 {
- "generated_utc": "2026-10-15T02:50:52+00:00",
+ "generated_utc": "2026-10-15T14:55:45+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "snapshot": {
-  "date": "2026-10-14T21:50:39-05:00",
-  "subject": "Migrate the round16-b3 supersede to strict in-place re-certification (credit-neutral)",
-  "verified_functions": 2420,
-  "verified_bytes": 366600,
+  "date": "2026-10-15T09:55:31-05:00",
+  "subject": "Promote intake-m1: [fn] fresh byte proof (+1 fn / +100 B)",
+  "verified_functions": 2421,
+  "verified_bytes": 366700,
   "denominator_functions": 4392,
   "denominator_bytes": 986454,
-  "verified_bytes_percent": 37.163,
+  "verified_bytes_percent": 37.174,
   "verified_by_proof_tier": {
-   "BYTES": 364081,
+   "BYTES": 364181,
    "T1-diffexec": 2426,
    "T1-oracle": 93
   },
   "first_party_excluding_library_rows": {
-   "percent": 38.683,
-   "numerator_bytes": 366600,
+   "percent": 38.694,
+   "numerator_bytes": 366700,
    "denominator_bytes": 947693,
    "functions": 4310
   },
@@ -28,10 +28,10 @@
    "denominator_bytes": 302789
   },
   "provisional_counted_bytes": 9054,
-  "bytes_tier_bytes": 364081,
-  "bytes_tier_functions": 2394,
+  "bytes_tier_bytes": 364181,
+  "bytes_tier_functions": 2395,
   "verified_bytes_by_subsystem": {
-   "Game/Simulation": 65307,
+   "Game/Simulation": 65407,
    "System/Graphics": 58401,
    "Game/View": 48710,
    "System/Core": 38946,
@@ -114,10 +114,10 @@
    },
    "sim.physics": {
     "bytes": 38806,
-    "verified_bytes": 18597,
+    "verified_bytes": 18697,
     "functions": 174,
-    "verified_functions": 115,
-    "percent": 47.923
+    "verified_functions": 116,
+    "percent": 48.181
    },
    "view.tactical": {
     "bytes": 38434,
@@ -324,8 +324,8 @@
    },
    "simulation": {
     "bytes": 180779,
-    "verified_bytes": 78832,
-    "percent": 43.607
+    "verified_bytes": 78932,
+    "percent": 43.662
    },
    "tooling": {
     "bytes": 134821,
@@ -360,17 +360,17 @@
   }
  },
  "exceptions": {
-  "counted_bytes": 366600,
-  "counted_functions": 2420,
-  "bytes_tier_bytes": 364081,
-  "bytes_tier_functions": 2394,
+  "counted_bytes": 366700,
+  "counted_functions": 2421,
+  "bytes_tier_bytes": 364181,
+  "bytes_tier_functions": 2395,
   "categories": [
    {
     "key": "provisional_amendment_20b",
     "label": "Shared-context rule (provisional)",
     "functions": 54,
     "bytes": 9054,
-    "percent_of_counted": 2.47,
+    "percent_of_counted": 2.469,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical. These functions sit in multi-function units whose only outside helpers are functions that were already verified; those helpers ride along unchanged as shared build context and are not counted a second time. The open question is the admission rule, not the bytes.",
@@ -403,7 +403,7 @@
     "label": "Invented helpers",
     "functions": 63,
     "bytes": 22109,
-    "percent_of_counted": 6.031,
+    "percent_of_counted": 6.029,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical. The source uses a small helper the original may not have had, for example a stand-in caller that gives the compiler the right surrounding context. The helper itself is never counted.",
@@ -414,7 +414,7 @@
     "label": "References to not-yet-named globals",
     "functions": 405,
     "bytes": 97614,
-    "percent_of_counted": 26.627,
+    "percent_of_counted": 26.62,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical, and every reference lands on the same address as in the original. The referenced global or function simply has no independently backed name yet.",
@@ -458,7 +458,7 @@
     "label": "Other provisional rule",
     "functions": 11,
     "bytes": 4130,
-    "percent_of_counted": 1.127,
+    "percent_of_counted": 1.126,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical; admitted under a rule that is marked provisional.",
@@ -489,9 +489,9 @@
    {
     "key": "provisional_superseded_records",
     "label": "Replaced records (provisional)",
-    "functions": 4,
-    "bytes": 1333,
-    "percent_of_counted": 0.364,
+    "functions": 5,
+    "bytes": 1433,
+    "percent_of_counted": 0.391,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical. A newer proof replaced an older record: either a larger unit that contains the old one, or a fresh proof for a record whose source had gone out of date. The old records are kept verbatim in a separate file; every function is counted once.",

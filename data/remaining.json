@@ -1,13 +1,13 @@
 {
- "generated_utc": "2026-10-15T20:13:07+00:00",
+ "generated_utc": "2026-10-16T01:38:27+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "as_of_rebuild_snapshot": "current verified-bytes snapshot",
  "census_date": "2026-10-04",
  "first_party_denominator_bytes": 947693,
- "first_party_verified_bytes": 369013,
- "remaining_first_party_bytes": 578680,
- "classified_by_census_bytes": 508987,
+ "first_party_verified_bytes": 371470,
+ "remaining_first_party_bytes": 576223,
+ "classified_by_census_bytes": 506530,
  "overlap_or_drift_bytes": 0,
  "buckets": [
   {
@@ -15,7 +15,7 @@
    "label": "Plain singles",
    "functions": 119,
    "bytes": 98688,
-   "percent_of_remaining_first_party": 17.05,
+   "percent_of_remaining_first_party": 17.13,
    "by_class": {
     "census plain-single track": {
      "functions": 4,
@@ -38,9 +38,9 @@
   {
    "key": "closed_clusters",
    "label": "Closed clusters",
-   "functions": 268,
-   "bytes": 89392,
-   "percent_of_remaining_first_party": 15.45,
+   "functions": 261,
+   "bytes": 86935,
+   "percent_of_remaining_first_party": 15.09,
    "by_class": {
     "1 member": {
      "functions": 8,
@@ -55,8 +55,8 @@
      "bytes": 14680
     },
     "9-24 members": {
-     "functions": 75,
-     "bytes": 24213
+     "functions": 68,
+     "bytes": 21756
     },
     "25-99 members (library-entangled)": {
      "functions": 42,
@@ -69,7 +69,7 @@
    "label": "Frame / alignment classes",
    "functions": 162,
    "bytes": 58075,
-   "percent_of_remaining_first_party": 10.04,
+   "percent_of_remaining_first_party": 10.08,
    "by_class": {
     "single function": {
      "functions": 44,
@@ -86,7 +86,7 @@
    "label": "Interlinked code",
    "functions": 1017,
    "bytes": 328560,
-   "percent_of_remaining_first_party": 56.78,
+   "percent_of_remaining_first_party": 57.02,
    "by_class": {},
    "subsections": [
     {
@@ -94,7 +94,7 @@
      "area": "HUD & targeting",
      "functions": 84,
      "bytes": 35400,
-     "percent_of_remaining_first_party": 6.12,
+     "percent_of_remaining_first_party": 6.14,
      "verified_since_census_bytes": 2144,
      "percent_done_since_census": 5.7,
      "hubs_waited_on": 41
@@ -104,7 +104,7 @@
      "area": "In-game editors",
      "functions": 95,
      "bytes": 30122,
-     "percent_of_remaining_first_party": 5.21,
+     "percent_of_remaining_first_party": 5.23,
      "verified_since_census_bytes": 1923,
      "percent_done_since_census": 6.0,
      "hubs_waited_on": 62
@@ -114,7 +114,7 @@
      "area": "Map & tactical view",
      "functions": 77,
      "bytes": 25708,
-     "percent_of_remaining_first_party": 4.44,
+     "percent_of_remaining_first_party": 4.46,
      "verified_since_census_bytes": 377,
      "percent_done_since_census": 1.4,
      "hubs_waited_on": 38
@@ -124,7 +124,7 @@
      "area": "3D rendering & camera",
      "functions": 92,
      "bytes": 24449,
-     "percent_of_remaining_first_party": 4.22,
+     "percent_of_remaining_first_party": 4.24,
      "verified_since_census_bytes": 1524,
      "percent_done_since_census": 5.9,
      "hubs_waited_on": 43
@@ -134,7 +134,7 @@
      "area": "Visual effects",
      "functions": 81,
      "bytes": 24368,
-     "percent_of_remaining_first_party": 4.21,
+     "percent_of_remaining_first_party": 4.23,
      "verified_since_census_bytes": 218,
      "percent_done_since_census": 0.9,
      "hubs_waited_on": 37
@@ -144,7 +144,7 @@
      "area": "World, entities & game data",
      "functions": 84,
      "bytes": 23251,
-     "percent_of_remaining_first_party": 4.02,
+     "percent_of_remaining_first_party": 4.04,
      "verified_since_census_bytes": 1779,
      "percent_done_since_census": 7.1,
      "hubs_waited_on": 42
@@ -154,7 +154,7 @@
      "area": "Game screens & states",
      "functions": 65,
      "bytes": 22266,
-     "percent_of_remaining_first_party": 3.85,
+     "percent_of_remaining_first_party": 3.86,
      "verified_since_census_bytes": 1716,
      "percent_done_since_census": 7.2,
      "hubs_waited_on": 51
@@ -164,7 +164,7 @@
      "area": "UI widgets & menus",
      "functions": 98,
      "bytes": 21985,
-     "percent_of_remaining_first_party": 3.8,
+     "percent_of_remaining_first_party": 3.82,
      "verified_since_census_bytes": 1388,
      "percent_done_since_census": 5.9,
      "hubs_waited_on": 51
@@ -174,7 +174,7 @@
      "area": "Social, chat & lobby",
      "functions": 30,
      "bytes": 20686,
-     "percent_of_remaining_first_party": 3.57,
+     "percent_of_remaining_first_party": 3.59,
      "verified_since_census_bytes": 180,
      "percent_done_since_census": 0.9,
      "hubs_waited_on": 22
@@ -194,7 +194,7 @@
      "area": "Debug tools & console",
      "functions": 25,
      "bytes": 10420,
-     "percent_of_remaining_first_party": 1.8,
+     "percent_of_remaining_first_party": 1.81,
      "verified_since_census_bytes": 388,
      "percent_done_since_census": 3.6,
      "hubs_waited_on": 12
@@ -214,7 +214,7 @@
      "area": "Startup & config",
      "functions": 17,
      "bytes": 8328,
-     "percent_of_remaining_first_party": 1.44,
+     "percent_of_remaining_first_party": 1.45,
      "verified_since_census_bytes": 317,
      "percent_done_since_census": 3.7,
      "hubs_waited_on": 10
@@ -224,7 +224,7 @@
      "area": "Input & controls",
      "functions": 38,
      "bytes": 6852,
-     "percent_of_remaining_first_party": 1.18,
+     "percent_of_remaining_first_party": 1.19,
      "verified_since_census_bytes": 494,
      "percent_done_since_census": 6.7,
      "hubs_waited_on": 22
@@ -234,7 +234,7 @@
      "area": "Audio & voice",
      "functions": 15,
      "bytes": 3261,
-     "percent_of_remaining_first_party": 0.56,
+     "percent_of_remaining_first_party": 0.57,
      "verified_since_census_bytes": 4054,
      "percent_done_since_census": 55.4,
      "hubs_waited_on": 4
@@ -244,7 +244,7 @@
      "area": "Graphics drivers (DirectX/GDI)",
      "functions": 8,
      "bytes": 2686,
-     "percent_of_remaining_first_party": 0.46,
+     "percent_of_remaining_first_party": 0.47,
      "verified_since_census_bytes": 169,
      "percent_done_since_census": 5.9,
      "hubs_waited_on": 4
@@ -254,7 +254,7 @@
      "area": "Core runtime & platform",
      "functions": 17,
      "bytes": 2223,
-     "percent_of_remaining_first_party": 0.38,
+     "percent_of_remaining_first_party": 0.39,
      "verified_since_census_bytes": 494,
      "percent_done_since_census": 18.2,
      "hubs_waited_on": 10
@@ -294,7 +294,7 @@
      "area": null,
      "functions": 113,
      "bytes": 43596,
-     "percent_of_remaining_first_party": 7.53,
+     "percent_of_remaining_first_party": 7.57,
      "verified_since_census_bytes": 0,
      "percent_done_since_census": 0.0,
      "hubs_waited_on": 0

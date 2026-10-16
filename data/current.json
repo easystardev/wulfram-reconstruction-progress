@@ -1,23 +1,23 @@
 {
- "generated_utc": "2026-10-16T01:38:27+00:00",
+ "generated_utc": "2026-10-16T04:42:33+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "snapshot": {
-  "date": "2026-10-15T20:38:15-05:00",
-  "subject": "Promote intake-w4f: hub-wave4 mesh-triangles object unit (+7 fn / +2,457 B)",
-  "verified_functions": 2445,
-  "verified_bytes": 371470,
+  "date": "2026-10-15T23:42:20-05:00",
+  "subject": "Promote intake-w3a: h09 re-certified in place with [fn] (+1 fn / +894 B)",
+  "verified_functions": 2446,
+  "verified_bytes": 372364,
   "denominator_functions": 4392,
   "denominator_bytes": 986454,
-  "verified_bytes_percent": 37.657,
+  "verified_bytes_percent": 37.748,
   "verified_by_proof_tier": {
-   "BYTES": 368951,
+   "BYTES": 369845,
    "T1-diffexec": 2426,
    "T1-oracle": 93
   },
   "first_party_excluding_library_rows": {
-   "percent": 39.197,
-   "numerator_bytes": 371470,
+   "percent": 39.292,
+   "numerator_bytes": 372364,
    "denominator_bytes": 947693,
    "functions": 4310
   },
@@ -28,12 +28,12 @@
    "denominator_bytes": 302789
   },
   "provisional_counted_bytes": 9054,
-  "bytes_tier_bytes": 368951,
-  "bytes_tier_functions": 2419,
+  "bytes_tier_bytes": 369845,
+  "bytes_tier_functions": 2420,
   "verified_bytes_by_subsystem": {
    "Game/Simulation": 68318,
    "System/Graphics": 58516,
-   "Game/View": 48939,
+   "Game/View": 49833,
    "System/Core": 39760,
    "Game/Session": 28743,
    "System/Network": 22895,
@@ -100,10 +100,10 @@
    },
    "gfx.raster": {
     "bytes": 55913,
-    "verified_bytes": 12404,
+    "verified_bytes": 13298,
     "functions": 208,
-    "verified_functions": 76,
-    "percent": 22.184
+    "verified_functions": 77,
+    "percent": 23.783
    },
    "ui.widgets": {
     "bytes": 55790,
@@ -319,8 +319,8 @@
   "roles": {
    "presentation": {
     "bytes": 423336,
-    "verified_bytes": 128974,
-    "percent": 30.466
+    "verified_bytes": 129868,
+    "percent": 30.677
    },
    "simulation": {
     "bytes": 180779,
@@ -360,17 +360,17 @@
   }
  },
  "exceptions": {
-  "counted_bytes": 371470,
-  "counted_functions": 2445,
-  "bytes_tier_bytes": 368951,
-  "bytes_tier_functions": 2419,
+  "counted_bytes": 372364,
+  "counted_functions": 2446,
+  "bytes_tier_bytes": 369845,
+  "bytes_tier_functions": 2420,
   "categories": [
    {
     "key": "provisional_amendment_20b",
     "label": "Shared-context rule (provisional)",
     "functions": 54,
     "bytes": 9054,
-    "percent_of_counted": 2.437,
+    "percent_of_counted": 2.431,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical. These functions sit in multi-function units whose only outside helpers are functions that were already verified; those helpers ride along unchanged as shared build context and are not counted a second time. The open question is the admission rule, not the bytes.",
@@ -381,7 +381,7 @@
     "label": "Behaviour-verified (lower tier)",
     "functions": 26,
     "bytes": 2519,
-    "percent_of_counted": 0.678,
+    "percent_of_counted": 0.676,
     "proof_tier": "behaviour",
     "bytes_identical": false,
     "nature": "Not yet byte-proven. Each function was run side by side with the original on recorded inputs and gave the same results, with a control that is able to fail. Counted in the campaign figure on a lower proof tier; not part of the byte-exact tier.",
@@ -392,7 +392,7 @@
     "label": "Chosen local-variable names",
     "functions": 6,
     "bytes": 1955,
-    "percent_of_counted": 0.526,
+    "percent_of_counted": 0.525,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical. The period compiler orders some stack slots by the spelling of local variable names. Where no evidence names the original variable, a name was chosen that reproduces the layout.",
@@ -403,7 +403,7 @@
     "label": "Invented helpers",
     "functions": 63,
     "bytes": 22109,
-    "percent_of_counted": 5.952,
+    "percent_of_counted": 5.937,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical. The source uses a small helper the original may not have had, for example a stand-in caller that gives the compiler the right surrounding context. The helper itself is never counted.",
@@ -412,9 +412,9 @@
    {
     "key": "unnamed_global_aliases",
     "label": "References to not-yet-named globals",
-    "functions": 408,
-    "bytes": 97901,
-    "percent_of_counted": 26.355,
+    "functions": 411,
+    "bytes": 99020,
+    "percent_of_counted": 26.592,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical, and every reference lands on the same address as in the original. The referenced global or function simply has no independently backed name yet.",
@@ -436,7 +436,7 @@
     "label": "Other provisional rule",
     "functions": 3,
     "bytes": 998,
-    "percent_of_counted": 0.269,
+    "percent_of_counted": 0.268,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical; admitted under a rule that is marked provisional.",
@@ -447,7 +447,7 @@
     "label": "Other provisional rule",
     "functions": 3,
     "bytes": 1277,
-    "percent_of_counted": 0.344,
+    "percent_of_counted": 0.343,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical; admitted under a rule that is marked provisional.",
@@ -458,7 +458,7 @@
     "label": "Other provisional rule",
     "functions": 11,
     "bytes": 4130,
-    "percent_of_counted": 1.112,
+    "percent_of_counted": 1.109,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical; admitted under a rule that is marked provisional.",
@@ -469,7 +469,7 @@
     "label": "Other provisional rule",
     "functions": 2,
     "bytes": 1167,
-    "percent_of_counted": 0.314,
+    "percent_of_counted": 0.313,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical; admitted under a rule that is marked provisional.",
@@ -491,7 +491,7 @@
     "label": "Replaced records (provisional)",
     "functions": 5,
     "bytes": 1433,
-    "percent_of_counted": 0.386,
+    "percent_of_counted": 0.385,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical. A newer proof replaced an older record: either a larger unit that contains the old one, or a fresh proof for a record whose source had gone out of date. The old records are kept verbatim in a separate file; every function is counted once.",

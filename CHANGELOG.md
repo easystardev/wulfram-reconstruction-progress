@@ -2,6 +2,7 @@
 
 One line per commit that changed the verified-bytes measurement, newest first. Subjects are sanitised (function names and addresses removed).
 
+- 2026-10-17 - 37.938% (+0.015 pt), 2448 fns - Promote intake-20cr: [fn] under PROVISIONAL Amendment 20c-r (+1 fn / +141 B)
 - 2026-10-16 - 37.923% (+0.175 pt), 2447 fns - Promote intake-20f: [fn] under PROVISIONAL Amendment 20f (+1 fn / +1,733 B)
 - 2026-10-15 - 37.748% (+0.091 pt), 2446 fns - Promote intake-w3a: h09 re-certified in place with [fn] (+1 fn / +894 B)
 - 2026-10-15 - 37.657% (+0.249 pt), 2445 fns - Promote intake-w4f: hub-wave4 mesh-triangles object unit (+7 fn / +2,457 B)

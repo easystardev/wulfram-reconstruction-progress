@@ -1,23 +1,23 @@
 {
- "generated_utc": "2026-10-16T19:47:13+00:00",
+ "generated_utc": "2026-10-17T14:17:52+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "snapshot": {
-  "date": "2026-10-16T14:46:59-05:00",
-  "subject": "Promote intake-20f: [fn] under PROVISIONAL Amendment 20f (+1 fn / +1,733 B)",
-  "verified_functions": 2447,
-  "verified_bytes": 374097,
+  "date": "2026-10-17T09:17:13-05:00",
+  "subject": "Promote intake-20cr: [fn] under PROVISIONAL Amendment 20c-r (+1 fn / +141 B)",
+  "verified_functions": 2448,
+  "verified_bytes": 374238,
   "denominator_functions": 4392,
   "denominator_bytes": 986454,
-  "verified_bytes_percent": 37.923,
+  "verified_bytes_percent": 37.938,
   "verified_by_proof_tier": {
-   "BYTES": 371578,
+   "BYTES": 371719,
    "T1-diffexec": 2426,
    "T1-oracle": 93
   },
   "first_party_excluding_library_rows": {
-   "percent": 39.474,
-   "numerator_bytes": 374097,
+   "percent": 39.489,
+   "numerator_bytes": 374238,
    "denominator_bytes": 947693,
    "functions": 4310
   },
@@ -28,13 +28,13 @@
    "denominator_bytes": 302789
   },
   "provisional_counted_bytes": 9054,
-  "bytes_tier_bytes": 371578,
-  "bytes_tier_functions": 2421,
+  "bytes_tier_bytes": 371719,
+  "bytes_tier_functions": 2422,
   "verified_bytes_by_subsystem": {
    "Game/Simulation": 68318,
    "System/Graphics": 58516,
    "Game/View": 49833,
-   "System/Core": 39760,
+   "System/Core": 39901,
    "Game/Session": 28743,
    "System/Network": 22895,
    "AppInit/AppCore": 15984,
@@ -205,10 +205,10 @@
    },
    "math.kernel": {
     "bytes": 15641,
-    "verified_bytes": 11602,
+    "verified_bytes": 11743,
     "functions": 101,
-    "verified_functions": 77,
-    "percent": 74.177
+    "verified_functions": 78,
+    "percent": 75.078
    },
    "assets.formats": {
     "bytes": 15278,
@@ -324,8 +324,8 @@
    },
    "simulation": {
     "bytes": 180779,
-    "verified_bytes": 82177,
-    "percent": 45.457
+    "verified_bytes": 82318,
+    "percent": 45.535
    },
    "tooling": {
     "bytes": 134821,
@@ -360,17 +360,17 @@
   }
  },
  "exceptions": {
-  "counted_bytes": 374097,
-  "counted_functions": 2447,
-  "bytes_tier_bytes": 371578,
-  "bytes_tier_functions": 2421,
+  "counted_bytes": 374238,
+  "counted_functions": 2448,
+  "bytes_tier_bytes": 371719,
+  "bytes_tier_functions": 2422,
   "categories": [
    {
     "key": "provisional_amendment_20b",
     "label": "Shared-context rule (provisional)",
     "functions": 54,
     "bytes": 9054,
-    "percent_of_counted": 2.42,
+    "percent_of_counted": 2.419,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical. These functions sit in multi-function units whose only outside helpers are functions that were already verified; those helpers ride along unchanged as shared build context and are not counted a second time. The open question is the admission rule, not the bytes.",
@@ -392,7 +392,7 @@
     "label": "Chosen local-variable names",
     "functions": 6,
     "bytes": 1955,
-    "percent_of_counted": 0.523,
+    "percent_of_counted": 0.522,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical. The period compiler orders some stack slots by the spelling of local variable names. Where no evidence names the original variable, a name was chosen that reproduces the layout.",
@@ -403,7 +403,7 @@
     "label": "Invented helpers",
     "functions": 64,
     "bytes": 23842,
-    "percent_of_counted": 6.373,
+    "percent_of_counted": 6.371,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical. The source uses a small helper the original may not have had, for example a stand-in caller that gives the compiler the right surrounding context. The helper itself is never counted.",
@@ -414,7 +414,7 @@
     "label": "References to not-yet-named globals",
     "functions": 411,
     "bytes": 99020,
-    "percent_of_counted": 26.469,
+    "percent_of_counted": 26.459,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical, and every reference lands on the same address as in the original. The referenced global or function simply has no independently backed name yet.",
@@ -492,6 +492,17 @@
     "functions": 1,
     "bytes": 1733,
     "percent_of_counted": 0.463,
+    "proof_tier": "byte-exact",
+    "bytes_identical": true,
+    "nature": "Byte-identical; admitted under a rule that is marked provisional.",
+    "plan": "Under review."
+   },
+   {
+    "key": "provisional_amendment_20c_realign",
+    "label": "Other provisional rule",
+    "functions": 1,
+    "bytes": 141,
+    "percent_of_counted": 0.038,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical; admitted under a rule that is marked provisional.",

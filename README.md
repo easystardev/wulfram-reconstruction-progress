@@ -19,7 +19,7 @@ The raw numbers are in [`data/`](data), and every change to the measurement is l
 |---|---:|---|
 | **Campaign verified bytes** | **38.11%** | 2,452 functions, 375,966 of 986,454 first-party target bytes |
 | First-party, library rows excluded | 39.67% | 375,966 of 947,693 bytes, with the rows found to be library code moved out of the denominator |
-| **Library-exact** (separate line) | 59.1% | 178,866 of 302,789 bytes of statically linked library code; 83,449 more bytes pending |
+| **Library-exact** (separate line) | 68.9% | 208,550 of 302,789 bytes of statically linked library code; 53,330 more bytes pending |
 | First-party code still to do | 571,727 bytes | broken down under "What's left" below |
 
 The campaign figure started at 0.27% on 2026-09-11, when this measurement was adopted.
@@ -141,6 +141,7 @@ The campaign headline is that tier plus 2,519 bytes (26 functions) verified by b
 Apart from the behaviour-verified row, these flags describe how a unit was admitted or attributed (the evidence rules), not bytes that fail to match. A function can carry more than one flag, so the rows overlap and do not add up.
 
 - Library tier: *provisional bss gap fit*. Library tier only: library bytes admitted under an evidence rule marked provisional. Under review; never part of the first-party figure.
+- Library tier: *provisional bss relink confirmed*. Library tier only: library bytes admitted under an evidence rule marked provisional. Under review; never part of the first-party figure.
 
 A **draft-link tier** also exists in the private workspace. It links drafted functions into a runnable program for testing. It is provisional and diagnostic, and it is **not counted** in any number here.
 <!-- EXCEPTIONS:END -->

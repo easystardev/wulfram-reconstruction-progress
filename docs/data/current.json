@@ -1,10 +1,10 @@
 {
- "generated_utc": "2026-10-20T13:04:41+00:00",
+ "generated_utc": "2026-10-20T23:32:15+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "snapshot": {
-  "date": "2026-10-20T08:04:25-05:00",
-  "subject": "Promote intake-ctx5: DECIDED-2026-10-18 item 5 strict in-place re-certifications (credit-neutral)",
+  "date": "2026-10-20T17:08:51-05:00",
+  "subject": "Library tier bss-relink-confirmed (PROVISIONAL): mechanism, record, sidecar (+29,684 B library, campaign unchanged)",
   "verified_functions": 2452,
   "verified_bytes": 375966,
   "denominator_functions": 4392,
@@ -22,9 +22,9 @@
    "functions": 4310
   },
   "library_tier": {
-   "percent": 59.073,
-   "exact_bytes": 178866,
-   "pending_bytes": 83449,
+   "percent": 68.876,
+   "exact_bytes": 208550,
+   "pending_bytes": 53330,
    "denominator_bytes": 302789
   },
   "provisional_counted_bytes": 9054,
@@ -535,6 +535,13 @@
    {
     "key": "provisional_bss_gap_fit",
     "label": "provisional bss gap fit",
+    "bytes": null,
+    "nature": "Library tier only: library bytes admitted under an evidence rule marked provisional.",
+    "plan": "Under review; never part of the first-party figure."
+   },
+   {
+    "key": "provisional_bss_relink_confirmed",
+    "label": "provisional bss relink confirmed",
     "bytes": null,
     "nature": "Library tier only: library bytes admitted under an evidence rule marked provisional.",
     "plan": "Under review; never part of the first-party figure."

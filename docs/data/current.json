@@ -1,10 +1,10 @@
 {
- "generated_utc": "2026-10-19T16:20:09+00:00",
+ "generated_utc": "2026-10-20T13:04:41+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "snapshot": {
-  "date": "2026-10-19T11:19:45-05:00",
-  "subject": "Promote intake-20d: REINCARNATE under PROVISIONAL Amendment 20d (+3 fn / +794 B)",
+  "date": "2026-10-20T08:04:25-05:00",
+  "subject": "Promote intake-ctx5: DECIDED-2026-10-18 item 5 strict in-place re-certifications (credit-neutral)",
   "verified_functions": 2452,
   "verified_bytes": 375966,
   "denominator_functions": 4392,

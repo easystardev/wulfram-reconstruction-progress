@@ -2,6 +2,7 @@
 
 One line per commit that changed the verified-bytes measurement, newest first. Subjects are sanitised (function names and addresses removed).
 
+- 2026-10-20 - 38.113% (+0.000 pt), 2452 fns - Promote intake-ctx5: DECIDED-2026-10-18 item 5 strict in-place re-certifications (credit-neutral)
 - 2026-10-19 - 38.113% (+0.081 pt), 2452 fns - Promote intake-20d: REINCARNATE under PROVISIONAL Amendment 20d (+3 fn / +794 B)
 - 2026-10-17 - 38.032% (+0.094 pt), 2449 fns - Promote intake-6b: [fn] via chained vecctor-owner supersede (+1 fn / +934 B)
 - 2026-10-17 - 37.938% (+0.015 pt), 2448 fns - Promote intake-20cr: [fn] under PROVISIONAL Amendment 20c-r (+1 fn / +141 B)

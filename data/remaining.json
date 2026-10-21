@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-20T23:32:15+00:00",
+ "generated_utc": "2026-10-21T05:07:06+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "as_of_rebuild_snapshot": "current verified-bytes snapshot",
@@ -324,9 +324,9 @@
  "library_tier": {
   "note": "Library code (static C runtime, Speex, bzip2, libjpeg) is measured on its own line and is NOT part of the first-party figure above.",
   "denominator_bytes": 302789,
-  "exact_bytes": 208550,
-  "pending_bytes": 53330,
-  "unmatched_bytes": 40909
+  "exact_bytes": 260606,
+  "pending_bytes": 1200,
+  "unmatched_bytes": 40983
  },
  "definitions": {
   "remaining_first_party_bytes": "first-party target bytes (library-attributed rows moved out) minus verified bytes.",

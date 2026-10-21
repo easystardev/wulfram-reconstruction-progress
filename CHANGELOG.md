@@ -2,6 +2,7 @@
 
 One line per commit that changed the verified-bytes measurement, newest first. Subjects are sanitised (function names and addresses removed).
 
+- 2026-10-20 - 38.113% (+0.000 pt), 2452 fns - Library tier bss-relink-confirmed: linker-derived base d00, +6 units, the 9 re-grounded (PROVISIONAL; +52,056 B library, campaign unchanged)
 - 2026-10-20 - 38.113% (+0.000 pt), 2452 fns - Library tier bss-relink-confirmed (PROVISIONAL): mechanism, record, sidecar (+29,684 B library, campaign unchanged)
 - 2026-10-20 - 38.113% (+0.000 pt), 2452 fns - Promote intake-ctx5: DECIDED-2026-10-18 item 5 strict in-place re-certifications (credit-neutral)
 - 2026-10-19 - 38.113% (+0.081 pt), 2452 fns - Promote intake-20d: REINCARNATE under PROVISIONAL Amendment 20d (+3 fn / +794 B)

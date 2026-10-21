@@ -1,10 +1,10 @@
 {
- "generated_utc": "2026-10-20T23:32:15+00:00",
+ "generated_utc": "2026-10-21T05:07:06+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "snapshot": {
-  "date": "2026-10-20T17:08:51-05:00",
-  "subject": "Library tier bss-relink-confirmed (PROVISIONAL): mechanism, record, sidecar (+29,684 B library, campaign unchanged)",
+  "date": "2026-10-20T22:57:28-05:00",
+  "subject": "Library tier bss-relink-confirmed: linker-derived base d00, +6 units, the 9 re-grounded (PROVISIONAL; +52,056 B library, campaign unchanged)",
   "verified_functions": 2452,
   "verified_bytes": 375966,
   "denominator_functions": 4392,
@@ -22,9 +22,9 @@
    "functions": 4310
   },
   "library_tier": {
-   "percent": 68.876,
-   "exact_bytes": 208550,
-   "pending_bytes": 53330,
+   "percent": 86.069,
+   "exact_bytes": 260606,
+   "pending_bytes": 1200,
    "denominator_bytes": 302789
   },
   "provisional_counted_bytes": 9054,

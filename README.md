@@ -19,7 +19,7 @@ The raw numbers are in [`data/`](data), and every change to the measurement is l
 |---|---:|---|
 | **Campaign verified bytes** | **38.11%** | 2,452 functions, 375,966 of 986,454 first-party target bytes |
 | First-party, library rows excluded | 39.67% | 375,966 of 947,693 bytes, with the rows found to be library code moved out of the denominator |
-| **Library-exact** (separate line) | 68.9% | 208,550 of 302,789 bytes of statically linked library code; 53,330 more bytes pending |
+| **Library-exact** (separate line) | 86.1% | 260,606 of 302,789 bytes of statically linked library code; 1,200 more bytes pending |
 | First-party code still to do | 571,727 bytes | broken down under "What's left" below |
 
 The campaign figure started at 0.27% on 2026-09-11, when this measurement was adopted.

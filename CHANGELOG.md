@@ -2,6 +2,7 @@
 
 One line per commit that changed the verified-bytes measurement, newest first. Subjects are sanitised (function names and addresses removed).
 
+- 2026-10-23 - 38.487% (+0.374 pt), 2474 fns - Promote intake-m2pilot: 22 plain singles from the meta pass B rescore (+22 fn / +3,695 B)
 - 2026-10-20 - 38.113% (+0.000 pt), 2452 fns - Library tier bss-relink-confirmed: linker-derived base d00, +6 units, the 9 re-grounded (PROVISIONAL; +52,056 B library, campaign unchanged)
 - 2026-10-20 - 38.113% (+0.000 pt), 2452 fns - Library tier bss-relink-confirmed (PROVISIONAL): mechanism, record, sidecar (+29,684 B library, campaign unchanged)
 - 2026-10-20 - 38.113% (+0.000 pt), 2452 fns - Promote intake-ctx5: DECIDED-2026-10-18 item 5 strict in-place re-certifications (credit-neutral)

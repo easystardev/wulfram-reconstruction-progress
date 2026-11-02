@@ -2,6 +2,7 @@
 
 One line per commit that changed the verified-bytes measurement, newest first. Subjects are sanitised (function names and addresses removed).
 
+- 2026-11-02 - 38.997% (+0.510 pt), 2486 fns - Promote hub-chain-world-standin: 12 fn under PROVISIONAL ltcg-standin-context (+12 fn / +5,031 B)
 - 2026-10-23 - 38.487% (+0.374 pt), 2474 fns - Promote intake-m2pilot: 22 plain singles from the meta pass B rescore (+22 fn / +3,695 B)
 - 2026-10-20 - 38.113% (+0.000 pt), 2452 fns - Library tier bss-relink-confirmed: linker-derived base d00, +6 units, the 9 re-grounded (PROVISIONAL; +52,056 B library, campaign unchanged)
 - 2026-10-20 - 38.113% (+0.000 pt), 2452 fns - Library tier bss-relink-confirmed (PROVISIONAL): mechanism, record, sidecar (+29,684 B library, campaign unchanged)

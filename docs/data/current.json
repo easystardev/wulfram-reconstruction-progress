@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-02T21:04:54+00:00",
+ "generated_utc": "2026-11-03T02:45:44+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "snapshot": {
@@ -433,102 +433,102 @@
    },
    {
     "key": "provisional_amendment_13c",
-    "label": "Other provisional rule",
+    "label": "Padded unit with verified context (provisional)",
     "functions": 3,
     "bytes": 998,
     "percent_of_counted": 0.259,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
-    "nature": "Byte-identical; admitted under a rule that is marked provisional.",
-    "plan": "Under review."
+    "nature": "Byte-identical. A unit whose stack padding is reproduced by a mirror caller also uses an already verified helper with a custom register convention as uncounted build context.",
+    "plan": "Rule under review; one listed unit. Removable in one step."
    },
    {
     "key": "provisional_vecctor_owner",
-    "label": "Other provisional rule",
+    "label": "Array-constructor owner unit (provisional)",
     "functions": 4,
     "bytes": 2211,
     "percent_of_counted": 0.575,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
-    "nature": "Byte-identical; admitted under a rule that is marked provisional.",
-    "plan": "Under review."
+    "nature": "Byte-identical. The real owner of a compiler-generated array-construction helper is rebuilt together with its callers; the helper and one verified caller ride along as uncounted context, and four ownership controls are shown to fail when the arrangement is wrong.",
+    "plan": "Rule under review. Removable in one step."
    },
    {
     "key": "provisional_amendment_20c",
-    "label": "Other provisional rule",
+    "label": "Single function exact only under whole-program optimisation (provisional)",
     "functions": 11,
     "bytes": 4130,
     "percent_of_counted": 1.074,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
-    "nature": "Byte-identical; admitted under a rule that is marked provisional.",
-    "plan": "Under review."
+    "nature": "Byte-identical. A single function with no custom register convention and no stack-frame demand that matches only when built with whole-program optimisation; switching that off, adding an ordinary caller and moving its data are all checked.",
+    "plan": "Rule under review; listed functions only. Removable in one step."
    },
    {
     "key": "provisional_manual_mutation",
-    "label": "Other provisional rule",
+    "label": "Hand-written break test (provisional)",
     "functions": 2,
     "bytes": 1167,
     "percent_of_counted": 0.303,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
-    "nature": "Byte-identical; admitted under a rule that is marked provisional.",
-    "plan": "Under review."
+    "nature": "Byte-identical. The automatic one-character break test found nothing to change in these functions, so a committed hand-written edit inside the body is used instead and shown to break the match.",
+    "plan": "Rule under review; listed functions only. Removable in one step."
    },
    {
     "key": "provisional_amendment_20e",
-    "label": "Other provisional rule",
+    "label": "Padded unit with rewritten-stack context (provisional)",
     "functions": 1,
     "bytes": 298,
     "percent_of_counted": 0.077,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
-    "nature": "Byte-identical; admitted under a rule that is marked provisional.",
-    "plan": "Under review."
+    "nature": "Byte-identical. A padded unit uses an already verified helper, whose stack layout the compiler rewrote, as uncounted build context; building that helper differently is shown to break every caller.",
+    "plan": "Rule under review; one listed unit. Removable in one step."
    },
    {
     "key": "provisional_amendment_20f",
-    "label": "Other provisional rule",
+    "label": "Context carried with its own stand-in (provisional)",
     "functions": 1,
     "bytes": 1733,
     "percent_of_counted": 0.45,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
-    "nature": "Byte-identical; admitted under a rule that is marked provisional.",
-    "plan": "Under review."
+    "nature": "Byte-identical. A verified helper rides along as uncounted context together with the stand-in it was itself verified with; the stand-in is shown to matter only for that helper, and the helper is shown to be needed.",
+    "plan": "Becomes strict once the helper matches without its stand-in, or a whole-program link re-proves it."
    },
    {
     "key": "provisional_ltcg_standin",
-    "label": "Other provisional rule",
+    "label": "Stand-in callers tied to the original (provisional)",
     "functions": 12,
     "bytes": 5031,
     "percent_of_counted": 1.308,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
-    "nature": "Byte-identical; admitted under a rule that is marked provisional.",
-    "plan": "Under review."
+    "nature": "Byte-identical. Some functions only take their original shape when a particular caller exists. Where that caller is not rebuilt yet, a clearly marked stand-in takes its place. Each stand-in copies a fact read from the original program, and removing it breaks exactly the functions that fact explains. Stand-ins are never counted.",
+    "plan": "Becomes strict as the real callers are rebuilt, or a whole-program link re-proves the unit. Removable in one step."
    },
    {
     "key": "provisional_amendment_20c_realign",
-    "label": "Other provisional rule",
+    "label": "Single function with its own stack realignment (provisional)",
     "functions": 1,
     "bytes": 141,
     "percent_of_counted": 0.037,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
-    "nature": "Byte-identical; admitted under a rule that is marked provisional.",
-    "plan": "Under review."
+    "nature": "Byte-identical. A single function that realigns its own stack frame and matches only under whole-program optimisation; an aligned stand-in caller is shown to change it, as the original's callers would.",
+    "plan": "Becomes strict once a real caller is rebuilt with it, or a whole-program link re-proves it."
    },
    {
     "key": "provisional_amendment_20d",
-    "label": "Other provisional rule",
+    "label": "Context that is not called directly (provisional)",
     "functions": 3,
     "bytes": 794,
     "percent_of_counted": 0.206,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
-    "nature": "Byte-identical; admitted under a rule that is marked provisional.",
-    "plan": "Under review."
+    "nature": "Byte-identical. A verified helper that none of these functions calls rides along as uncounted context, because whole-program optimisation reads it through another link recorded from the original; removing it is shown to break the match.",
+    "plan": "Becomes strict once the unit holds every real caller, or a whole-program link re-proves it."
    },
    {
     "key": "provisional_superseded_records",

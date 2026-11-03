@@ -1,23 +1,23 @@
 {
- "generated_utc": "2026-11-03T02:45:44+00:00",
+ "generated_utc": "2026-11-03T05:02:42+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "snapshot": {
-  "date": "2026-11-02T15:04:38-06:00",
-  "subject": "Promote hub-chain-world-standin: 12 fn under PROVISIONAL ltcg-standin-context (+12 fn / +5,031 B)",
-  "verified_functions": 2486,
-  "verified_bytes": 384692,
+  "date": "2026-11-02T22:56:43-06:00",
+  "subject": "Promote intake-housekeeping + rescore singles: 5 plain singles (+5 fn / +1,865 B)",
+  "verified_functions": 2491,
+  "verified_bytes": 386557,
   "denominator_functions": 4392,
   "denominator_bytes": 986454,
-  "verified_bytes_percent": 38.997,
+  "verified_bytes_percent": 39.187,
   "verified_by_proof_tier": {
-   "BYTES": 382173,
+   "BYTES": 384038,
    "T1-diffexec": 2426,
    "T1-oracle": 93
   },
   "first_party_excluding_library_rows": {
-   "percent": 40.592,
-   "numerator_bytes": 384692,
+   "percent": 40.789,
+   "numerator_bytes": 386557,
    "denominator_bytes": 947693,
    "functions": 4310
   },
@@ -28,13 +28,13 @@
    "denominator_bytes": 302789
   },
   "provisional_counted_bytes": 9054,
-  "bytes_tier_bytes": 382173,
-  "bytes_tier_functions": 2460,
+  "bytes_tier_bytes": 384038,
+  "bytes_tier_functions": 2465,
   "verified_bytes_by_subsystem": {
-   "Game/Simulation": 75819,
+   "Game/Simulation": 77438,
    "System/Graphics": 58516,
-   "Game/View": 51354,
-   "System/Core": 40010,
+   "Game/View": 51561,
+   "System/Core": 40049,
    "Game/Session": 29335,
    "System/Network": 23241,
    "AppInit/AppCore": 16200,
@@ -72,10 +72,10 @@
    },
    "view.screens": {
     "bytes": 58444,
-    "verified_bytes": 18304,
+    "verified_bytes": 18416,
     "functions": 260,
-    "verified_functions": 126,
-    "percent": 31.319
+    "verified_functions": 127,
+    "percent": 31.511
    },
    "tools.editors": {
     "bytes": 57988,
@@ -114,10 +114,10 @@
    },
    "sim.physics": {
     "bytes": 38806,
-    "verified_bytes": 20493,
+    "verified_bytes": 21015,
     "functions": 174,
-    "verified_functions": 120,
-    "percent": 52.809
+    "verified_functions": 121,
+    "percent": 54.154
    },
    "view.tactical": {
     "bytes": 38434,
@@ -128,10 +128,10 @@
    },
    "sim.collision": {
     "bytes": 38411,
-    "verified_bytes": 16006,
+    "verified_bytes": 17103,
     "functions": 122,
-    "verified_functions": 70,
-    "percent": 41.67
+    "verified_functions": 71,
+    "percent": 44.526
    },
    "social": {
     "bytes": 35515,
@@ -142,10 +142,10 @@
    },
    "view.fx": {
     "bytes": 30657,
-    "verified_bytes": 2283,
+    "verified_bytes": 2378,
     "functions": 116,
-    "verified_functions": 21,
-    "percent": 7.447
+    "verified_functions": 22,
+    "percent": 7.757
    },
    "core.concurrency": {
     "bytes": 28893,
@@ -205,10 +205,10 @@
    },
    "math.kernel": {
     "bytes": 15641,
-    "verified_bytes": 11852,
+    "verified_bytes": 11891,
     "functions": 101,
-    "verified_functions": 79,
-    "percent": 75.775
+    "verified_functions": 80,
+    "percent": 76.025
    },
    "assets.formats": {
     "bytes": 15278,
@@ -319,13 +319,13 @@
   "roles": {
    "presentation": {
     "bytes": 423336,
-    "verified_bytes": 131389,
-    "percent": 31.037
+    "verified_bytes": 131596,
+    "percent": 31.085
    },
    "simulation": {
     "bytes": 180779,
-    "verified_bytes": 89928,
-    "percent": 49.745
+    "verified_bytes": 91586,
+    "percent": 50.662
    },
    "tooling": {
     "bytes": 134821,
@@ -360,17 +360,17 @@
   }
  },
  "exceptions": {
-  "counted_bytes": 384692,
-  "counted_functions": 2486,
-  "bytes_tier_bytes": 382173,
-  "bytes_tier_functions": 2460,
+  "counted_bytes": 386557,
+  "counted_functions": 2491,
+  "bytes_tier_bytes": 384038,
+  "bytes_tier_functions": 2465,
   "categories": [
    {
     "key": "provisional_amendment_20b",
     "label": "Shared-context rule (provisional)",
     "functions": 54,
     "bytes": 9054,
-    "percent_of_counted": 2.354,
+    "percent_of_counted": 2.342,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical. These functions sit in multi-function units whose only outside helpers are functions that were already verified; those helpers ride along unchanged as shared build context and are not counted a second time. The open question is the admission rule, not the bytes.",
@@ -381,7 +381,7 @@
     "label": "Behaviour-verified (lower tier)",
     "functions": 26,
     "bytes": 2519,
-    "percent_of_counted": 0.655,
+    "percent_of_counted": 0.652,
     "proof_tier": "behaviour",
     "bytes_identical": false,
     "nature": "Not yet byte-proven. Each function was run side by side with the original on recorded inputs and gave the same results, with a control that is able to fail. Counted in the campaign figure on a lower proof tier; not part of the byte-exact tier.",
@@ -392,7 +392,7 @@
     "label": "Chosen local-variable names",
     "functions": 6,
     "bytes": 1955,
-    "percent_of_counted": 0.508,
+    "percent_of_counted": 0.506,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical. The period compiler orders some stack slots by the spelling of local variable names. Where no evidence names the original variable, a name was chosen that reproduces the layout.",
@@ -403,7 +403,7 @@
     "label": "Invented helpers",
     "functions": 76,
     "bytes": 28873,
-    "percent_of_counted": 7.505,
+    "percent_of_counted": 7.469,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical. The source uses a small helper the original may not have had, for example a stand-in caller that gives the compiler the right surrounding context. The helper itself is never counted.",
@@ -414,7 +414,7 @@
     "label": "References to not-yet-named globals",
     "functions": 428,
     "bytes": 106005,
-    "percent_of_counted": 27.556,
+    "percent_of_counted": 27.423,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical, and every reference lands on the same address as in the original. The referenced global or function simply has no independently backed name yet.",
@@ -433,109 +433,109 @@
    },
    {
     "key": "provisional_amendment_13c",
-    "label": "Padded unit with verified context (provisional)",
+    "label": "Other provisional rule",
     "functions": 3,
     "bytes": 998,
-    "percent_of_counted": 0.259,
+    "percent_of_counted": 0.258,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
-    "nature": "Byte-identical. A unit whose stack padding is reproduced by a mirror caller also uses an already verified helper with a custom register convention as uncounted build context.",
-    "plan": "Rule under review; one listed unit. Removable in one step."
+    "nature": "Byte-identical; admitted under a rule that is marked provisional.",
+    "plan": "Under review."
    },
    {
     "key": "provisional_vecctor_owner",
-    "label": "Array-constructor owner unit (provisional)",
+    "label": "Other provisional rule",
     "functions": 4,
     "bytes": 2211,
-    "percent_of_counted": 0.575,
+    "percent_of_counted": 0.572,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
-    "nature": "Byte-identical. The real owner of a compiler-generated array-construction helper is rebuilt together with its callers; the helper and one verified caller ride along as uncounted context, and four ownership controls are shown to fail when the arrangement is wrong.",
-    "plan": "Rule under review. Removable in one step."
+    "nature": "Byte-identical; admitted under a rule that is marked provisional.",
+    "plan": "Under review."
    },
    {
     "key": "provisional_amendment_20c",
-    "label": "Single function exact only under whole-program optimisation (provisional)",
+    "label": "Other provisional rule",
     "functions": 11,
     "bytes": 4130,
-    "percent_of_counted": 1.074,
+    "percent_of_counted": 1.068,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
-    "nature": "Byte-identical. A single function with no custom register convention and no stack-frame demand that matches only when built with whole-program optimisation; switching that off, adding an ordinary caller and moving its data are all checked.",
-    "plan": "Rule under review; listed functions only. Removable in one step."
+    "nature": "Byte-identical; admitted under a rule that is marked provisional.",
+    "plan": "Under review."
    },
    {
     "key": "provisional_manual_mutation",
-    "label": "Hand-written break test (provisional)",
+    "label": "Other provisional rule",
     "functions": 2,
     "bytes": 1167,
-    "percent_of_counted": 0.303,
+    "percent_of_counted": 0.302,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
-    "nature": "Byte-identical. The automatic one-character break test found nothing to change in these functions, so a committed hand-written edit inside the body is used instead and shown to break the match.",
-    "plan": "Rule under review; listed functions only. Removable in one step."
+    "nature": "Byte-identical; admitted under a rule that is marked provisional.",
+    "plan": "Under review."
    },
    {
     "key": "provisional_amendment_20e",
-    "label": "Padded unit with rewritten-stack context (provisional)",
+    "label": "Other provisional rule",
     "functions": 1,
     "bytes": 298,
     "percent_of_counted": 0.077,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
-    "nature": "Byte-identical. A padded unit uses an already verified helper, whose stack layout the compiler rewrote, as uncounted build context; building that helper differently is shown to break every caller.",
-    "plan": "Rule under review; one listed unit. Removable in one step."
+    "nature": "Byte-identical; admitted under a rule that is marked provisional.",
+    "plan": "Under review."
    },
    {
     "key": "provisional_amendment_20f",
-    "label": "Context carried with its own stand-in (provisional)",
+    "label": "Other provisional rule",
     "functions": 1,
     "bytes": 1733,
-    "percent_of_counted": 0.45,
+    "percent_of_counted": 0.448,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
-    "nature": "Byte-identical. A verified helper rides along as uncounted context together with the stand-in it was itself verified with; the stand-in is shown to matter only for that helper, and the helper is shown to be needed.",
-    "plan": "Becomes strict once the helper matches without its stand-in, or a whole-program link re-proves it."
+    "nature": "Byte-identical; admitted under a rule that is marked provisional.",
+    "plan": "Under review."
    },
    {
     "key": "provisional_ltcg_standin",
-    "label": "Stand-in callers tied to the original (provisional)",
+    "label": "Other provisional rule",
     "functions": 12,
     "bytes": 5031,
-    "percent_of_counted": 1.308,
+    "percent_of_counted": 1.301,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
-    "nature": "Byte-identical. Some functions only take their original shape when a particular caller exists. Where that caller is not rebuilt yet, a clearly marked stand-in takes its place. Each stand-in copies a fact read from the original program, and removing it breaks exactly the functions that fact explains. Stand-ins are never counted.",
-    "plan": "Becomes strict as the real callers are rebuilt, or a whole-program link re-proves the unit. Removable in one step."
+    "nature": "Byte-identical; admitted under a rule that is marked provisional.",
+    "plan": "Under review."
    },
    {
     "key": "provisional_amendment_20c_realign",
-    "label": "Single function with its own stack realignment (provisional)",
+    "label": "Other provisional rule",
     "functions": 1,
     "bytes": 141,
-    "percent_of_counted": 0.037,
+    "percent_of_counted": 0.036,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
-    "nature": "Byte-identical. A single function that realigns its own stack frame and matches only under whole-program optimisation; an aligned stand-in caller is shown to change it, as the original's callers would.",
-    "plan": "Becomes strict once a real caller is rebuilt with it, or a whole-program link re-proves it."
+    "nature": "Byte-identical; admitted under a rule that is marked provisional.",
+    "plan": "Under review."
    },
    {
     "key": "provisional_amendment_20d",
-    "label": "Context that is not called directly (provisional)",
+    "label": "Other provisional rule",
     "functions": 3,
     "bytes": 794,
-    "percent_of_counted": 0.206,
+    "percent_of_counted": 0.205,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
-    "nature": "Byte-identical. A verified helper that none of these functions calls rides along as uncounted context, because whole-program optimisation reads it through another link recorded from the original; removing it is shown to break the match.",
-    "plan": "Becomes strict once the unit holds every real caller, or a whole-program link re-proves it."
+    "nature": "Byte-identical; admitted under a rule that is marked provisional.",
+    "plan": "Under review."
    },
    {
     "key": "provisional_superseded_records",
     "label": "Replaced records (provisional)",
     "functions": 5,
     "bytes": 1621,
-    "percent_of_counted": 0.421,
+    "percent_of_counted": 0.419,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical. A newer proof replaced an older record: either a larger unit that contains the old one, or a fresh proof for a record whose source had gone out of date. The old records are kept verbatim in a separate file; every function is counted once.",

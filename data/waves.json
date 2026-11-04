@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-03T06:46:39+00:00",
+ "generated_utc": "2026-11-04T04:10:23+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "note_waves": "Counts only. 'counted now' = bytes of the wave that are in the current verified total. label_date is the date in the wave's planning label; result_date is when its results were recorded.",
@@ -53,8 +53,8 @@
    "attempted_functions_unsized": 0,
    "exact_functions": 18,
    "exact_bytes": 5736,
-   "counted_now_functions": 19,
-   "counted_now_bytes": 5971
+   "counted_now_functions": 21,
+   "counted_now_bytes": 6553
   },
   {
    "wave": "round 51",
@@ -105,8 +105,8 @@
    "attempted_functions_unsized": 0,
    "exact_functions": 16,
    "exact_bytes": 1640,
-   "counted_now_functions": 15,
-   "counted_now_bytes": 1449
+   "counted_now_functions": 16,
+   "counted_now_bytes": 1760
   },
   {
    "wave": "round 55",
@@ -157,8 +157,8 @@
    "attempted_functions_unsized": 0,
    "exact_functions": 12,
    "exact_bytes": 3282,
-   "counted_now_functions": 9,
-   "counted_now_bytes": 2190
+   "counted_now_functions": 10,
+   "counted_now_bytes": 2680
   },
   {
    "wave": "round 59",
@@ -196,8 +196,8 @@
    "attempted_functions_unsized": 0,
    "exact_functions": 13,
    "exact_bytes": 2721,
-   "counted_now_functions": 14,
-   "counted_now_bytes": 2441
+   "counted_now_functions": 16,
+   "counted_now_bytes": 3396
   },
   {
    "wave": "round 62",
@@ -326,8 +326,8 @@
    "attempted_functions_unsized": 0,
    "exact_functions": 15,
    "exact_bytes": 16649,
-   "counted_now_functions": 11,
-   "counted_now_bytes": 12461
+   "counted_now_functions": 12,
+   "counted_now_bytes": 13328
   },
   {
    "wave": "ready wave 2",
@@ -352,8 +352,8 @@
    "attempted_functions_unsized": 0,
    "exact_functions": 60,
    "exact_bytes": 18566,
-   "counted_now_functions": 57,
-   "counted_now_bytes": 17807
+   "counted_now_functions": 58,
+   "counted_now_bytes": 17978
   },
   {
    "wave": "ready wave 4",

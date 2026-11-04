@@ -1,12 +1,12 @@
 {
- "generated_utc": "2026-11-03T06:46:39+00:00",
+ "generated_utc": "2026-11-04T04:10:23+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "map_date": "2026-11-03",
- "map_verified_bytes": 388770,
+ "map_verified_bytes": 393295,
  "matches_current_snapshot": true,
- "remaining_bytes": 595219,
- "remaining_functions": 1891,
+ "remaining_bytes": 590694,
+ "remaining_functions": 1878,
  "kinds": [
   {
    "key": "plain",
@@ -92,7 +92,7 @@
    "tiny": 82
   },
   "3D rendering & camera": {
-   "plain": 6653,
+   "plain": 5786,
    "frame": 16009,
    "interlinked": 24609
   },
@@ -152,7 +152,7 @@
    "tiny": 48
   },
   "Graphics drivers (DirectX/GDI)": {
-   "plain": 9875,
+   "plain": 7734,
    "frame": 7894,
    "interlinked": 3195,
    "library": 1546,
@@ -171,7 +171,7 @@
    "tiny": 25
   },
   "Input & controls": {
-   "plain": 3144,
+   "plain": 1627,
    "frame": 1631,
    "interlinked": 7288
   },
@@ -213,7 +213,7 @@
    "tiny": 9
   },
   "3D rendering & camera": {
-   "plain": 18,
+   "plain": 17,
    "frame": 39,
    "interlinked": 94
   },
@@ -273,7 +273,7 @@
    "tiny": 9
   },
   "Graphics drivers (DirectX/GDI)": {
-   "plain": 22,
+   "plain": 14,
    "frame": 27,
    "interlinked": 9,
    "library": 3,
@@ -292,7 +292,7 @@
    "tiny": 2
   },
   "Input & controls": {
-   "plain": 14,
+   "plain": 10,
    "frame": 6,
    "interlinked": 40
   },
@@ -339,8 +339,8 @@
    "key": "blocked-on-ruling",
    "label": "Waiting on a rule decision",
    "caption": "Held by a counting or process decision, not by difficulty; much of it already matches in drafts.",
-   "bytes": 66921,
-   "functions": 203
+   "bytes": 62396,
+   "functions": 190
   }
  ],
  "plateau_bytes_by_cause": {
@@ -353,10 +353,10 @@
  },
  "rule_decision_bytes": {
   "library code counted as game code": 39028,
-  "other process decisions": 27893
+  "other process decisions": 23368
  },
  "never_attempted_bytes": 109784,
- "in_draft_link_tier_bytes": 4164,
+ "in_draft_link_tier_bytes": 2212,
  "waiting_on_hub_by_area": [
   {
    "label": "Interlinked: HUD & targeting",

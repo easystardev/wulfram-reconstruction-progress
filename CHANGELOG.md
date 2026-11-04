@@ -2,6 +2,7 @@
 
 One line per commit that changed the verified-bytes measurement, newest first. Subjects are sanitised (function names and addresses removed).
 
+- 2026-11-03 - 39.870% (+0.459 pt), 2514 fns - Promote od-frame-filler + r2-name-forced-ext: 7 13e singles and 6 R2 singles (+13 fn / +4,525 B)
 - 2026-11-03 - 39.411% (+0.224 pt), 2501 fns - Promote h02-standin + r2-name-forced: H02 u3 under R1 and 7 R2 singles (+10 fn / +2,213 B)
 - 2026-11-02 - 39.187% (+0.190 pt), 2491 fns - Promote intake-housekeeping + rescore singles: 5 plain singles (+5 fn / +1,865 B)
 - 2026-11-02 - 38.997% (+0.510 pt), 2486 fns - Promote hub-chain-world-standin: 12 fn under PROVISIONAL ltcg-standin-context (+12 fn / +5,031 B)

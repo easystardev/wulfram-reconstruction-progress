@@ -1,25 +1,25 @@
 {
- "generated_utc": "2026-11-04T07:39:06+00:00",
+ "generated_utc": "2026-11-04T19:25:12+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "as_of_rebuild_snapshot": "current verified-bytes snapshot",
  "census_date": "2026-11-04",
  "first_party_denominator_bytes": 947693,
- "first_party_verified_bytes": 396108,
- "remaining_first_party_bytes": 551585,
- "classified_by_census_bytes": 488373,
+ "first_party_verified_bytes": 396468,
+ "remaining_first_party_bytes": 551225,
+ "classified_by_census_bytes": 488013,
  "overlap_or_drift_bytes": 0,
  "buckets": [
   {
    "key": "plain_singles",
    "label": "Plain singles",
-   "functions": 190,
-   "bytes": 105945,
-   "percent_of_remaining_first_party": 19.21,
+   "functions": 191,
+   "bytes": 107655,
+   "percent_of_remaining_first_party": 19.53,
    "by_class": {
     "census plain-single track": {
-     "functions": 4,
-     "bytes": 477
+     "functions": 5,
+     "bytes": 2187
     },
     "worth a singles wave": {
      "functions": 119,
@@ -40,7 +40,7 @@
    "label": "Closed clusters",
    "functions": 315,
    "bytes": 113249,
-   "percent_of_remaining_first_party": 20.53,
+   "percent_of_remaining_first_party": 20.54,
    "by_class": {
     "1 member": {
      "functions": 13,
@@ -69,7 +69,7 @@
    "label": "Frame / alignment classes",
    "functions": 175,
    "bytes": 56773,
-   "percent_of_remaining_first_party": 10.29,
+   "percent_of_remaining_first_party": 10.3,
    "by_class": {
     "single function": {
      "functions": 48,
@@ -84,9 +84,9 @@
   {
    "key": "interlinked",
    "label": "Interlinked code",
-   "functions": 870,
-   "bytes": 271653,
-   "percent_of_remaining_first_party": 49.25,
+   "functions": 867,
+   "bytes": 269583,
+   "percent_of_remaining_first_party": 48.91,
    "by_class": {},
    "subsections": [
     {
@@ -94,7 +94,7 @@
      "area": "HUD & targeting",
      "functions": 83,
      "bytes": 35270,
-     "percent_of_remaining_first_party": 6.39,
+     "percent_of_remaining_first_party": 6.4,
      "verified_since_census_bytes": 0,
      "percent_done_since_census": 0.0,
      "hubs_waited_on": 40
@@ -102,19 +102,19 @@
     {
      "label": "Interlinked: In-game editors",
      "area": "In-game editors",
-     "functions": 94,
-     "bytes": 29675,
-     "percent_of_remaining_first_party": 5.38,
+     "functions": 92,
+     "bytes": 29315,
+     "percent_of_remaining_first_party": 5.32,
      "verified_since_census_bytes": 0,
      "percent_done_since_census": 0.0,
-     "hubs_waited_on": 61
+     "hubs_waited_on": 60
     },
     {
      "label": "Interlinked: 3D rendering & camera",
      "area": "3D rendering & camera",
      "functions": 92,
      "bytes": 24449,
-     "percent_of_remaining_first_party": 4.43,
+     "percent_of_remaining_first_party": 4.44,
      "verified_since_census_bytes": 0,
      "percent_done_since_census": 0.0,
      "hubs_waited_on": 42
@@ -172,12 +172,12 @@
     {
      "label": "Interlinked: World, entities & game data",
      "area": "World, entities & game data",
-     "functions": 72,
-     "bytes": 18395,
-     "percent_of_remaining_first_party": 3.33,
+     "functions": 71,
+     "bytes": 16685,
+     "percent_of_remaining_first_party": 3.03,
      "verified_since_census_bytes": 0,
      "percent_done_since_census": 0.0,
-     "hubs_waited_on": 39
+     "hubs_waited_on": 38
     },
     {
      "label": "Interlinked: Networking",
@@ -194,7 +194,7 @@
      "area": "Debug tools & console",
      "functions": 24,
      "bytes": 10340,
-     "percent_of_remaining_first_party": 1.87,
+     "percent_of_remaining_first_party": 1.88,
      "verified_since_census_bytes": 0,
      "percent_done_since_census": 0.0,
      "hubs_waited_on": 12
@@ -290,8 +290,8 @@
      "hubs_waited_on": 0
     }
    ],
-   "hubs_total_distinct": 233,
-   "subsections_bytes_sum": 271653
+   "hubs_total_distinct": 232,
+   "subsections_bytes_sum": 269583
   },
   {
    "key": "policy_held",

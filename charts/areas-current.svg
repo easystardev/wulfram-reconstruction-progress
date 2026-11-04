@@ -105,8 +105,8 @@ z
    </g>
    <g id="patch_12">
     <path d="M 93.022188 497.166264 
-L 183.356485 497.166264 
-L 183.356485 486.814596 
+L 185.625438 497.166264 
+L 185.625438 486.814596 
 L 93.022188 486.814596 
 z
 " clip-path="url(#pf37811f1bf)" style="fill: #2a78d6"/>
@@ -839,7 +839,7 @@ L 567.322188 677.168406
     <text style="font-size: 8.5px; font-family: 'Segoe UI', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #52514e" x="183.495325" y="510.983743" transform="rotate(-0 183.495325 510.983743)">24.2%  of 35 KiB</text>
    </g>
    <g id="text_54">
-    <text style="font-size: 8.5px; font-family: 'Segoe UI', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #52514e" x="185.54871" y="494.287505" transform="rotate(-0 185.54871 494.287505)">24.7%  of 57 KiB</text>
+    <text style="font-size: 8.5px; font-family: 'Segoe UI', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #52514e" x="187.817663" y="494.287505" transform="rotate(-0 187.817663 494.287505)">25.3%  of 57 KiB</text>
    </g>
    <g id="text_55">
     <text style="font-size: 8.5px; font-family: 'Segoe UI', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #52514e" x="193.879166" y="477.591267" transform="rotate(-0 193.879166 477.591267)">27.0%  of 55 KiB</text>

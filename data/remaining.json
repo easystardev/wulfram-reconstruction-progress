@@ -1,21 +1,21 @@
 {
- "generated_utc": "2026-11-04T04:10:23+00:00",
+ "generated_utc": "2026-11-04T06:06:43+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "as_of_rebuild_snapshot": "current verified-bytes snapshot",
- "census_date": "2026-11-03",
+ "census_date": "2026-11-04",
  "first_party_denominator_bytes": 947693,
- "first_party_verified_bytes": 393295,
- "remaining_first_party_bytes": 554398,
- "classified_by_census_bytes": 491199,
+ "first_party_verified_bytes": 393863,
+ "remaining_first_party_bytes": 553830,
+ "classified_by_census_bytes": 490618,
  "overlap_or_drift_bytes": 0,
  "buckets": [
   {
    "key": "plain_singles",
    "label": "Plain singles",
    "functions": 190,
-   "bytes": 105932,
-   "percent_of_remaining_first_party": 19.11,
+   "bytes": 105945,
+   "percent_of_remaining_first_party": 19.13,
    "by_class": {
     "census plain-single track": {
      "functions": 4,
@@ -31,24 +31,24 @@
     },
     "outside the census filters (residual)": {
      "functions": null,
-     "bytes": 63199
+     "bytes": 63212
     }
    }
   },
   {
    "key": "closed_clusters",
    "label": "Closed clusters",
-   "functions": 313,
-   "bytes": 112787,
-   "percent_of_remaining_first_party": 20.34,
+   "functions": 315,
+   "bytes": 113249,
+   "percent_of_remaining_first_party": 20.45,
    "by_class": {
     "1 member": {
      "functions": 13,
      "bytes": 2415
     },
     "2-8 members, <=2 KB": {
-     "functions": 121,
-     "bytes": 30230
+     "functions": 123,
+     "bytes": 30692
     },
     "2-8 members, >2 KB": {
      "functions": 37,
@@ -69,7 +69,7 @@
    "label": "Frame / alignment classes",
    "functions": 175,
    "bytes": 56773,
-   "percent_of_remaining_first_party": 10.24,
+   "percent_of_remaining_first_party": 10.25,
    "by_class": {
     "single function": {
      "functions": 48,
@@ -84,9 +84,9 @@
   {
    "key": "interlinked",
    "label": "Interlinked code",
-   "functions": 880,
-   "bytes": 274941,
-   "percent_of_remaining_first_party": 49.59,
+   "functions": 874,
+   "bytes": 273898,
+   "percent_of_remaining_first_party": 49.46,
    "by_class": {},
    "subsections": [
     {
@@ -94,7 +94,7 @@
      "area": "HUD & targeting",
      "functions": 83,
      "bytes": 35270,
-     "percent_of_remaining_first_party": 6.36,
+     "percent_of_remaining_first_party": 6.37,
      "verified_since_census_bytes": 0,
      "percent_done_since_census": 0.0,
      "hubs_waited_on": 40
@@ -104,7 +104,7 @@
      "area": "In-game editors",
      "functions": 94,
      "bytes": 29675,
-     "percent_of_remaining_first_party": 5.35,
+     "percent_of_remaining_first_party": 5.36,
      "verified_since_census_bytes": 0,
      "percent_done_since_census": 0.0,
      "hubs_waited_on": 61
@@ -132,8 +132,8 @@
     {
      "label": "Interlinked: Game screens & states",
      "area": "Game screens & states",
-     "functions": 64,
-     "bytes": 22250,
+     "functions": 63,
+     "bytes": 22218,
      "percent_of_remaining_first_party": 4.01,
      "verified_since_census_bytes": 0,
      "percent_done_since_census": 0.0,
@@ -144,30 +144,30 @@
      "area": "Map & tactical view",
      "functions": 71,
      "bytes": 21741,
-     "percent_of_remaining_first_party": 3.92,
+     "percent_of_remaining_first_party": 3.93,
      "verified_since_census_bytes": 0,
      "percent_done_since_census": 0.0,
      "hubs_waited_on": 37
-    },
-    {
-     "label": "Interlinked: UI widgets & menus",
-     "area": "UI widgets & menus",
-     "functions": 96,
-     "bytes": 21465,
-     "percent_of_remaining_first_party": 3.87,
-     "verified_since_census_bytes": 112,
-     "percent_done_since_census": 0.5,
-     "hubs_waited_on": 51
     },
     {
      "label": "Interlinked: Social, chat & lobby",
      "area": "Social, chat & lobby",
      "functions": 30,
      "bytes": 20686,
-     "percent_of_remaining_first_party": 3.73,
+     "percent_of_remaining_first_party": 3.74,
      "verified_since_census_bytes": 0,
      "percent_done_since_census": 0.0,
-     "hubs_waited_on": 22
+     "hubs_waited_on": 21
+    },
+    {
+     "label": "Interlinked: UI widgets & menus",
+     "area": "UI widgets & menus",
+     "functions": 91,
+     "bytes": 20454,
+     "percent_of_remaining_first_party": 3.69,
+     "verified_since_census_bytes": 112,
+     "percent_done_since_census": 0.5,
+     "hubs_waited_on": 49
     },
     {
      "label": "Interlinked: World, entities & game data",
@@ -290,8 +290,8 @@
      "hubs_waited_on": 0
     }
    ],
-   "hubs_total_distinct": 236,
-   "subsections_bytes_sum": 274941
+   "hubs_total_distinct": 234,
+   "subsections_bytes_sum": 273898
   },
   {
    "key": "policy_held",

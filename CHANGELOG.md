@@ -2,6 +2,7 @@
 
 One line per commit that changed the verified-bytes measurement, newest first. Subjects are sanitised (function names and addresses removed).
 
+- 2026-11-04 - 40.155% (+0.228 pt), 2522 fns - Promote codex-a06 (Wave A A06): strict closed cluster a06-skyquad-uvs-ltcg (+4 fn / +2,245 B)
 - 2026-11-04 - 39.927% (+0.057 pt), 2518 fns - Promote codex-a02 (Wave A A02): hub unit a02-docview-block-dtor-ltcg + single (+4 fn / +568 B)
 - 2026-11-03 - 39.870% (+0.459 pt), 2514 fns - Promote od-frame-filler + r2-name-forced-ext: 7 13e singles and 6 R2 singles (+13 fn / +4,525 B)
 - 2026-11-03 - 39.411% (+0.224 pt), 2501 fns - Promote h02-standin + r2-name-forced: H02 u3 under R1 and 7 R2 singles (+10 fn / +2,213 B)

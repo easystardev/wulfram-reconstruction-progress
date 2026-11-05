@@ -2,6 +2,7 @@
 
 One line per commit that changed the verified-bytes measurement, newest first. Subjects are sanitised (function names and addresses removed).
 
+- 2026-11-05 - 41.015% (+0.641 pt), 2558 fns - Promote fresh-port X3: ltcg-od-island-certs cluster oic-x3-d3d-frame-ltcg-2026-11-05 (+22 fn / +6,325 B)
 - 2026-11-04 - 40.374% (+0.183 pt), 2536 fns - Promote near-miss F1: strict closed cluster nm-f1-bmp-writer-ltcg (+12 fn / +1,804 B)
 - 2026-11-04 - 40.191% (+0.000 pt), 2524 fns - Re-prove the 7 counted 13e records with condition (5) (DECIDED-2026-11-04 item 3)
 - 2026-11-04 - 40.191% (+0.036 pt), 2524 fns - Promote codex-a04 (Wave A A04): 20b unit a04-terrain-cell-quadrant-ltcg (+2 fn / +360 B)

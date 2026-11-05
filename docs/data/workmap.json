@@ -1,12 +1,12 @@
 {
- "generated_utc": "2026-11-05T01:19:57+00:00",
+ "generated_utc": "2026-11-05T21:49:54+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
- "map_date": "2026-11-04",
- "map_verified_bytes": 398272,
+ "map_date": "2026-11-05",
+ "map_verified_bytes": 404597,
  "matches_current_snapshot": true,
- "remaining_bytes": 585696,
- "remaining_functions": 1856,
+ "remaining_bytes": 579352,
+ "remaining_functions": 1834,
  "kinds": [
   {
    "key": "plain",
@@ -63,8 +63,8 @@
   "Map & tactical view",
   "Visual effects",
   "Networking",
-  "Graphics drivers (DirectX/GDI)",
   "Textures & images",
+  "Graphics drivers (DirectX/GDI)",
   "Startup & config",
   "Input & controls",
   "Updater (CSN)",
@@ -151,18 +151,18 @@
    "interlinked": 11380,
    "tiny": 48
   },
-  "Graphics drivers (DirectX/GDI)": {
-   "plain": 7734,
-   "frame": 7894,
-   "interlinked": 2763,
-   "library": 1546,
-   "tiny": 36
-  },
   "Textures & images": {
    "plain": 1153,
    "frame": 3812,
    "interlinked": 9167,
    "tiny": 5
+  },
+  "Graphics drivers (DirectX/GDI)": {
+   "plain": 7490,
+   "frame": 1799,
+   "interlinked": 2763,
+   "library": 1546,
+   "tiny": 31
   },
   "Startup & config": {
    "plain": 1350,
@@ -272,18 +272,18 @@
    "interlinked": 37,
    "tiny": 9
   },
-  "Graphics drivers (DirectX/GDI)": {
-   "plain": 14,
-   "frame": 27,
-   "interlinked": 8,
-   "library": 3,
-   "tiny": 4
-  },
   "Textures & images": {
    "plain": 4,
    "frame": 15,
    "interlinked": 33,
    "tiny": 1
+  },
+  "Graphics drivers (DirectX/GDI)": {
+   "plain": 13,
+   "frame": 7,
+   "interlinked": 8,
+   "library": 3,
+   "tiny": 3
   },
   "Startup & config": {
    "plain": 6,
@@ -318,8 +318,8 @@
    "key": "ready-now",
    "label": "Ready to attempt now",
    "caption": "An admissible path exists under today's rules; it is porting work.",
-   "bytes": 190601,
-   "functions": 622
+   "bytes": 184257,
+   "functions": 600
   },
   {
    "key": "plateaued",
@@ -355,7 +355,7 @@
   "library code counted as game code": 39028,
   "other process decisions": 23368
  },
- "never_attempted_bytes": 109633,
+ "never_attempted_bytes": 107719,
  "in_draft_link_tier_bytes": 2212,
  "waiting_on_hub_by_area": [
   {

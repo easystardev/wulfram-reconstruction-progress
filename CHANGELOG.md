@@ -2,6 +2,8 @@
 
 One line per commit that changed the verified-bytes measurement, newest first. Subjects are sanitised (function names and addresses removed).
 
+- 2026-11-04 - 40.374% (+0.183 pt), 2536 fns - Promote near-miss F1: strict closed cluster nm-f1-bmp-writer-ltcg (+12 fn / +1,804 B)
+- 2026-11-04 - 40.191% (+0.000 pt), 2524 fns - Re-prove the 7 counted 13e records with condition (5) (DECIDED-2026-11-04 item 3)
 - 2026-11-04 - 40.191% (+0.036 pt), 2524 fns - Promote codex-a04 (Wave A A04): 20b unit a04-terrain-cell-quadrant-ltcg (+2 fn / +360 B)
 - 2026-11-04 - 40.155% (+0.228 pt), 2522 fns - Promote codex-a06 (Wave A A06): strict closed cluster a06-skyquad-uvs-ltcg (+4 fn / +2,245 B)
 - 2026-11-04 - 39.927% (+0.057 pt), 2518 fns - Promote codex-a02 (Wave A A02): hub unit a02-docview-block-dtor-ltcg + single (+4 fn / +568 B)

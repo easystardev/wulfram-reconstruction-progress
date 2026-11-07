@@ -1,23 +1,23 @@
 {
- "generated_utc": "2026-11-05T21:49:54+00:00",
+ "generated_utc": "2026-11-07T13:52:47+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "snapshot": {
-  "date": "2026-11-05T15:37:13-06:00",
-  "subject": "Promote fresh-port X3: ltcg-od-island-certs cluster oic-x3-d3d-frame-ltcg-2026-11-05 (+22 fn / +6,325 B)",
-  "verified_functions": 2558,
-  "verified_bytes": 404597,
+  "date": "2026-11-07T07:45:12-06:00",
+  "subject": "Promote rw49: plain single [fn] (+1 fn / +39 B)",
+  "verified_functions": 2559,
+  "verified_bytes": 404636,
   "denominator_functions": 4392,
   "denominator_bytes": 986454,
-  "verified_bytes_percent": 41.015,
+  "verified_bytes_percent": 41.019,
   "verified_by_proof_tier": {
-   "BYTES": 402078,
+   "BYTES": 402117,
    "T1-diffexec": 2426,
    "T1-oracle": 93
   },
   "first_party_excluding_library_rows": {
-   "percent": 42.693,
-   "numerator_bytes": 404597,
+   "percent": 42.697,
+   "numerator_bytes": 404636,
    "denominator_bytes": 947693,
    "functions": 4310
   },
@@ -28,11 +28,11 @@
    "denominator_bytes": 302789
   },
   "provisional_counted_bytes": 9963,
-  "bytes_tier_bytes": 402078,
-  "bytes_tier_functions": 2532,
+  "bytes_tier_bytes": 402117,
+  "bytes_tier_functions": 2533,
   "verified_bytes_by_subsystem": {
    "Game/Simulation": 77438,
-   "System/Graphics": 70930,
+   "System/Graphics": 70969,
    "Game/View": 54470,
    "System/Core": 40049,
    "Game/Session": 29335,
@@ -65,10 +65,10 @@
    },
    "gfx.backend": {
     "bytes": 66828,
-    "verified_bytes": 52999,
+    "verified_bytes": 53038,
     "functions": 282,
-    "verified_functions": 248,
-    "percent": 79.307
+    "verified_functions": 249,
+    "percent": 79.365
    },
    "view.screens": {
     "bytes": 58444,
@@ -319,8 +319,8 @@
   "roles": {
    "presentation": {
     "bytes": 423336,
-    "verified_bytes": 146088,
-    "percent": 34.509
+    "verified_bytes": 146127,
+    "percent": 34.518
    },
    "simulation": {
     "bytes": 180779,
@@ -360,10 +360,10 @@
   }
  },
  "exceptions": {
-  "counted_bytes": 404597,
-  "counted_functions": 2558,
-  "bytes_tier_bytes": 402078,
-  "bytes_tier_functions": 2532,
+  "counted_bytes": 404636,
+  "counted_functions": 2559,
+  "bytes_tier_bytes": 402117,
+  "bytes_tier_functions": 2533,
   "categories": [
    {
     "key": "provisional_amendment_20b",
@@ -403,7 +403,7 @@
     "label": "Invented helpers",
     "functions": 79,
     "bytes": 29518,
-    "percent_of_counted": 7.296,
+    "percent_of_counted": 7.295,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical. The source uses a small helper the original may not have had, for example a stand-in caller that gives the compiler the right surrounding context. The helper itself is never counted.",
@@ -412,9 +412,9 @@
    {
     "key": "unnamed_global_aliases",
     "label": "References to not-yet-named globals",
-    "functions": 478,
-    "bytes": 120092,
-    "percent_of_counted": 29.682,
+    "functions": 479,
+    "bytes": 120131,
+    "percent_of_counted": 29.689,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical, and every reference lands on the same address as in the original. The referenced global or function simply has no independently backed name yet.",
@@ -502,7 +502,7 @@
     "label": "Unused local variables that fill the stack frame (provisional)",
     "functions": 7,
     "bytes": 3065,
-    "percent_of_counted": 0.758,
+    "percent_of_counted": 0.757,
     "proof_tier": "byte-exact",
     "bytes_identical": true,
     "nature": "Byte-identical. In a few functions built without optimisation, the original stack frame holds bytes that no instruction ever touches. The rebuilt source declares unused locals to fill them. The compiler's own debug records confirm where each one lands, the original code is shown never to address that stretch, and removing any of them breaks the match. Their types and sizes are chosen; the original only shows that the space was there.",

@@ -1,12 +1,12 @@
 {
- "generated_utc": "2026-11-05T21:49:54+00:00",
+ "generated_utc": "2026-11-07T13:52:47+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
- "map_date": "2026-11-05",
- "map_verified_bytes": 404597,
+ "map_date": "2026-11-07",
+ "map_verified_bytes": 404636,
  "matches_current_snapshot": true,
- "remaining_bytes": 579352,
- "remaining_functions": 1834,
+ "remaining_bytes": 579313,
+ "remaining_functions": 1833,
  "kinds": [
   {
    "key": "plain",
@@ -158,7 +158,7 @@
    "tiny": 5
   },
   "Graphics drivers (DirectX/GDI)": {
-   "plain": 7490,
+   "plain": 7451,
    "frame": 1799,
    "interlinked": 2763,
    "library": 1546,
@@ -279,7 +279,7 @@
    "tiny": 1
   },
   "Graphics drivers (DirectX/GDI)": {
-   "plain": 13,
+   "plain": 12,
    "frame": 7,
    "interlinked": 8,
    "library": 3,
@@ -325,8 +325,8 @@
    "key": "plateaued",
    "label": "Stuck on a known compiler quirk",
    "caption": "Close attempts stall on a named compiler choice (register allocation, instruction order, floating-point stack order, stack-slot order, exception-handling state).",
-   "bytes": 45326,
-   "functions": 138
+   "bytes": 45287,
+   "functions": 137
   },
   {
    "key": "blocked-on-hub",
@@ -345,7 +345,7 @@
  ],
  "plateau_bytes_by_cause": {
   "floating-point stack order": 15053,
-  "register allocation": 10602,
+  "register allocation": 10563,
   "stack-slot order": 9651,
   "instruction order": 7365,
   "exception-handling state": 2204,
@@ -356,7 +356,7 @@
   "other process decisions": 23368
  },
  "never_attempted_bytes": 107719,
- "in_draft_link_tier_bytes": 2212,
+ "in_draft_link_tier_bytes": 2173,
  "waiting_on_hub_by_area": [
   {
    "label": "Interlinked: HUD & targeting",

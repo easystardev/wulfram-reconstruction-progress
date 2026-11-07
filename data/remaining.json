@@ -1,12 +1,12 @@
 {
- "generated_utc": "2026-11-05T21:49:54+00:00",
+ "generated_utc": "2026-11-07T13:52:47+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "as_of_rebuild_snapshot": "current verified-bytes snapshot",
- "census_date": "2026-11-05",
+ "census_date": "2026-11-07",
  "first_party_denominator_bytes": 947693,
- "first_party_verified_bytes": 404597,
- "remaining_first_party_bytes": 543096,
+ "first_party_verified_bytes": 404636,
+ "remaining_first_party_bytes": 543057,
  "classified_by_census_bytes": 479862,
  "overlap_or_drift_bytes": 0,
  "buckets": [
@@ -14,7 +14,7 @@
    "key": "plain_singles",
    "label": "Plain singles",
    "functions": 190,
-   "bytes": 107433,
+   "bytes": 107394,
    "percent_of_remaining_first_party": 19.78,
    "by_class": {
     "census plain-single track": {
@@ -31,7 +31,7 @@
     },
     "outside the census filters (residual)": {
      "functions": null,
-     "bytes": 63234
+     "bytes": 63195
     }
    }
   },

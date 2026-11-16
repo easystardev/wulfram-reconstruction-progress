@@ -34,6 +34,13 @@ Whole-program figures are as of 2026-11-15.
 Every byte in the byte-exact tier matches the original exactly. The few flagged categories
 are explained in [How we count, and the exceptions](#how-we-count-and-the-exceptions) below.
 
+**Change of approach (2026-11-15).** Until now, each function was matched and proved on its own. From now on, the main
+build compiles and links the *entire* program together, the way the original was built. Every remaining function gets a
+compiling draft first, and the matching comes after. The headline now separates the strict count from the count that
+also uses provisional evidence rules. It also reports what is exact in the whole-program build, and how much of the
+program has real source at all. Verified bytes are still counted exactly as before. Building the whole program has
+already found a single build detail that kept more than a hundred functions from matching.
+
 ![Verified progress over time, in percent](charts/progress-over-time.svg)
 
 ## By subsystem

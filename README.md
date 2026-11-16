@@ -21,8 +21,8 @@ The raw numbers are in [`data/`](data), and every change to the measurement is l
 | First-party, library rows excluded | 42.70% | 404,636 of 947,693 bytes, with the rows found to be library code moved out of the denominator |
 | **Library-exact** (separate line) | 86.1% | 260,606 of 302,789 bytes of statically linked library code; 1,200 more bytes pending |
 | Strict only (no provisional rules) | 36.90% | 2,409 functions; the other 150 counted functions (40,636 bytes) rely on a provisional evidence rule |
-| **Exact in the whole-program build** | **31.06%** | 2,252 functions (51.3% of functions), exact when the entire program is compiled and linked together; includes 14 not-yet-verified functions certified this way with full mutation controls (reported separately, never added to verified bytes) |
-| Functions with real source | 69.7% | 3,041 of 4,366 functions in the whole-program build (435 are compiling drafts, not yet matched); 1,325 are still placeholders |
+| **Exact in the whole-program build** | **30.96%** | 2,253 functions (51.3% of functions), exact when the entire program is compiled and linked together; includes 17 not-yet-verified functions certified this way with full mutation controls (reported separately, never added to verified bytes) |
+| Functions with real source | 70.7% | 3,085 of 4,366 functions in the whole-program build (479 are compiling drafts, not yet matched); 1,281 are still placeholders |
 | First-party code still to do | 543,057 bytes | broken down under "What's left" below |
 
 The campaign figure started at 0.27% on 2026-09-11, when this measurement was adopted.

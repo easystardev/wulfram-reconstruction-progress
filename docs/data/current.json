@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-18T16:42:49+00:00",
+ "generated_utc": "2026-11-18T17:58:53+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "snapshot": {
@@ -378,6 +378,11 @@
    "wle_class": {
     "functions": 81,
     "bytes": 11024
+   },
+   "with_reloc_identity": {
+    "functions": 2347,
+    "bytes": 319124,
+    "percent_bytes": 32.351
    },
    "coverage": {
     "linked_functions": 4366,

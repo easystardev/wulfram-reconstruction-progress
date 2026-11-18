@@ -22,6 +22,7 @@ The raw numbers are in [`data/`](data), and every change to the measurement is l
 | **Library-exact** (separate line) | 86.1% | 260,606 of 302,789 bytes of statically linked library code; 1,200 more bytes pending |
 | Strict only (no provisional rules) | 36.90% | 2,409 functions; the other 150 counted functions (40,636 bytes) rely on a provisional evidence rule |
 | **Exact in the whole-program build** | **32.17%** | 2,332 functions (53.1% of functions), exact when the entire program is compiled and linked together; includes 81 not-yet-verified functions certified this way with full mutation controls (reported separately, never added to verified bytes) |
+| Whole-program, counting body-proven call targets | 32.35% | 2,347 functions; also counts a function whose only difference is a call or reference to a symbol of another name, when that target is itself exact at the same address (a scorer rule, reported on its own line) |
 | Functions with real source | 81.9% | 3,577 of 4,366 functions in the whole-program build (971 are compiling drafts, not yet matched); 789 are still placeholders |
 | First-party code still to do | 543,057 bytes | broken down under "What's left" below |
 

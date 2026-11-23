@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-23T05:06:18+00:00",
+ "generated_utc": "2026-11-23T14:44:02+00:00",
  "schema": "wulfram-progress/1",
  "note": "Progress metrics only; the reconstruction itself is not published here.",
  "snapshot": {
@@ -370,19 +370,19 @@
     "classes": 15
    },
    "whole_link_exact": {
-    "functions": 2344,
-    "bytes": 318869,
-    "percent_bytes": 32.325,
-    "percent_functions": 53.37
+    "functions": 2346,
+    "bytes": 319028,
+    "percent_bytes": 32.341,
+    "percent_functions": 53.415
    },
    "wle_class": {
-    "functions": 91,
-    "bytes": 11927
+    "functions": 93,
+    "bytes": 12086
    },
    "with_reloc_identity": {
-    "functions": 2359,
-    "bytes": 320638,
-    "percent_bytes": 32.504
+    "functions": 2361,
+    "bytes": 320797,
+    "percent_bytes": 32.52
    },
    "coverage": {
     "linked_functions": 4366,
@@ -392,10 +392,10 @@
     "percent_functions": 81.929
    },
    "fuzzy": {
-    "A": 0.6099,
-    "B": 0.6345
+    "A": 0.61,
+    "B": 0.6346
    },
-   "as_of": "2026-11-22"
+   "as_of": "2026-11-23"
   }
  },
  "exceptions": {
